@@ -1,0 +1,226 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #555;
+    padding: 0;
+}
+body {
+   padding: 0;
+   margin: 0;
+}
+header {
+   display:block;
+   background: linear-gradient(rgba(108,83,57, 0.45),rgba(108,83,57, 0.45)), url("./img/bghead2.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+   min-height: 75vh;
+   width: 100%;
+   margin: 0;
+}
+.headerContent{
+   position: relative;
+   width: calc(60%);
+   padding: 15em 20% 20em;
+}
+   .slogan {
+      font-size: 5em;
+      margin: 0em;
+      color: #FFF;
+      text-shadow:  0 0 0.5em black;
+      max-width: 50%;
+   }
+   .headerSubtext {
+      color: #FFF;
+      margin-top: 8em;
+      margin-bottom: 0;
+      font-weight: 300;
+            max-width: 50%;
+   }
+      .headerSubtext em {
+         color:  #FBB448;
+         font-weight: 400;
+      }
+   header form {
+      width: 20em;
+      background-color: rgba(0,0,0, 0.5);
+      border-top: 8px solid #FBB448;
+      padding: 0 1.5em 1.5em;
+      float: right;
+   }
+      header form input{
+         font-family: inherit;
+         font-size: 1.2em;
+         width: 100%;
+         height: 2.4em;
+         padding: 0.5em;
+         background-color: transparent;
+         border: 2px solid rgba(255,255,255,0.5);
+         border-radius: 5px;
+         color: white;
+         box-sizing: border-box;
+      }
+
+      header form * {
+         display: block;
+         margin: 1em 0;
+      }
+
+nav {
+   font-size: 1.2em;
+   padding: 0 10%;
+   border-bottom: 1px solid rgba(255,255,255,0.5);
+   background-color: rgba(0, 0, 0, 0.1);
+}
+   nav *{
+      display: inline-block;
+   }
+   nav h1 {
+      font-weight: 700;
+      text-transform: uppercase;
+   }
+      nav h1 em {
+         color: #FBB448;
+      }
+   nav ul {
+      float: right;
+      font-weight: 400;
+      list-style-type: none;
+   }
+   nav li {
+      color: #EEE;
+      margin: 0 0.5em;
+   }
+   nav li:hover {
+      color: white;
+   }
+
+section {
+   margin: 0;
+   padding: 5em;
+   text-align: center;
+   overflow: hidden;
+}
+   section h1 {
+      font-size: 2.8em;
+
+   }
+.product {
+   background-color: #FFF;
+   color: #000;
+}
+   .product h1 {
+      color: #FBB448;
+      letter-spacing: 0.05em;
+   }
+   .product .subtext {
+         color: #555;
+   }
+.productBox {
+   width: calc(99%/3 - 2em);
+   height: 30em;
+   box-shadow: 0 2px 3px rgba(0,0,0, 0.5);
+   display: inline-block;
+   margin: 1em;
+   color: #333;
+   top: 0px;
+   position: relative;
+   transition: top 0.25s ease-in, box-shadow 0.25s ease-in;
+}
+.productBox:hover {
+   top: -5px;
+   box-shadow: 0 7px 10px rgba(0,0,0, 0.35);
+}
+   .productBox-img {
+      background-color: #222;
+      background-image: url("img/01.jpg");
+      background-size: cover;
+      height: 50%;
+      margin: 0 0 2em;
+      overflow: hidden;
+   }
+      .productBox-img:after {
+	content: "";
+	position: relative;
+	top: calc(100% - 20% + 1px);
+	display: block;
+	height: 20%;
+	background-color: #FFF;
+	clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+	left: -10%;
+	width: 110%;
+      }
+   .productBox h3 {
+      color: #B70;
+      font-weight: 400;
+      letter-spacing: 0.25em;
+   }
+   .productBox .pricetag {
+      font-size: 2em;
+      color: #FBB448;
+   }
+
+.services {
+   background-color:  #FBB448;
+   color: #fff;
+}
+   .services h1 {
+      letter-spacing: 0.05em;
+   }
+
+   .servicesTitle {
+      font-weight: 300;
+      margin-top: 2em;
+   }
+.testimony {
+   margin: 2em;
+}
+.testimonyText {
+   font-size: 3em;
+   font-weight: 300;
+   margin: 0em;
+}
+.testimonyName {
+   margin-top: 1em;
+   font-size: 1.4em;
+   font-weight: 300;
+}
+
+
+
+
+
+
+.divideThree {
+   width: calc(99%/3);
+   display: inline-block;
+}
+
+.contentContainer {
+   width: 75em;
+   margin: 5em auto 0;
+}
+
+.subtext {
+   font-size: 1.4em;
+   font-weight: 300;
+   width: 35em;
+   margin: 0 auto;
+}
+
+.borderLink {
+   border: 2px solid rgba(255,255,255,0.5);
+   border-radius: 5px;
+   padding: 0.5em 1em;
+}
+
+.yellowButton {
+   border: 0;
+   border-radius: 5px;
+   padding: 0.5em 1em;
+   background-color: #FBB448;
+   color: #220;
+}
+.handwritten {
+    font-family: 'Kaushan Script', cursive;
+}
