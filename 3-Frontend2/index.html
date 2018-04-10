@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <title>Dot.com - Trading processing for the internet</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+</head>
+<body>
+   <header  class="Header jumbotron">
+      <nav class="TopNav">
+         <h1 class="MainTitle">Dot</h1>
+
+         <ul class="TopNav-menu">
+            <li class="TopNav-menuItem">
+               <a href="#"  class="TopNav-menuLink">Produits</a>
+
+               <div class="TopNav-menuDrop">
+                  <ul class="menuDrop">
+                     <li>
+                        à propos de Dot
+                     </li>
+                     <li>
+                        Clients
+                     </li>
+                     <li>
+                        Emplois
+                     </li>
+                  </ul>
+               </div>
+
+            </li>
+            <li class="TopNav-menuItem">
+               <a href="#" class="TopNav-menuLink">Developpeurs</a>
+
+               <div class="TopNav-menuDrop">
+                  <ul class="menuDrop">
+                     <li>
+                        à propos de Dot
+                     </li>
+                     <li>
+                        Clients
+                     </li>
+                     <li>
+                        Emplois
+                     </li>
+                  </ul>
+               </div>
+
+            </li>
+            <li class="TopNav-menuItem">
+               <a href="#" class="TopNav-menuLink">Entreprise</a>
+
+               <div class="TopNav-menuDrop">
+                  <ul class="menuDrop">
+                     <li>
+                        à propos de Dot
+                     </li>
+                     <li>
+                        Clients
+                     </li>
+                     <li>
+                        Emplois
+                     </li>
+                  </ul>
+               </div>
+
+            </li>
+            <li class="TopNav-menuItem">
+               <a href="#" class="TopNav-menuLink">Tarifs</a>
+            </li>
+            <li class="TopNav-menuItem">
+               <a href="#" class="TopNav-menuLink">Support</a>
+            </li>
+            <li class="TopNav-menuItem">
+               <a href="#" class="TopNav-menuLink">Accédez à votre compte</a>
+            </li>
+         </ul>
+      </nav>
+
+      <div class="TextContainer">
+         <div class="InfoBox txtSmall">
+            <span class="InfoLabel">Nouveau</span>
+            <p class="InfoText">Découvrez le nouvel outil incroyable de création d'outil incroyable</p>
+         </div>
+
+         <h2 class="Header-Title">Le nouveau standard d'échange de biens</h2>
+         <p class="Header-Body txtThin">Consequat a duis. Est cillum sint dolore laboris. Pariatur cohaerescant ubi
+            fabulas. Qui occaecat philosophari quo ita aute incurreret quibusdam, quae est
+            te nulla deserunt, in deserunt hic constias ad quis graviterque probant.</p>
+
+         <input type="button" class="Button primaryBtn" value="Explorer la suite d'outils"/>
+         <input type="button" class="Button" value="Créez un compte" />
+      </div>
+   </header>
+   <div class="Phone">
+      <div class="Phone-Picture">
+      </div>
+      <div class="Phone-case">
+      </div>
+   </div>
+   <section class="firstSec jumbotron">
+      <div>
+         <div class="TextContainer TextContainer-Left">
+            <h2 class="firstSec-Title">La boîte à outil pour les entreprises Internet</h2>
+            <p class="firstSec-Body">Culpa pariatur proident a ubi
+               id dolore consequat, ea non ipsum quorum aute, a ab fidelissimae sed culpa
+               admodum relinqueret est cernantur reprehenderit ne constias, minim laborum hic
+               aute quid qui nescius do doctrina. Probant fugiat quis fabulas dolore et quo
+               officia hic arbitror, ut proident hic mentitum, officia malis sunt nostrud velit
+               ex a eiusmod domesticarum quo quibusdam minim quem ingeniis veniam in vidisse
+               aut export a aliquip sunt iudicem quamquam.</p>
+         </div>
+      </div>
+   </section>
+   <section class="SecondSec jumbotron">
+      <div class="TextContainer TextContainer-Center">
+         <h2 class="SecondSec-Title">Priorité aux développeurs</h2>
+         <p class="SecondSec-Body">Culpa pariatur proident a ubi
+            id dolore consequat, ea non ipsum quorum aute, a ab fidelissimae sed culpa
+            admodum relinqueret est cernantur reprehenderit ne constias, minim laborum hic
+            aute quid qui nescius do doctrina. Probant fugiat quis fabulas dolore et quo
+            officia hic arbitror, ut proident hic mentitum.</p>
+      </div>
+      <div class="CodeViewerBox">
+         <nav>
+            <ul  class="CodeViewer-Menu">
+               <li class="CodeViewer-MenuItem isCurrent" id="Code0"><a>Code 1</a></li>
+               <li class="CodeViewer-MenuItem" id="Code1"><a>Code 2</a></li>
+               <li class="CodeViewer-MenuItem" id="Code2"><a>Code 3</a></li>
+            </ul>
+         </nav>
+         <pre class="CodeViewer" ><code id="CodeViewer">// Faites appel à la bibliothèque Stripe avec une clé test secrète.
+const stripe = require('stripe')('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
+
+// Créez un paiement à partir d’un token de carte test.
+const charge = await stripe.charges.create({
+  amount: 2000,
+  currency: 'usd',
+  source: 'tok_amex',
+ description: 'Mon premier paiement'
+});
+
+// Cliquez sur « ▶ run » pour tester ce code et créer votre premier paiement.</code></pre>
+      </div>
+   </section>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script>
+parseCode();
+
+   function addTagSurround(char, code){
+      code = code.split(char);
+      if (code.length > 1) {
+         console.log(code.length);
+         var tcode= "";
+         for  (i = 0; i < code.length ; i = i+2) {
+            tcode += code[i];
+            if (i < code.length - 1) {
+               tcode += "<span class='CodeString'>" + char + code[i+1] + char +"</span>";
+            }
+         }
+         return tcode;
+      }
+      return code[0];
+
+   }
+   function parseCode() {
+      var code = $("#CodeViewer").html();
+
+      code = addTagSurround("'", code);
+      code = addTagSurround('"', code);
+      code = addTagSurround("`", code);
+      code = code.replace(/([\s,\*\+-/])(\d+)([\s,\*\+-/])/g, "$1<span class='CodeNumber'>$2</span>$3"); //ENTIER
+      code = code.replace(/\/\/.+/g, "<span class='CodeComment'>$&</span>" );
+      var lineList = "";
+      for (i = 1; i <= code.split(/\n/).length ; ++i) {
+         lineList += "" + i + "\n";
+      }
+      $("#CodeViewer").html("<div id='CodeViewerbefore'>" + lineList +"</div>" + code);
+   }
+
+   $(".CodeViewer-MenuItem").click(function changeSelectedCode(event) {
+      $(".isCurrent").removeClass("isCurrent");
+      console.log($(this));
+      $(this).addClass("isCurrent");
+      var name = $(this).attr('id');
+      console.log(name);
+      var text = code[name.slice(-1)];
+      console.log(text);
+      $("#CodeViewer").html(text);
+      parseCode();
+   });
+
+   var code = [`// Faites appel à la bibliothèque Stripe avec une clé test secrète.
+const stripe = require('stripe')('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
+
+// Créez un paiement à partir d’un token de carte test.
+const charge = await stripe.charges.create({
+amount: 2000,
+currency: 'usd',
+source: 'tok_amex',
+description: 'Mon premier paiement'
+});
+
+// Cliquez sur « ▶ run » pour tester ce code et créer votre premier paiement.`,
+"aba\nba\bo",`$(".isCurrent").removeClass("isCurrent");
+console.log($(this));
+$(this).addClass("isCurrent");
+var name = $(this).attr('id');
+var text = code[name[name.length]];
+$("#CodeViewer").html(text);
+parseCode();`]
+   </script>
+</body>
+</html>

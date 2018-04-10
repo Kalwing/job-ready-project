@@ -1,0 +1,12 @@
+// Faites appel à la bibliothèque Stripe avec une clé test secrète.
+const stripe = require('stripe')('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
+
+// Créez un paiement à partir d’un token de carte test.
+const charge = await stripe.charges.create({
+amount: 2000,
+currency: 'usd',
+source: 'tok_amex',
+description: 'Mon premier paiement'
+});
+
+// Cliquez sur « ▶ run » pour tester ce code et créer votre premier paiement.
