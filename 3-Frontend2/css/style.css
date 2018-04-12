@@ -42,6 +42,19 @@ a {
    font-size: 0.85em;
 }
 
+.floatBox::after {
+   clear: both;
+   content:" ";
+   display:block;
+}
+.half-right {
+   width: 50%;
+   float: right;
+}
+.half-left {
+   width: 50%;
+   float: left;
+}
 
 /* COMPONENTS */
 .InfoBox {
@@ -220,7 +233,7 @@ a {
    position: relative;
 }
    .firstSec::after {
-      background-color:   rgb(244, 234, 236);
+      background-color: rgb(250, 242, 244);
       bottom: 0;
       clip-path: polygon(100% 0, 0 100%, 100% 100%);
       content: "";
@@ -259,51 +272,66 @@ a {
    }
 
 .SecondSec {
-   background-color:  rgb(244, 234, 236);
-   min-height: 800px;
-   padding-top: 1em;
+   background-color: rgb(250, 242, 244);
+   padding: 1em 0 2em;
 }
    .SecondSec-Title {
        color: rgb(255, 124, 60);
    }
+
 .CodeViewer {
    background-color: white;
    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
+   line-height: 1.25em;
+   margin-top: 3em;
+   max-width: 65%;
+   max-width: calc(70% - 3.25em);
    padding: 1em;
    padding-left: 3.5em;
-   max-width: 70%;
-   max-width: calc(75% - 3.25em);
    position: relative;
-   margin-top: 3em;
-   line-height: 1.25em;
+   transform: translateY(1.5em);/*referTo: ::before height*/
    white-space: pre-wrap;
  }
+    .CodeViewer::before {
+      background: linear-gradient(rgb(94, 80, 96), rgb(78, 62, 80));
+      border-radius: 5px 5px 0 0;
+      color: rgb(228, 51, 51);
+      content: "⬤  ";
+      font-family: 'Open sans', sans-serif;
+      left: 0;
+      height: 1.6em;
+      line-height: 1.25em;
+      position: absolute;
+      text-align: right;
+      text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
+      top: -1.6em; /*referTo: - (height)*/
+      width: 100%;
+   }
    #CodeViewerbefore {
       background-color: rgb(230, 210, 228);
       color:  #842f96;
-      width: calc(3.25em - 0.75em);
-      text-align: right;
-      padding: 1em 0.75em 0 0;
       height: calc(100% - 1em);
-      position: absolute;
-      top: 0;
       left: 0;
+      padding: 1em 0.75em 0 0;
+      position: absolute;
+      text-align: right;
+      top: 0;
+      width: calc(3.25em - 0.75em);
    }
 
    .CodeViewer-Menu {
       float: right;
-      width: 20%;
-      text-align: left;
-      border-bottom: 2px solid rgba(0,0,0,0.1);
-      padding:0;
       margin: 0;
+      padding:0;
+      text-align: left;
+      width: 25%;
    }
       .CodeViewer-MenuItem {
-         padding: 0.5em 0.5em;
          color: #c3446e;
-         list-style-type: none;
-         text-indent: 0;
          cursor: pointer;
+         list-style-type: none;
+         padding: 0.25em 0.5em;
+         text-indent: 0;
          transition: all .15s ease;
       }
       .CodeViewer-MenuItem:hover {
@@ -311,28 +339,148 @@ a {
          transform: translateX(5px);
       }
       .CodeViewer-MenuItem.isCurrent {
-         color: rgb(255, 124, 60);
          background-color: white;
          box-shadow: 0 2px 7px rgba(0,0,0,0.1);
+         color: rgb(255, 124, 60);
 
       }
       .CodeViewer-MenuItem:hover.isCurrent{
          color: rgb(255, 124, 60);
          transform: translateX(0);
       }
+      .CodeViewer-Menu hr {
+         border: 0;
+         border-bottom: 2px solid rgba(0,0,0,0.1);
+      }
 
    .CodeString {
       color: #842f96;
    }
+      .CodeString *{
+           color: inherit!important;
+       }
    .CodeNumber {
       color: rgb(208, 118, 11);
    }
    .CodeComment {
       color: #AAA;
    }
+      .CodeComment *{
+         color: inherit!important;
+      }
    .CodeInstr {
       color: #4288ff;
    }
    .CodeFunc{
       color: #776cba;
    }
+   .CodeCond{
+      color: #f19d46;
+   }
+.ThirdSec {
+   padding: 3em;
+   border-bottom: 2px solid rgba(0,0,0,0.05)
+}
+   .ThirdSec-Title {
+      color: rgb(255, 124, 60);
+      font-size: 1.25em;
+   }
+   .ThirdSec-Body {
+      margin-right: 6em;
+      line-height: 1.7em;
+   }
+   .ThirdSec a {
+      color: #c3446e;
+      cursor: pointer;
+      list-style-type: none;
+      padding: 0.25em 0.5em;
+      text-indent: 0;
+      transition: all .07s ease;
+   }
+   .ThirdSec a:hover {
+      color: #6f2458;
+      transform: translateX(5px);
+   }
+
+.PartnersContainer{
+   position: relative;
+   padding: 5em 0;
+
+   text-align: center;
+   overflow: hidden;
+   z-index: 2;
+}
+   .PartnersContainer > ul{
+         padding: 0;
+   }
+
+   .FakeSocietyName {
+      font-size: 1.5em;
+      font-family: Lobster, sans-serif;
+      color: #555;
+      font-weight: bolder;
+      display: inline-block;
+      margin: 0 2em;
+      transition: filter 0.5s ease;
+      -webkit-transition: 0.5s -webkit-filter ease;
+      -o-transition: 0.5s -o-filter ease;
+   }
+      .PartnersContainer:hover .FakeSocietyName {
+         -webkit-filter: blur(15px);
+         -moz-filter: blur(15px);
+         -o-filter: blur(15px);
+         -ms-filter: blur(15px);
+         filter: blur(15px);
+
+      }
+   .PartnersButtonContainer {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+   }
+      .PartnersButton {
+         position: relative;
+         z-index: 2;
+         top: 45%;
+         top: calc(50% - 3.5em);
+         opacity: 0;
+         transition: opacity 0.5s ease;
+      }
+      .PartnersContainer:hover .PartnersButton {
+         opacity: 1;
+      }
+
+.FourthSec {
+   position: relative;
+   border-bottom: 2px solid rgba(0,0,0,0.1)
+}
+   .FourthSec::after {
+      background-color: rgb(250, 242, 244);
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      clip-path: polygon( 0 100%, 100% 100%, 100% 7em)
+   }
+   .FourthSec-TxtContainer {
+      position: relative;
+      z-index: 2;
+   }
+   .FourthSec-Card {
+      background-color: white;
+      box-shadow: 0 7px 15px rgba(0,0,0,0.2);
+      margin: 0 1em;
+      padding: 1em 1em 1em 6em;
+      line-height: 1.8em;
+      margin-bottom: 2em
+   }
+
+footer {
+   margin: 0;
+   padding: 1em;
+   background-color: rgb(250, 242, 244);
+}
