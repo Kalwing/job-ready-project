@@ -330,3 +330,9 @@ a {
    .CodeComment {
       color: #AAA;
    }
+   .CodeInstr {
+      color: #4288ff;
+   }
+   .CodeFunc{
+      color: #776cba;
+   }

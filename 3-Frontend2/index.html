@@ -131,23 +131,35 @@
                <li class="CodeViewer-MenuItem" id="Code2"><a>Code 3</a></li>
             </ul>
          </nav>
-         <pre class="CodeViewer" ><code id="CodeViewer">// Faites appel à la bibliothèque Stripe avec une clé test secrète.
-const stripe = require('stripe')('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
-
-// Créez un paiement à partir d’un token de carte test.
-const charge = await stripe.charges.create({
-  amount: 2000,
-  currency: 'usd',
-  source: 'tok_amex',
- description: 'Mon premier paiement'
-});
-
-// Cliquez sur « ▶ run » pour tester ce code et créer votre premier paiement.</code></pre>
+         <pre class="CodeViewer" ><code id="CodeViewer">// THIS CODE WILL BE REMPLACED</code></pre>
       </div>
    </section>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script>
-parseCode();
+   var code = [`// Faites appel à la bibliothèque Stripe avec une clé test secrète.
+const stripe = require('stripe')('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
+
+// Créez un paiement à partir d’un token de carte test.
+const charge = await stripe.charges.create({
+   amount: 2000 + 200 + z,
+   currency: 'usd',
+   source: 'tok_amex',
+   description: 'Mon premier paiement'
+});
+
+// Cliquez sur « ▶ run » pour tester ce code et créer votre premier paiement.`,
+"aba\nba\bo",`$(".isCurrent").removeClass("isCurrent");
+console.log($(this));
+$(this).addClass("isCurrent");
+var name = $(this).attr('id');
+var text = code[name[name.length]];
+$("#CodeViewer").html(text);
+parseCode();`]
+
+   var name = $(".isCurrent").attr('id');
+   var text = code[name.slice(-1)];
+   $("#CodeViewer").html(text);
+   parseCode();
 
    function addTagSurround(char, code){
       code = code.split(char);
@@ -173,6 +185,8 @@ parseCode();
       code = addTagSurround("`", code);
       code = code.replace(/([\s,\*\+-/])(\d+)([\s,\*\+-/])/g, "$1<span class='CodeNumber'>$2</span>$3"); //ENTIER
       code = code.replace(/\/\/.+/g, "<span class='CodeComment'>$&</span>" );
+      code = code.replace(/const|var|await|this/g, "<span class='CodeInstr'>$&</span>" );
+      code = code.replace(/([\.\s])([A-Za-z]+)(\()/g, "$1<span class='CodeFunc'>$2</span>$3");
       var lineList = "";
       for (i = 1; i <= code.split(/\n/).length ; ++i) {
          lineList += "" + i + "\n";
@@ -182,35 +196,13 @@ parseCode();
 
    $(".CodeViewer-MenuItem").click(function changeSelectedCode(event) {
       $(".isCurrent").removeClass("isCurrent");
-      console.log($(this));
       $(this).addClass("isCurrent");
       var name = $(this).attr('id');
-      console.log(name);
       var text = code[name.slice(-1)];
-      console.log(text);
       $("#CodeViewer").html(text);
       parseCode();
    });
 
-   var code = [`// Faites appel à la bibliothèque Stripe avec une clé test secrète.
-const stripe = require('stripe')('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
-
-// Créez un paiement à partir d’un token de carte test.
-const charge = await stripe.charges.create({
-amount: 2000,
-currency: 'usd',
-source: 'tok_amex',
-description: 'Mon premier paiement'
-});
-
-// Cliquez sur « ▶ run » pour tester ce code et créer votre premier paiement.`,
-"aba\nba\bo",`$(".isCurrent").removeClass("isCurrent");
-console.log($(this));
-$(this).addClass("isCurrent");
-var name = $(this).attr('id');
-var text = code[name[name.length]];
-$("#CodeViewer").html(text);
-parseCode();`]
    </script>
 </body>
 </html>

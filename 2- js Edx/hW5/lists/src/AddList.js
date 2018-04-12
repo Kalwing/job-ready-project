@@ -5,8 +5,11 @@ class AddList extends Component {
 
   handleSubmit(e) {
       e.preventDefault(); // this prevents the page from reloading -- do not delete this line!
-
-      // Implement the rest of this function here!
+      this.setState({
+        list:  this.refs.id.value,
+     }, function () {
+        this.props.addList(this.state);
+     });
   }
 
   render() {
@@ -18,7 +21,7 @@ class AddList extends Component {
       <input type='text' ref='id' id='newID'></input>
       </label>
       </div><br />
-      <input type='submit' value='Create List' />
+      <input type='submit' value='Create List' onClick = {this.handleSubmit.bind(this)} />
       </form>
       </div>
     );
