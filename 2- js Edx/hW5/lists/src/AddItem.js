@@ -2,23 +2,19 @@ import React, { Component } from 'react';
 
 class AddItem extends Component {
 
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
-      list: this.props.idName,
-      newItem: {}
+      newItem:{}
     }
   }
 
   handleSubmit(e) {
-     e.preventDefault(); // this prevents the page from reloading -- do not delete this line!
-     var items = this.state.newItem;
-     items.name = [this.refs.id.value];
-     this.setState({ newItem: items }, function () {
-        this.props.addItem(this.state);
-     });
-  }
+      e.preventDefault(); // this prevents the page from reloading -- do not delete this line!
 
+      // Implement the rest of this function here!
+  }
+    
 
   render() {
     var divName = 'add' + this.props.idName;
@@ -31,7 +27,7 @@ class AddItem extends Component {
         <input type='text' ref='id' />
         </div>
         <br />
-        <input type='submit' value='Submit' onClick={ this.handleSubmit.bind(this) }/>
+        <input type='submit' value='Submit' />
         <br />
       </form>
       </div>
