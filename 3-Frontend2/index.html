@@ -8,10 +8,10 @@
    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 </head>
 <body>
-   <header  class="Header jumbotron">
+   <header  class="Header">
       <nav class="TopNav">
          <h1 class="MainTitle">Dot</h1>
-
+         <button id="menuToggler" class="menuToggler">+</button>
          <ul class="TopNav-menu">
             <li class="TopNav-menuItem">
                <a href="#"  class="TopNav-menuLink">Produits</a>
@@ -78,21 +78,22 @@
             </li>
          </ul>
       </nav>
+      <div class="jumbotron">
+         <div class="TextContainer">
+            <div class="InfoBox txtSmall">
+               <span class="InfoLabel">Nouveau</span>
+               <p class="InfoText">Découvrez le nouvel outil incroyable de création d'outil incroyable</p>
+            </div>
 
-      <div class="TextContainer">
-         <div class="InfoBox txtSmall">
-            <span class="InfoLabel">Nouveau</span>
-            <p class="InfoText">Découvrez le nouvel outil incroyable de création d'outil incroyable</p>
+            <h2 class="Header-Title">Le nouveau standard d'échange de biens</h2>
+            <p class="Header-Body txtThin">Consequat a duis. Est cillum sint dolore laboris. Pariatur cohaerescant ubi
+               fabulas. Qui occaecat philosophari quo ita aute incurreret quibusdam, quae est
+               te nulla deserunt, in deserunt hic constias ad quis graviterque probant.</p>
+
+            <input type="button" class="Button primaryBtn" value="Explorer la suite d'outils"/>
+            <input type="button" class="Button" value="Créez un compte" />
          </div>
-
-         <h2 class="Header-Title">Le nouveau standard d'échange de biens</h2>
-         <p class="Header-Body txtThin">Consequat a duis. Est cillum sint dolore laboris. Pariatur cohaerescant ubi
-            fabulas. Qui occaecat philosophari quo ita aute incurreret quibusdam, quae est
-            te nulla deserunt, in deserunt hic constias ad quis graviterque probant.</p>
-
-         <input type="button" class="Button primaryBtn" value="Explorer la suite d'outils"/>
-         <input type="button" class="Button" value="Créez un compte" />
-      </div>
+      </diV>
    </header>
    <div class="Phone">
       <div class="Phone-Picture">
@@ -211,16 +212,68 @@
       </div>
    </section>
    <footer>
-      <p>Proident esse laborum id duis deserunt iis cernantur, si quamquam
-         familiaritatem, ea multos incurreret ingeniis. Nostrud eram veniam ut quis ea ut
-         enim irure dolor nostrud.
-      </p>
+      <div class="footerGrid">
+         <div class="footerCol">
+            <ul>
+               <li><a>France</a></li>
+               <li><a>Francais</a></li>
+            </ul>
+         </div>
+         <div class="footerCol">
+            <ul>
+               <li class="footerTitle"><h2>Produits</h2></li>
+               <li><a>Paiements</a></li>
+               <li><a>Abonnement</a></li>
+               <li><a>Connect</a></li>
+            </ul>
+         </div>
+         <div class="footerCol">
+            <ul>
+               <li class="footerTitle"><h2>Développeurs</h2></li>
+               <li><a>Documentation</a></li>
+               <li><a>Réference API</a></li>
+               <li><a>Statut de l'API</a></li>
+               <li><a>OpenSource</a></li>
+            </ul>
+         </div>
+         <div class="footerCol">
+            <ul>
+               <li class="footerTitle"><h2>Entreprise</h2></li>
+               <li><a>A propos</a></li>
+               <li><a>Clients</a></li>
+               <li><a>Emplois</a></li>
+               <li><a>Blog</a></li>
+               <li><a>Presse</a></li>
+               <li><a>Environnement</a></li>
+            </ul>
+         </div>
+         <div class="footerCol">
+            <ul>
+               <li class="footerTitle"><h2>Ressource</h2></li>
+               <li><a>Support</a></li>
+               <li><a>Contact</a></li>
+               <li><a>Confidentialité et CGU</a></li>
+            </ul>
+         </div>
+      </div>
    </footer>
 
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
    <script>
+var menuOpacity = $(".TopNav-menu").css("opacity");
+var menuTransorm = $(".TopNav-menu").css("transform");
+$("#menuToggler").click(function () {
+   if ($(".TopNav-menu").css("opacity") == 1) {
+      $(".TopNav-menu").css({"opacity": "","transform": ""});
+   }
+   else {
+      $(".TopNav-menu").css({"opacity" : 1, "transform": "scale(1,1)"});
+   }
+
+});
+
    var code = [`//Test with React
 constructor(props) {
    super(props);
