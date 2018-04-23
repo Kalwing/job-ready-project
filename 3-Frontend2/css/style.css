@@ -114,7 +114,7 @@ a {
 .Header {
    background-image: linear-gradient( 160deg,  #460b36 0%, #F05F57 80%);
    color: white;
-   height: 750px;
+   padding-bottom: 10em;
    position: relative;
 }
    .Header:after {
@@ -122,7 +122,7 @@ a {
       bottom: 0;
       clip-path: polygon(100% 0, 0 100%, 100% 100%);
       content: "";
-      height: 50%;
+      height: 40%;
       position: absolute;
       width: 100%;
    }
@@ -241,7 +241,7 @@ a {
       text-align: center;
 }
 .firstSec {
-   padding-bottom: 10%;
+   padding-bottom: 9em;
    position: relative;
 }
    .firstSec::after {
@@ -492,6 +492,10 @@ a {
       margin-bottom: 2em
    }
 
+.callToAct {
+   padding: 0 1em;
+}
+
 footer {
    width: 100%;
    background-color: rgb(250, 242, 244);
@@ -517,11 +521,68 @@ footer {
       text-transform: uppercase;
    }
 
+
+
+
+
+
 /*
 MEDIA QUERIES
 */
 
+@media (max-width:970px) and (min-width:725px) {
+
+.jumbotron {
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+.TopNav {
+   text-align: center;
+}
+   .TopNav-menu {
+      float: none;
+      width: 100%;
+      padding: 0;
+   }
+.Header::after {
+   height: 30%;
+}
+
+.Phone {
+   top: 19em;
+   right: none;
+   left: 30em;
+   transform: scale(0.75,0.75);
+}
+
+.firstSec::after {
+   height: 40%;
+}
+
+.ThirdSec-Body {
+   margin-right: 1.5em;
+   text-align: left;
+}
+
+.callToAct .half-left, .callToAct .half-right {
+   text-align: center;
+   width: 100%;
+}
+
+}
+
+
+
 @media (max-width:725px) {
+
+.TextContainer {
+   max-width: 100%;
+   text-align: center;
+}
+   .TextContainer p {
+      text-align: left;
+   }
 
 .jumbotron > * {
    margin: 0 auto;
@@ -584,20 +645,35 @@ MEDIA QUERIES
       .menuDrop::before {
          content: none;
       }
+
 .Phone {
    display: none;
 }
 
-.Header::after {
-   height: 10%;
+.Header {
+   padding-bottom: 8em;
 }
+   .Header-Body {
+      max-width: 100%;
+      text-align: left;
+   }
+   .Header-Title {
+      font-size: 2.25em;
+   }
+   .Header::after {
+      height: 10%;
+   }
 
 .firstSec {
    padding-bottom: 17%;
 }
+   .firstSec > .TextContainer {
+      width: 100%;
+   }
    .firstSec::after {
       height: 15%;
    }
+
 
 .CodeViewer {
    max-width:  90vw;
@@ -613,10 +689,15 @@ MEDIA QUERIES
    width: 100%;
    float: none;
 }
-   .ThirdSec-Body {
-      margin: 0;
-      text-align: justify;
-   }
+
+.ThirdSec-Body {
+   margin: 0;
+   text-align: justify;
+}
+
+.callToAct {
+   text-align: center;
+}
 
 .FourthSec::after {
    clip-path: polygon( 0 100%, 100% 100%, 100% 85%);
