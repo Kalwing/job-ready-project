@@ -12,8 +12,12 @@ body {
    margin: 0;
 }
 
+.thin {
+   font-weight: lighter;
+}
+
 .DataBox {
-   padding-top: 1em;
+   padding: 1em 0em 2em 0em;
    margin : 0;
    background: linear-gradient(rgb(78,80,99), rgba(44,44,62,1));
    width: 100%;

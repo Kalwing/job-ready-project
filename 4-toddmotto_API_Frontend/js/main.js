@@ -37,14 +37,12 @@ $.getJSON('http://api.open-notify.org/astros.json?callback=?', data => {
          $.getJSON(str, pic => {
             for (var key in pic.query.pages){
                var img = pic.query.pages[key].thumbnail;
-
+               console.log(pic);
                if (img == undefined) {
-                  console.log(pic.query.pages[key]);
                   $('#names').append("<div class='item'><span>" + d['name']
                                     +"</span><div class='portrait'></div></div>");
                }
                else {
-                  console.log(img);
                   $('#names').append("<div class='item'><span>" + d['name']
                                     + "</span><div class='portrait'"
                                     + "style='background-image:url("
