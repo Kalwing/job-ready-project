@@ -19,7 +19,7 @@ You can find the "curriculum" here : [Get Job Ready - Python Edition](https://gi
 Original template : **[Savory by GetTemplates.co](https://freehtml5.co/demos/savory/)**
 
 ### [Course : 2-js_Edx](2-jsEdx/)
-*"Course - Programming for the Web with JavaScript"*
+*"Programming for the Web with JavaScript"*
 
 Content :
 * **Homework 2 - Javascript** (petstore.js) :
@@ -60,24 +60,42 @@ The usage of the Open Notify one was very straightforward, as they gave everythi
 find the property.
 
 ## In progress :
-### [Course : 2-js_Edx](2-jsEdx/)
-*"Course - Programming for the Web with JavaScript"*
+### [Course : 5-Advanced_HTML_CSS](5-Advanced_HTML_CSS/)
+*"Learn to Code Advanced HTML & CSS"*
 
 Content :
-* [**Performance & Organization**](lesson1.md) :
+* [**Performance & Organization**](5-Advanced_HTML_CSS/lesson1.md) :
 
    Heavy emphasis on *OOCSS*, It might be better than my weird version of *BEM*,
 but seems to be a bit much for small websites.
 
-* [**Detailed Positioning**](lesson2.md) :
+* [**Detailed Positioning**](5-Advanced_HTML_CSS/lesson2.md) :
 
    Not much that is new to me here. Still learned of a way to have a better
 compatibility for the Clearfix.
 
-* [**Complex Selectors**](lesson2.md) :
+* [**Complex Selectors**](5-Advanced_HTML_CSS/lesson3.md) :
 
    LOTS of selector that I didn't or vaguely knew. I especially love the Attributes
 selector.
+
+### [Course : 6-D3js](6-D3js/)
+*"Data Visualization and D3.js"*
+
+Content :
+* [**Note on design**](6-D3js/note_design.md) :
+
+   The most important thing I learned regarding to Design in this course.
+
+* [**Note on Code**](6-D3js/note_code.md) :
+
+   The most important thing I learned regarding to Programming, and making chart
+on the web, in this course.
+
+I forgot to take note of the first section. Might have to add that later.
+
+
+
 
 ## Contact :
 
