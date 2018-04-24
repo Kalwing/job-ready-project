@@ -20,6 +20,7 @@ L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2
 	time: '',
 	tilematrixset: 'GoogleMapsCompatible_Level'
 }).addTo(mymap);
+
 var iss = L.marker([0, 0]).addTo(mymap);
 moveISS();
 
