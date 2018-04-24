@@ -48,7 +48,7 @@ I found a way to make a menu fully in CSS that used clip-path that I really like
 ![Demo of the menu of Frontend2](3-Frontend2/menuUsage.gif)
 
 
-### [Project: 4-toddmotto_API_Frontend](4-toddmotto_API_Frontend/) ***CURRENT ONE***
+### [Project: 4-toddmotto_API_Frontend](4-toddmotto_API_Frontend/)
 *"Select an API from Todd Motto's API List and build a frontend-only application powered by data fetched from the API you chose."*
 
 ![Screenshot of Project4](4-toddmotto_API_Frontend/Screenshot.PNG)
@@ -56,7 +56,8 @@ API used :
 * **[Open Notify](http://open-notify.org/Open-Notify-API/)**
 * **[MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page)**
 
-The usage of the Open Notify one was very straightforward, as they gave everything with great example. The wikimedia one was harder, in the end I couldn't not get more than 3 pictures.. I'll dig a bit later. I would also like to add an emoji with the nationality of the person pictured.
+The usage of the Open Notify one was very straightforward, as they gave everything with great example. The wikimedia one was harder, in the end I couldn't not get more than 3 pictures.. I also wanted to add an emoji with the nationality of the person pictured, but couldn't
+find the property.
 
 ## Contact :
 
