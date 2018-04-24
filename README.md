@@ -12,13 +12,13 @@ You can find the "curriculum" here : [Get Job Ready - Python Edition](https://gi
 
 ## Tier 1 - Non-Python frontend necessities for Web Development
 
-### [Project : 1-Frontend1](1- Frontend1/)
+### [Project : 1-Frontend1](1-Frontend1/)
 *"Pick a template and implement the frontend of a website with it as your inspiration (do not use its assets)"*
 
-![Screenshot of Frontend1](1- Frontend1/Screenshot.png)
+![Screenshot of Frontend1](/1-Frontend1/Screenshot.png)
 Original template : **[Savory by GetTemplates.co](https://freehtml5.co/demos/savory/)**
 
-### [Course : 2-js_Edx](2- js Edx/)
+### [Course : 2-js_Edx](2-jsEdx/)
 *"Course - Programming for the Web with JavaScript"*
 
 Content :
@@ -51,11 +51,10 @@ I found a way to make a menu fully in CSS that used clip-path that I really like
 ### [Project: 4-toddmotto_API_Frontend](4-toddmotto_API_Frontend/) ***CURRENT ONE***
 *"Select an API from Todd Motto's API List and build a frontend-only application powered by data fetched from the API you chose."*
 
-
-![Screenshot of Project4](4-toddmotto_API_Frontend//Screenshot.png)
+![Screenshot of Project4](4-toddmotto_API_Frontend/Screenshot.PNG)
 API used :
 * **[Open Notify](http://open-notify.org/Open-Notify-API/)**
-*   **[MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page)**
+* **[MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page)**
 
 The usage of the Open Notify one was very straightforward, as they gave everything with great example. The wikimedia one was harder, in the end I couldn't not get more than 3 pictures.. I'll dig a bit later. I would also like to add an emoji with the nationality of the person pictured.
 
