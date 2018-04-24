@@ -59,6 +59,26 @@ API used :
 The usage of the Open Notify one was very straightforward, as they gave everything with great example. The wikimedia one was harder, in the end I couldn't not get more than 3 pictures.. I also wanted to add an emoji with the nationality of the person pictured, but couldn't
 find the property.
 
+## In progress :
+### [Course : 2-js_Edx](2-jsEdx/)
+*"Course - Programming for the Web with JavaScript"*
+
+Content :
+* [**Performance & Organization**](lesson1.md) :
+
+   Heavy emphasis on *OOCSS*, It might be better than my weird version of *BEM*,
+but seems to be a bit much for small websites.
+
+* [**Detailed Positioning**](lesson2.md) :
+
+   Not much that is new to me here. Still learned of a way to have a better
+compatibility for the Clearfix.
+
+* [**Complex Selectors**](lesson2.md) :
+
+   LOTS of selector that I didn't or vaguely knew. I especially love the Attributes
+selector.
+
 ## Contact :
 
 So I made this to learn, while there's some issues that I have already spotted and will fix upon the completion of the course, I would love to hear your thoughts. Bad ones or good ones, anything that could help my learning.

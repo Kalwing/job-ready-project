@@ -1,7 +1,7 @@
 # Lesson 3 : Complex Selectors
 
 
-*** DISCLAIMER :  *** Always check for Browser compatibility when using selectors
+**_ DISCLAIMER : _** Always check for Browser compatibility when using selectors
 
 ## Sibling Selectors
 

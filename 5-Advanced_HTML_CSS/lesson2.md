@@ -4,7 +4,7 @@
 Various method to clear float :
 * `overflow: auto`
 * Clearfix :
-   ```
+   ```css
    .group:before,
    .group:after {
      content: "";
@@ -24,7 +24,7 @@ Various method to clear float :
 ## Position Property
 
 * Fixed footer
-   ```
+   ```css
    footer {
      bottom: 0;
      left: 0;
@@ -32,4 +32,4 @@ Various method to clear float :
      right: 0;
    }
    ```
-   The left and right property allow the footer to not distrub the box model.
+   The left and right property allow the footer to not disturb the box model.
