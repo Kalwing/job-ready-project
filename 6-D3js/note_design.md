@@ -67,14 +67,14 @@ colors for high values
 visibly enough** to perform their role, but no more so, for excessive salience
 could cause them to distract attention from the data
 
-Components | Colors |
-       --- | ---
-Axis lines | Use thin gray lines of medium intensity.
-Borders    | Whether around the graph as a whole, its plot area, or a legend, when borders are needed (and usually they are not), use thin gray lines of medium intensity.
-Background | Use white (or in Excel select “None” for color)
-Bars       | Use a distinct hue of medium intensity for each data series.
-Lines      | For thin lines, use a distinct hue of fairly high intensity for each; otherwise, use distinct hues of medium intensity.
-Data Points| For small points, use a distinct hue of fairly high intensity for each; otherwise, use distinct hues of medium intensity
+|Components | Colors |
+|       --- | ---    |
+|Axis lines | Use thin gray lines of medium intensity.|
+|Borders    | Whether around the graph as a whole, its plot area, or a legend, when borders are needed (and usually they are not), use thin gray lines of medium intensity.|
+|Background | Use white (or in Excel select “None” for color)|
+|Bars       | Use a distinct hue of medium intensity for each data series.|
+|Lines      | For thin lines, use a distinct hue of fairly high intensity for each; otherwise, use distinct hues of medium intensity.|
+|Data Points | For small points, use a distinct hue of fairly high intensity for each; otherwise, use distinct hues of medium intensity|
 
 8. To guarantee that most people who are colorblind can distinguish groups
 of data that are color coded, **avoid** using a combination of **red and green** in
@@ -83,6 +83,6 @@ the same display
 
 [Source : Stephen Few](http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf)
 
-## Strive for a minimalistic graph (low data to ink ratio)
+### Strive for a minimalistic graph (low data to ink ratio)
 
-## Do not lie (keep a low lie factor)
+### Do not lie (keep a low lie factor)
