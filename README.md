@@ -1,11 +1,11 @@
 # python-project
 ## Projects made for P1xt's "Get Job Ready - Python Edition"
 
-I learned some Python in class, mostly to do signal analysis wiuth NumPy,
+I learned some Python in class, mostly to do signal analysis with NumPy,
 and I wanted to improve my skills further. I appeared to me that learning Django
 could be a fun way to to do that as it's been a long time since I've done
-BackEnd dev. I already have some background in FrontEnd Developpement, but
-thought that it couldn't do me harm to learn more Js.
+Back-end Development. I already have some background in FrontEnd Development,
+but thought that it couldn't do me harm to learn more Js.
 
 So here you'll find most of what I've done for this course.
 You can find the "curriculum" here : [Get Job Ready - Python Edition](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md)
