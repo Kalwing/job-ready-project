@@ -66,18 +66,29 @@ find the property.
 Content :
 * [**Performance & Organization**](5-Advanced_HTML_CSS/lesson1.md) :
 
-   Heavy emphasis on *OOCSS*, It might be better than my weird version of *BEM*,
-but seems to be a bit much for small websites.
+   Heavy emphasis on *OOCSS*, It might be better than my weird version of *BEM*, but seems to be a bit much for small websites.
 
 * [**Detailed Positioning**](5-Advanced_HTML_CSS/lesson2.md) :
 
-   Not much that is new to me here. Still learned of a way to have a better
-compatibility for the Clearfix.
+   Not much that is new to me here. Still learned of a way to have a better compatibility for the Clearfix.
 
 * [**Complex Selectors**](5-Advanced_HTML_CSS/lesson3.md) :
 
-   LOTS of selector that I didn't or vaguely knew. I especially love the Attributes
-selector.
+   LOTS of selector that I didn't or vaguely knew. I especially love the Attributes selector.
+
+* [**Responsive Web Design**](5-Advanced_HTML_CSS/lesson4.md) :
+
+   Cool fix for responsive iframe. Learned about the viewport tag
+   and Mobile First Web Design.
+
+* [**Preprocessors**](5-Advanced_HTML_CSS/lesson5.md) :
+
+   Always feared to learn those. I don't really like haml.. But SASS/SCSS looks
+   awesome. I'll try it on my next project I think.
+
+* [**Transforms**](5-Advanced_HTML_CSS/lesson7.md) :
+
+   Learned about some interesting 3D property. I'll probably try to make a cube.
 
 ### [Course : 6-D3js](6-D3js/)
 *"Data Visualization and D3.js"*

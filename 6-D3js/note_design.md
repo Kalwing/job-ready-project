@@ -46,13 +46,13 @@ If you need color use pastel or medium color.
 Color should Highlight what you want.
 
 ### Rules about colors :
-1. If you want** different objects** of the **same color** in a table or graph
+1. If you want **different objects** of the **same color** in a table or graph
 to look the same, make sure that the **background**—the color that surrounds
-them—is **consistent. **
+them—is **consistent.**
 2. If you want objects **in a table or graph** to be easily seen, **use a
 background color that contrasts** sufficiently with the object.
 3. Use color **only** when needed to serve a particular communication **goal**
-4. Use** different colors** only when they correspond to **differences of
+4. Use **different colors** only when they correspond to **differences of
 meaning** in the data.
 5. Use soft,**natural** colors to display **most** information and **bright
 and/or dark** colors to **highlight** information that requires greater
@@ -86,3 +86,18 @@ the same display
 ### Strive for a minimalistic graph (low data to ink ratio)
 
 ### Do not lie (keep a low lie factor)
+
+### When to use grid lines :
+   * Increasing precision when graphs are large. (horizontal)
+   * Enhancing the perception of small differences. (horizontal)
+   * Assisting the comparison of values along the categorical scale. (vertical)
+   * Narrowing focus to a specific area. (vertical and vertical but only on scatter plot)
+
+## Gestalt Laws :
+   * **Proximity** (element close to each other act as a group)
+   * **Similarity** (element similar to each other act as a group)
+   * **Figure and Ground** (Two shape grouped together will be recognized as a
+      figure and a group (see: *negative space*))
+   * **Continuity** (element that follow the same path act as a group)
+   * **Closure** (tendency to complete unfinished object)
+   * **Simplicity** (figure are seen as their simplect element)
