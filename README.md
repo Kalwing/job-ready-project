@@ -88,7 +88,13 @@ Content :
 
 * [**Transforms**](5-Advanced_HTML_CSS/lesson7.md) :
 
-   Learned about some interesting 3D property. I'll probably try to make a cube.
+   Learned about some interesting 3D property. I made an ["hypercube"](5-Advanced_HTML_CSS/Test/cube.html) to test those.
+
+* [**Transitions & Animations**](5-Advanced_HTML_CSS/lesson8.md) :
+   Good reminder about animation
+
+* [**Extending Semantics & Accessibility**](5-Advanced_HTML_CSS/lesson10.md) :
+   Learned about a lot of tags. And about microdata and WAI-ARIA
 
 ### [Course : 6-D3js](6-D3js/)
 *"Data Visualization and D3.js"*

@@ -1,0 +1,79 @@
+body {
+   background-color: #EEE;
+   font-family: 'IBM Plex Sans', sans-serif;
+   text-align: center;
+   font-size: 1em;
+   font-weight: 300;
+   overflow: hidden;
+}
+p {
+   margin-bottom: 10em;
+
+}
+
+.half {
+   transform: scale(0.75);
+}
+.cube {
+   margin: 50px 200px;
+   position: relative;
+   left: 25%;
+   width: 250px;
+   height: 250px;
+   --perspective: 1000px;
+   transform: perspective(var(--perspective));
+   transform-style: preserve-3d;
+   animation: rotation 5s ease-out infinite;
+}
+.insideCube {
+   position: absolute;
+   width: 250px;
+   height: 250px;
+   transform-style: preserve-3d;
+   transform: translate3d(0,0,-75px) scale3d(0.5,0.5,0.5) ;
+}
+.face {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: steelblue;
+   border: 2px solid white;
+   opacity: 0.25;
+   top:0;
+   left:0;
+}
+.front {
+}
+.top {
+   transform: translateY(-50%) rotateX(90deg) translateY(-50%);
+}
+.bottom {
+   transform: translateY(50%) rotateX(90deg) translateY(-50%);
+}
+.left {
+   transform: translateX(-50%) rotateY(90deg) translateX(50%);
+}
+.right {
+   transform: translateX(50%) rotateY(90deg) translateX(50%);
+}
+.back {
+   transform: translateZ(-250px);
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: perspective(var(--perspective)) rotateY(0deg) rotateX(0deg);
+    -moz-transform: perspective(var(--perspective)) rotateY(0deg) rotateX(0deg);
+    transform: perspective(var(--perspective)) rotateY(0deg) rotateX(0deg);
+  }
+  50% {
+    -webkit-transform: perspective(var(--perspective)) rotateY(180.5deg) rotateX(180.5deg);
+    -moz-transform: perspective(var(--perspective))  rotateY(180.5deg) rotateX(180.5deg);
+    transform: perspective(var(--perspective))  rotateY(180.5deg) rotateX(180.5deg);
+  }
+  100% {
+    -webkit-transform: perspective(var(--perspective)) rotateY(360deg) rotateX(360deg);
+    -moz-transform: perspective(var(--perspective)) rotateY(360deg) rotateX(360deg);
+    transform: perspective(var(--perspective)) rotateY(360deg) rotateX(360deg);
+  }
+}
