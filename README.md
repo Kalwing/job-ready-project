@@ -8,7 +8,9 @@ Back-end Development. I already have some background in FrontEnd Development,
 but thought that it couldn't do me harm to learn more Js.
 
 So here you'll find most of what I've done for this course.
-You can find the "curriculum" here : [Get Job Ready - Python Edition](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md)
+You can find the "curriculum" here : [Get Job Ready - Python Edition](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md).
+
+The demos are here : [thomasdargent.com](http://thomasdargent.com/P1xt/demos_viewer/viewer.html)
 
 ## Tier 1 - Non-Python frontend necessities for Web Development
 
@@ -17,6 +19,8 @@ You can find the "curriculum" here : [Get Job Ready - Python Edition](https://gi
 
 ![Screenshot of Frontend1](/1-Frontend1/Screenshot.png)
 Original template : **[Savory by GetTemplates.co](https://freehtml5.co/demos/savory/)**
+
+**Demo : [Frontend1](http://thomasdargent.com/P1xt/1-Frontend1/index.html)**
 
 ### [Course : 2-js_Edx](2-jsEdx/)
 *"Programming for the Web with JavaScript"*
@@ -28,6 +32,9 @@ Some simple function. *Graded: 100%*
 * **Homework 3 - jQuery** (calc.js) :
 
 Making a calculator with JQuery. Rushed a bit on this one. *Graded: 81%*
+
+**Demo : [Calculator](http://thomasdargent.com/P1xt/2-js_Edx/calc.html)**
+
 * **Homework 4 - React** (FontChooser.js) :
 
 A UI to modify a text with React. First time using React and it was really fun. *Graded: 100%*
@@ -41,12 +48,13 @@ A list app with React. Not easy, but really showed me the power of React. *Grade
 ![Screenshot of Frontend2](3-Frontend2/Screenshot.png)
 Original website : **[Stripe](https://stripe.com/fr)**
 
-As I couldn't find a template I really liked I decided to "copy" Stripe, As I really love their website.
+**Demo : [Frontend 2](http://thomasdargent.com/P1xt/3-Frontend2/index.html)**
+
+Since I couldn't find a template I really liked I decided to "copy" Stripe, As I really love their website.
 
 I found a way to make a menu fully in CSS that used clip-path that I really liked :
 
 ![Demo of the menu of Frontend2](3-Frontend2/menuUsage.gif)
-
 
 ### [Project: 4-toddmotto_API_Frontend](4-toddmotto_API_Frontend/)
 *"Select an API from Todd Motto's API List and build a frontend-only application powered by data fetched from the API you chose."*
@@ -55,6 +63,8 @@ I found a way to make a menu fully in CSS that used clip-path that I really like
 API used :
 * **[Open Notify](http://open-notify.org/Open-Notify-API/)**
 * **[MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page)**
+
+**Demo : [ISS Localisation](http://thomasdargent.com/P1xt/4-toddmotto_API_Frontend/index.html)**
 
 The usage of the Open Notify one was very straightforward, as they gave everything with great example. The wikimedia one was harder, in the end I couldn't not get more than 3 pictures.. I also wanted to add an emoji with the nationality of the person pictured, but couldn't
 find the property.
@@ -88,7 +98,7 @@ Content :
 
 * [**Transforms**](5-Advanced_HTML_CSS/lesson7.md) :
 
-   Learned about some interesting 3D property. I made an ["hypercube"](5-Advanced_HTML_CSS/Test/cube.html) to test those.
+   Learned about some interesting 3D property. I made an ["hypercube"](5-Advanced_HTML_CSS/Test/cube.html) to test those. **[Demo's here](http://thomasdargent.com/P1xt/5-Advanced_HTML_CSS/Test/cube.html)**
 
 * [**Transitions & Animations**](5-Advanced_HTML_CSS/lesson8.md) :
    Good reminder about animation
