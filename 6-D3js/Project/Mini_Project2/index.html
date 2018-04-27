@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+    <script type="text/javascript">
+      function draw(data) {
+         "use strict";
+         var width = 960;
+         var height = 500;
+         d3.select("body")
+               .append("h2")
+                  .text("ROI for Online Marketing");
+
+         var svg = d3.select("body")
+                        .append("svg")
+                           .attr("height", height)
+                           .attr("width", width)
+                        .append("g")
+                           .attr("class","chart");
+
+         var myChart = new dimple.chart(svg, data);
+         myChart.addCategoryAxis("x", "name");
+         myChart.addMeasureAxis("y", "value");
+         myChart.setMargins(50, 10, 0, 100);
+         myChart.addSeries(null, dimple.plot.bar);
+         myChart.draw();
+        };
+      </script>
+      <style>
+         h2 {
+            font-family: sans-serif;
+            text-align: center;
+         }
+         svg {
+            display: block;
+            margin: 0 auto;
+         }
+
+      </style>
+  </head>
+<body>
+
+
+
+
+
+  <script type="text/javascript">
+
+  d3.json("d.json", draw);
+  </script>
+</body>
+</html>

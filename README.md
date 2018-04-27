@@ -99,7 +99,7 @@ Content :
 * [**Transforms**](5-Advanced_HTML_CSS/lesson7.md) :
 
    Learned about some interesting 3D property. I made an ["hypercube"](5-Advanced_HTML_CSS/Test/cube.html) to test those. **[Demo's here](http://thomasdargent.com/P1xt/5-Advanced_HTML_CSS/Test/cube.html)**
-
+   ![Cube](/5-Advanced_HTML_CSS/Test/Screenshot.png) :
 * [**Transitions & Animations**](5-Advanced_HTML_CSS/lesson8.md) :
    Good reminder about animation
 
@@ -119,7 +119,12 @@ Content :
    The most important thing I learned regarding to Programming, and making chart
 on the web, in this course.
 
-I forgot to take note of the first section. Might have to add that later.
+* [**Project 2**](6-D3js/Project/Mini_Project2) : A redesign of [this chart](http://www.designyourway.net/diverse/2/wronginfo/60373947977.jpg) with dimple.js.
+   [**Demo's here**](http://thomasdargent.com/P1xt/6-D3js/Project/Mini_Project2/index.html)
+   
+   ![Project 2 Chart]](6-D3js/Project/Mini_Project2/Screenshot.png)
+
+I forgot to take note of the first sections. Might have to add that later.
 
 
 

@@ -6,15 +6,19 @@
   <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
     <script type="text/javascript">
       function draw(data) {
-      
+
       /*
         D3.js setup code
       */
 
           "use strict";
-          var margin = 75,
-              width = 1400 - margin,
-              height = 600 - margin;
+         var margin = 75,
+            width = 1400 - margin,
+            height = 600 - margin;
+
+         d3.select("body")
+            .append("h2")
+            .text("World Cup Attendance");
 
           var svg = d3.select("body")
             .append("svg")
@@ -28,12 +32,25 @@
       */
 
           var myChart = new dimple.chart(svg, data);
-          var x = myChart.addTimeAxis("x", "year"); 
+          var x = myChart.addTimeAxis("x", "year");
           myChart.addMeasureAxis("y", "attendance");
-          myChart.addSeries(null, dimple.plot.bar);
+          x.dateParseFormat = "%Y";
+          x.tickFormat = "%Y";
+          x.timeInterval = 4;
+          myChart.addSeries(null, dimple.plot.line);
+          myChart.addSeries(null, dimple.plot.scatter);
           myChart.draw();
         };
       </script>
+      <style>
+         .dimple-series-1 {
+            fill: #FAF;
+         }
+         h2 {
+            font-family: sans-serif;
+            text-align: center;
+         }
+      </style>
   </head>
 <body>
   <script type="text/javascript">
