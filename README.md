@@ -121,8 +121,8 @@ on the web, in this course.
 
 * [**Project 2**](6-D3js/Project/Mini_Project2) : A redesign of [this chart](http://www.designyourway.net/diverse/2/wronginfo/60373947977.jpg) with dimple.js.
    [**Demo's here**](http://thomasdargent.com/P1xt/6-D3js/Project/Mini_Project2/index.html)
-   
-   ![Project 2 Chart]](6-D3js/Project/Mini_Project2/Screenshot.png)
+
+   ![Project 2 Chart](6-D3js/Project/Mini_Project2/Screenshot.png)
 
 I forgot to take note of the first sections. Might have to add that later.
 
