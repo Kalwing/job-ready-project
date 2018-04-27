@@ -44,6 +44,7 @@ body {
    font-size: 1.1em;
    grid-gap: 20px;
    grid-template-columns: repeat(auto-fill, 150px);
-   margin: 2em auto;
    max-width: 1020px;
+   justify-content: center;
+   margin: 1em auto;
 }
