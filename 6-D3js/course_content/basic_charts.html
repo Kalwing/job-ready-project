@@ -14,7 +14,9 @@
           "use strict";
          var margin = 75,
             width = 1400 - margin,
-            height = 600 - margin;
+            height = 600 - margin,
+            radius = 3,
+            color = 'steelblue';
 
          d3.select("body")
             .append("h2")
@@ -31,34 +33,99 @@
         Dimple.js Chart construction code
       */
 
-          var myChart = new dimple.chart(svg, data);
-          var x = myChart.addTimeAxis("x", "year");
-          myChart.addMeasureAxis("y", "attendance");
-          x.dateParseFormat = "%Y";
-          x.tickFormat = "%Y";
-          x.timeInterval = 4;
-          myChart.addSeries(null, dimple.plot.line);
-          myChart.addSeries(null, dimple.plot.scatter);
-          myChart.draw();
+          var a = d3.select('svg')
+            .selectAll("circle")
+            .data(data)
+            .enter()
+            .append("circle");
+
+          var time_extent = d3.extent(data, row => {
+             return row['date'];
+          });
+          var count_extent = d3.extent(data, row => {
+             return row['attendance'];
+          });
+
+          var time_scale = d3.time.scale()
+                           .range([margin, width])
+                           .domain(time_extent);
+         var count_scale = d3.scale.linear()
+                           .range([height, margin])
+                           .domain(count_extent);
+
+         var time_axis = d3.svg.axis()
+                           .scale(time_scale)
+                           .ticks(d3.time.years, 2);
+         var count_axis = d3.svg.axis()
+                           .scale(count_scale)
+                           .orient("left");
+
+         d3.select("svg")
+            .append('g')
+            .attr('class', 'x axis')
+            .attr('transform', "translate(0,"+height+")")
+            .call(time_axis);
+         d3.select("svg")
+            .append('g')
+            .attr('class', 'y axis')
+            .attr('transform', "translate("+margin+",0)")
+            .call(count_axis);
+
+         d3.selectAll('circle')
+            .attr('cx', row => {
+               return time_scale(row['date']);
+            })
+            .attr('cy', row => {
+               return count_scale(row['attendance']);
+            })
+            .attr('r', row => {
+               if (row['team1'] == row['home'] || row['team2'] == row['home']) {
+                  return radius * 2;
+               }
+               return radius;
+            })
+            .attr('fill', row => {
+               if (row['team1'] == row['home'] || row['team2'] == row['home']) {
+                  return 'red';
+               }
+               return color;
+            });
+
+         var legend = svg.append("g")
+                     .attr("class", "legend")
+                     .attr("transform", "translate(" + (width - 100) + ',' + 20 + ")")
+                     .selectAll("g")
+                     .data(["Home Team", "Others"])
+                     .enter().append("g");
         };
       </script>
       <style>
-         .dimple-series-1 {
-            fill: #FAF;
+         circle {
+            opacity: 0.35;
          }
          h2 {
             font-family: sans-serif;
             text-align: center;
          }
+         .domain {
+            max-height: 2px;
+         }
+
+         tick {
+            transform: rotate(45deg);
+         }
       </style>
   </head>
 <body>
   <script type="text/javascript">
-  /*
-    Use D3 (not dimple.js) to load the TSV file
-    and pass the contents of it to the draw function
-    */
-  d3.tsv("world_cup.tsv", draw);
+  format = d3.time.format("%d-%m-%Y (%H:%M h)");
+  d3.tsv("world_cup_geo.tsv", row => {
+
+     row['date'] = format.parse(row['date']);
+
+     row['attendance'] = +row["attendance"];
+     return row;
+ }, draw);
   </script>
 </body>
 </html>
