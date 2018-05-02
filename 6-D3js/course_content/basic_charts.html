@@ -43,7 +43,7 @@
              return row['date'];
           });
           var count_extent = d3.extent(data, row => {
-             return row['attendance'];
+             return row['value'];
           });
 
           var time_scale = d3.time.scale()
