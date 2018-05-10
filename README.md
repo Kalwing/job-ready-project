@@ -14,15 +14,15 @@ The demos are here : [thomasdargent.com](http://thomasdargent.com/P1xt/demos_vie
 
 ## Tier 1 - Non-Python frontend necessities for Web Development
 
-### [Project : 1-Frontend1](1-Frontend1/)
+### [Project : 1-Frontend1](Tier1-FrontEnd/1-Frontend1/)
 *"Pick a template and implement the frontend of a website with it as your inspiration (do not use its assets)"*
 
-![Screenshot of Frontend1](/1-Frontend1/Screenshot.png)
+![Screenshot of Frontend1](Tier1-FrontEnd//1-Frontend1/Screenshot.png)
 Original template : **[Savory by GetTemplates.co](https://freehtml5.co/demos/savory/)**
 
 **Demo : [Frontend1](http://thomasdargent.com/P1xt/1-Frontend1/index.html)**
 
-### [Course : 2-js_Edx](2-jsEdx/)
+### [Course : 2-js_Edx](Tier1-FrontEnd/2-jsEdx/)
 *"Programming for the Web with JavaScript"*
 
 Content :
@@ -42,10 +42,10 @@ A UI to modify a text with React. First time using React and it was really fun. 
 
 A list app with React. Not easy, but really showed me the power of React. *Graded: 100%*
 
-### [Project: 3-Frontend2](3-Frontend2/)
+### [Project: 3-Frontend2](Tier1-FrontEnd/3-Frontend2/)
 *"Pick a template and implement the frontend of a website with it as your inspiration (do not use its assets)"*
 
-![Screenshot of Frontend2](3-Frontend2/Screenshot.png)
+![Screenshot of Frontend2](Tier1-FrontEnd/3-Frontend2/Screenshot.png)
 Original website : **[Stripe](https://stripe.com/fr)**
 
 **Demo : [Frontend 2](http://thomasdargent.com/P1xt/3-Frontend2/index.html)**
@@ -54,12 +54,12 @@ Since I couldn't find a template I really liked I decided to "copy" Stripe, As I
 
 I found a way to make a menu fully in CSS that used clip-path that I really liked :
 
-![Demo of the menu of Frontend2](3-Frontend2/menuUsage.gif)
+![Demo of the menu of Frontend2](Tier1-FrontEnd/3-Frontend2/menuUsage.gif)
 
-### [Project: 4-toddmotto_API_Frontend](4-toddmotto_API_Frontend/)
+### [Project: 4-toddmotto_API_Frontend](Tier1-FrontEnd/4-toddmotto_API_Frontend/)
 *"Select an API from Todd Motto's API List and build a frontend-only application powered by data fetched from the API you chose."*
 
-![Screenshot of Project4](4-toddmotto_API_Frontend/Screenshot.PNG)
+![Screenshot of Project4](Tier1-FrontEnd/4-toddmotto_API_Frontend/Screenshot.PNG)
 API used :
 * **[Open Notify](http://open-notify.org/Open-Notify-API/)**
 * **[MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page)**
@@ -70,61 +70,63 @@ The usage of the Open Notify one was very straightforward, as they gave everythi
 find the property.
 
 ## In progress :
-### [Course : 5-Advanced_HTML_CSS](5-Advanced_HTML_CSS/)
+### [Course : 5-Advanced_HTML_CSS](Tier1-FrontEnd/5-Advanced_HTML_CSS/)
 *"Learn to Code Advanced HTML & CSS"*
 
 Content :
-* [**Performance & Organization**](5-Advanced_HTML_CSS/lesson1.md) :
+* [**Performance & Organization**](Tier1-FrontEnd/5-Advanced_HTML_CSS/lesson1.md) :
 
    Heavy emphasis on *OOCSS*, It might be better than my weird version of *BEM*, but seems to be a bit much for small websites.
 
-* [**Detailed Positioning**](5-Advanced_HTML_CSS/lesson2.md) :
+* [**Detailed Positioning**](Tier1-FrontEnd/5-Advanced_HTML_CSS/lesson2.md) :
 
    Not much that is new to me here. Still learned of a way to have a better compatibility for the Clearfix.
 
-* [**Complex Selectors**](5-Advanced_HTML_CSS/lesson3.md) :
+* [**Complex Selectors**](Tier1-FrontEnd/5-Advanced_HTML_CSS/lesson3.md) :
 
    LOTS of selector that I didn't or vaguely knew. I especially love the Attributes selector.
 
-* [**Responsive Web Design**](5-Advanced_HTML_CSS/lesson4.md) :
+* [**Responsive Web Design**](Tier1-FrontEnd/5-Advanced_HTML_CSS/lesson4.md) :
 
    Cool fix for responsive iframe. Learned about the viewport tag
    and Mobile First Web Design.
 
-* [**Preprocessors**](5-Advanced_HTML_CSS/lesson5.md) :
+* [**Preprocessors**](Tier1-FrontEnd/5-Advanced_HTML_CSS/lesson5.md) :
 
    Always feared to learn those. I don't really like haml.. But SASS/SCSS looks
    awesome. I'll try it on my next project I think.
 
-* [**Transforms**](5-Advanced_HTML_CSS/lesson7.md) :
+* [**Transforms**](Tier1-FrontEnd/5-Advanced_HTML_CSS/lesson7.md) :
 
-   Learned about some interesting 3D property. I made an ["hypercube"](5-Advanced_HTML_CSS/Test/cube.html) to test those. **[Demo's here](http://thomasdargent.com/P1xt/5-Advanced_HTML_CSS/Test/cube.html)**
-   ![Cube](/5-Advanced_HTML_CSS/Test/Screenshot.png) :
-* [**Transitions & Animations**](5-Advanced_HTML_CSS/lesson8.md) :
+   Learned about some interesting 3D property. I made an ["hypercube"](Tier1-FrontEnd/5-Advanced_HTML_CSS/Test/cube.html) to test those. **[Demo's here](http://thomasdargent.com/P1xt/5-Advanced_HTML_CSS/Test/cube.html)**
+   ![Cube](Tier1-FrontEnd//5-Advanced_HTML_CSS/Test/Screenshot.png) :
+* [**Transitions & Animations**](Tier1-FrontEnd/5-Advanced_HTML_CSS/lesson8.md) :
    Good reminder about animation
 
-* [**Extending Semantics & Accessibility**](5-Advanced_HTML_CSS/lesson10.md) :
+* [**Extending Semantics & Accessibility**](Tier1-FrontEnd/5-Advanced_HTML_CSS/lesson10.md) :
    Learned about a lot of tags. And about microdata and WAI-ARIA
 
-### [Course : 6-D3js](6-D3js/)
+### [Course : 6-D3js](Tier1-FrontEnd/6-D3js/)
 *"Data Visualization and D3.js"*
 
 Content :
-* [**Note on design**](6-D3js/note_design.md) :
+* [**Note on design**](Tier1-FrontEnd/6-D3js/note_design.md) :
 
    The most important thing I learned regarding to Design in this course.
 
-* [**Note on Code**](6-D3js/note_code.md) :
+* [**Note on Code**](Tier1-FrontEnd/6-D3js/note_code.md) :
 
    The most important thing I learned regarding to Programming, and making chart
 on the web, in this course.
 
-* [**Project 2**](6-D3js/Project/Mini_Project2) : A redesign of [this chart](http://www.designyourway.net/diverse/2/wronginfo/60373947977.jpg) with dimple.js.
+* [**Project 2**](Tier1-FrontEnd/6-D3js/Project/Mini_Project2) : A redesign of [this chart](http://www.designyourway.net/diverse/2/wronginfo/60373947977.jpg) with dimple.js.
    [**Demo's here**](http://thomasdargent.com/P1xt/6-D3js/Project/Mini_Project2/index.html)
 
-   ![Project 2 Chart](6-D3js/Project/Mini_Project2/Screenshot.png)
+   ![Project 2 Chart](Tier1-FrontEnd/6-D3js/Project/Mini_Project2/Screenshot.png)
 
 I forgot to take note of the first sections. Might have to add that later.
+
+## Tier 2-Python Basics:
 
 
 

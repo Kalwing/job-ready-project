@@ -3,30 +3,30 @@
    min-height: 15em;
    position:relative
 }
-.UserChartPanel svg{
+.mainLine{
    position:absolute;
    z-index: 0;
    left:0; top:0; width:100%; height:100%
 }
-.UserChartPanel svg .domain{
+.mainLine .domain{
    fill: none;
    stroke: black;
    stroke-width: 1px;
 }
-.UserChartPanel svg .tick line{
+.mainLine .tick line{
   fill: none;
   stroke: black;
 }
-.UserChartPanel .line{
+.mainLine .line{
    filter: drop-shadow(5px 12px 5px rgba(0,0,0,0.5));
 }
-.UserChartPanel .area{
+.mainLine .area{
    fill: #FCCF31;
    opacity: 0.5;
 }
-.stop-left {
+.mainLine .stop-left {
    stop-color:  #FCCF31 ;
 }
-.stop-right {
+.mainLine .stop-right {
    stop-color: #F55555 ;
 }

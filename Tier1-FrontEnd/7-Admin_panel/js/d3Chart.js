@@ -2,8 +2,9 @@ function draw (data) {
    var margin = 30,
       width = $(".UserChartPanel").width() - margin,
       height = $(".UserChartPanel").height() - margin;
-   var svg = d3.select(".UserChartPanel")
+   var mainLine = d3.select(".UserChartPanel")
                .append("svg")
+               .attr("class","mainLine")
                .attr("height", height)
                .attr("width", width)
                .style("font-size", "0.5em")
@@ -41,7 +42,7 @@ function draw (data) {
             .x(function(d) { return time_scale(d["date"]); })
             .y(function(d) { return value_scale(d["value"]); });
 
-   var mainGradient = svg.append('linearGradient')
+   var mainGradient = mainLine.append('linearGradient')
        .attr('id', 'mainGradient')
        .attr('gradientTransform', "rotate(90)");
 
@@ -55,17 +56,17 @@ function draw (data) {
        .attr('class', 'stop-right')
        .attr('offset', '1');
 
-   d3.select("svg")
+   d3.select(".mainLine")
       .append('g')
       .attr('class', 'x axis')
       .attr('transform', "translate(0,"+(height)+")")
       .call(time_axis);
-   d3.select("svg")
+   d3.select(".mainLine")
       .append('g')
       .attr('class', 'y axis')
       .attr('transform', "translate("+margin+", 0)")
       .call(value_axis);
-   d3.select("svg")
+   d3.select(".mainLine")
       .append("path")
       .datum(data)
       .attr("class", "line")
@@ -73,7 +74,7 @@ function draw (data) {
       .attr("stroke", "url(#mainGradient)")
       .attr("stroke-width", 1.5)
       .attr("d", line);
-   d3.select("svg")
+   d3.select(".mainLine")
       .append("path")
       .datum(data)
       .attr("class", "area")
@@ -85,4 +86,6 @@ userByTime.forEach(row => {
    row['date'] = format.parse(row['date']);
    row['value'] = +row["value"];
 });
+
 draw(userByTime);
+window.addEventListener("resize", draw);
