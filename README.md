@@ -69,7 +69,6 @@ API used :
 The usage of the Open Notify one was very straightforward, as they gave everything with great example. The wikimedia one was harder, in the end I couldn't not get more than 3 pictures.. I also wanted to add an emoji with the nationality of the person pictured, but couldn't
 find the property.
 
-## In progress :
 ### [Course : 5-Advanced_HTML_CSS](Tier1-FrontEnd/5-Advanced_HTML_CSS/)
 *"Learn to Code Advanced HTML & CSS"*
 
@@ -128,6 +127,41 @@ I forgot to take note of the first sections. Might have to add that later.
 
 ## Tier 2-Python Basics:
 
+###  Challenge: Python on HackerRank
+I was already doing the main python course of HackerRank, and found that doing the Python interview prep took a lot of time (mostly because of the number of exercises); So I chose to keep doing the main one.
+
+**Progress:** 45% (profile accessible here: [HackerRank](https://www.hackerrank.com/thomasdargent))
+
+### ON HOLD
+Currently doing an internship with a heavy focus on webdevelopment, so I chose to spend my free time doing something else (Namely the third tier).
+
+## Tier 3 - More Python and Basic CS
+
+### [Project: Easy through hard CodinGame Challenge](Tier3-More_Python/1-CodinGame)
+
+* **Easy:** *Done.*
+  * Power of Thor
+  * Mime Type
+  * Horse Racing Duals
+  * Chuck Norris
+  * Defibrillators
+  * Temperatures
+  * MarsLander
+  * Ascii Art
+  * Onboarding
+  * The Descent
+* **Medium:** *In Progress.*
+  * Shadows of the Knight 1
+  * There is no Spoon 1
+
+
+### [Course: Introduction to Computational Thinking and Data Science](Tier3-More_Python/2-Introduction_Computational_Thinking)
+
+* **Unit 1**:
+[pset1](Tier3-More_Python/2-Introduction_Computational_Thinking/pset1): Done. Quite easy.
+
+* **Unit 2**:
+[pset2](Tier3-More_Python/2-Introduction_Computational_Thinking/pset2):  *In Progress*
 
 
 
