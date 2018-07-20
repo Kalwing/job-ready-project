@@ -158,11 +158,12 @@ Currently doing an internship with a heavy focus on webdevelopment, so I chose t
 ### [Course: Introduction to Computational Thinking and Data Science](Tier3-More_Python/2-Introduction_Computational_Thinking)
 
 * **Unit 1**:
-[pset1](Tier3-More_Python/2-Introduction_Computational_Thinking/pset1): Done. Quite easy.
+[pset1](Tier3-More_Python/2-Introduction_Computational_Thinking/pset1): Done.
 
 * **Unit 2**:
-[pset2](Tier3-More_Python/2-Introduction_Computational_Thinking/pset2):  *In Progress*
+[pset2](Tier3-More_Python/2-Introduction_Computational_Thinking/pset2): Done.
 
+Currently trying to find time for the Quizz
 
 
 ## Contact :
