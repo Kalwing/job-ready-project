@@ -163,7 +163,8 @@ Currently doing an internship with a heavy focus on webdevelopment, so I chose t
 * **Unit 2**:
 [pset2](Tier3-More_Python/2-Introduction_Computational_Thinking/pset2): Done.
 
-Currently trying to find time for the Quizz
+* **Quizz**: Done. I got a 87%.
+
 
 
 ## Contact :
