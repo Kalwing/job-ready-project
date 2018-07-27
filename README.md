@@ -159,11 +159,10 @@ Currently doing an internship with a heavy focus on webdevelopment, so I chose t
 
 * **Unit 1**:
 [pset1](Tier3-More_Python/2-Introduction_Computational_Thinking/pset1): Done.
-
 * **Unit 2**:
 [pset2](Tier3-More_Python/2-Introduction_Computational_Thinking/pset2): Done.
-
 * **Quizz**: Done. I got a 87%.
+* **Unit 3**: [exercises and pset3](Tier3-More_Python/2-Introduction_Computational_Thinking/unit3): Done.
 
 
 
