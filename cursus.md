@@ -1,6 +1,7 @@
 # Bachelor in a hurry
 
-Designed to fits my needs. If you wish to follows this path, please let me know, as some course order choices aren't logical for someone without experience.
+## Goals :
+I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md)" cursus to improve my python skills. As I am doing an EECS bachelor (a "licence") in the University of Normandie, I also feel the need to add a more Electrical Engineering touch to it (In fact It should complete most requirements for the EECS bachelor at MIT). As I'm still unable to choose between a career as a data scientist, electrical engineer, industrial computer scientist, web developper and something transdisciplinary with medecine, this cursus should bring me a good enough basis in everything to choose my master accordingly.
 
 ## Tier 1 - Non-Python frontend necessities for Web Development
 - **P1XT** Course: [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
