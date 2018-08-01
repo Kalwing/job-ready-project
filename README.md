@@ -1,20 +1,22 @@
-# python-project
-## Projects made for P1xt's "Get Job Ready - Python Edition"
+# job-ready-project
+## A Bachelor In A Hurry
+### Goals :
+I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md)" curriculum to improve my python. As I am doing an EECS bachelor (a "licence") in the University of Normandie, I also feel the need to add a more Electrical Engineering touch to it (In fact It should complete most requirements for the EECS bachelor at MIT). As I'm still unable to choose between a career as a data scientist, electrical engineer, industrial computer scientist, web developper and something transdisciplinary with medecine, this curriculum should bring me a good enough basis in everything to choose my master accordingly.
+I have less than a year. And I'm doing a real bachelor at the same time. And I have a job. It's totally unrealisable. But hey. I find it fun.
 
-I learned some Python in class, mostly to do signal analysis with NumPy,
-and I wanted to improve my skills further. I appeared to me that learning Django
-could be a fun way to to do that as it's been a long time since I've done
-Back-end Development. I already have some background in FrontEnd Development,
-but thought that it couldn't do me harm to learn more Js.
+I reserve myself the right to skip a course if I have already mastered what's in it, as time is a limit.
 
-So here you'll find most of what I've done for this course.
-You can find the "curriculum" here : [Get Job Ready - Python Edition](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md).
-
+You can find the "curriculum" here : [Kalwing's programming curriculum](curriculum.md).
+---
+## Reviews :
+<!---
 The demos are here : [thomasdargent.com](http://thomasdargent.com/P1xt/demos_viewer/viewer.html)
+-->
+I'm updating my website so the demos aren't available currently.
 
-## Tier 1 - Non-Python frontend necessities for Web Development
+### Tier 1 - Non-Python frontend necessities for Web Development
 
-### [Project : 1-Frontend1](Tier1-FrontEnd/1-Frontend1/)
+#### [Project : 1-Frontend1](Tier1-FrontEnd/1-Frontend1/)
 *"Pick a template and implement the frontend of a website with it as your inspiration (do not use its assets)"*
 
 ![Screenshot of Frontend1](Tier1-FrontEnd//1-Frontend1/Screenshot.png)
@@ -22,7 +24,7 @@ Original template : **[Savory by GetTemplates.co](https://freehtml5.co/demos/sav
 
 **Demo : [Frontend1](http://thomasdargent.com/P1xt/1-Frontend1/index.html)**
 
-### [Course : 2-js_Edx](Tier1-FrontEnd/2-jsEdx/)
+#### [Course : 2-js_Edx](Tier1-FrontEnd/2-jsEdx/)
 *"Programming for the Web with JavaScript"*
 
 Content :
@@ -42,7 +44,7 @@ A UI to modify a text with React. First time using React and it was really fun. 
 
 A list app with React. Not easy, but really showed me the power of React. *Graded: 100%*
 
-### [Project: 3-Frontend2](Tier1-FrontEnd/3-Frontend2/)
+#### [Project: 3-Frontend2](Tier1-FrontEnd/3-Frontend2/)
 *"Pick a template and implement the frontend of a website with it as your inspiration (do not use its assets)"*
 
 ![Screenshot of Frontend2](Tier1-FrontEnd/3-Frontend2/Screenshot.png)
@@ -56,7 +58,7 @@ I found a way to make a menu fully in CSS that used clip-path that I really like
 
 ![Demo of the menu of Frontend2](Tier1-FrontEnd/3-Frontend2/menuUsage.gif)
 
-### [Project: 4-toddmotto_API_Frontend](Tier1-FrontEnd/4-toddmotto_API_Frontend/)
+#### [Project: 4-toddmotto_API_Frontend](Tier1-FrontEnd/4-toddmotto_API_Frontend/)
 *"Select an API from Todd Motto's API List and build a frontend-only application powered by data fetched from the API you chose."*
 
 ![Screenshot of Project4](Tier1-FrontEnd/4-toddmotto_API_Frontend/Screenshot.PNG)
@@ -69,7 +71,7 @@ API used :
 The usage of the Open Notify one was very straightforward, as they gave everything with great example. The wikimedia one was harder, in the end I couldn't not get more than 3 pictures.. I also wanted to add an emoji with the nationality of the person pictured, but couldn't
 find the property.
 
-### [Course : 5-Advanced_HTML_CSS](Tier1-FrontEnd/5-Advanced_HTML_CSS/)
+#### [Course : 5-Advanced_HTML_CSS](Tier1-FrontEnd/5-Advanced_HTML_CSS/)
 *"Learn to Code Advanced HTML & CSS"*
 
 Content :
@@ -105,7 +107,7 @@ Content :
 * [**Extending Semantics & Accessibility**](Tier1-FrontEnd/5-Advanced_HTML_CSS/lesson10.md) :
    Learned about a lot of tags. And about microdata and WAI-ARIA
 
-### [Course : 6-D3js](Tier1-FrontEnd/6-D3js/)
+#### [Course : 6-D3js](Tier1-FrontEnd/6-D3js/)
 *"Data Visualization and D3.js"*
 
 Content :
@@ -125,19 +127,21 @@ on the web, in this course.
 
 I forgot to take note of the first sections. Might have to add that later.
 
-## Tier 2-Python Basics:
+### Tier 2-Python Basics:
 
-###  Challenge: Python on HackerRank
+####  Challenge: Python on HackerRank
 I was already doing the main python course of HackerRank, and found that doing the Python interview prep took a lot of time (mostly because of the number of exercises); So I chose to keep doing the main one.
 
 **Progress:** 45% (profile accessible here: [HackerRank](https://www.hackerrank.com/thomasdargent))
 
-### ON HOLD
-Currently doing an internship with a heavy focus on webdevelopment, so I chose to spend my free time doing something else (Namely the third tier).
+#### Study: the django documentation
+Done, and had an internship based heavily on django
 
-## Tier 3 - More Python and Basic CS
+#### Project: participate in one [Bot Programming](https://www.codingame.com/multiplayer/bot-programming) competition.~~
 
-### [Project: Easy through hard CodinGame Challenge](Tier3-More_Python/1-CodinGame)
+### Tier 3 - More Python, Basic CS and Electronics
+
+#### [Project: Easy through hard CodinGame Challenge](Tier3-More_Python/1-CodinGame)
 
 * **Easy:** *Done.*
   * Power of Thor
@@ -155,7 +159,7 @@ Currently doing an internship with a heavy focus on webdevelopment, so I chose t
   * There is no Spoon 1
 
 
-### [Course: Introduction to Computational Thinking and Data Science](Tier3-More_Python/2-Introduction_Computational_Thinking)
+#### [Course: Introduction to Computational Thinking and Data Science](Tier3-More_Python/2-Introduction_Computational_Thinking)
 
 * **Unit 1**:
 [pset1](Tier3-More_Python/2-Introduction_Computational_Thinking/pset1): Done.

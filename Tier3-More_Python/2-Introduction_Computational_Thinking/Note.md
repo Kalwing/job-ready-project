@@ -34,4 +34,17 @@ by the size of the sample.
 
 #### Standard Error of the Mean
 SE = stdDev / sqrt(n)
-with n the size of the sample 
+with n the size of the sample
+
+## Unit 4
+### 10- Experimental Data Part
+
+#### Mean Square Error
+
+#### Coefficient of determination (**R²**)
+R² = 1 - (sum of the (yi - pi)²)/(sum of the (yi - mean)²)
+where yi = Measured value
+      pi = Predicted value
+Compare the estimation errors(numerator) with the variability of the orginal value (denominator). A good way to measure the absolute goodness of a fit.
+
+#### Cross validation
