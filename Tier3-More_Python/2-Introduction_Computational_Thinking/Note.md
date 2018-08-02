@@ -48,3 +48,4 @@ where yi = Measured value
 Compare the estimation errors(numerator) with the variability of the orginal value (denominator). A good way to measure the absolute goodness of a fit.
 
 #### Cross validation
+Verify model on training data of an other training set and vice versa.

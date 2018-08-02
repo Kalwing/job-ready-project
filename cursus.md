@@ -3,6 +3,8 @@
 ## Goals :
 I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md)" cursus to improve my python skills. As I am doing an EECS bachelor (a "licence") in the University of Normandie, I also feel the need to add a more Electrical Engineering touch to it (In fact It should complete most requirements for the EECS bachelor at MIT). As I'm still unable to choose between a career as a data scientist, electrical engineer, industrial computer scientist, web developper and something transdisciplinary with medecine, this cursus should bring me a good enough basis in everything to choose my master accordingly.
 
+---
+
 ## Tier 1 - Non-Python frontend necessities for Web Development
 - **P1XT** Course: [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
 - **P1XT** Project: Pick a template from [here](https://freebiesbug.com/psd-freebies/website-template/), [here](http://www.free-css.com/free-css-templates) or [here](http://www.os-templates.com/free-website-templates) and implement the frontend of a website with it as your inspiration (do not use its assets)
@@ -18,6 +20,7 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 - **P1XT** Project: participate in one [Bot Programming](https://www.codingame.com/multiplayer/bot-programming) competition.
 
 ## Tier 3 - More Python, Basic CS and Electronics
+* Book: Work through PythonTricks and Fluent Python by the end of the Tier
 * **P1XT** [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
 * [6.01 - Introduction to EECS ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/)
 * Study: [8.02.1 - Electricity and magnetism 1 :](https://www.edx.org/course/electricity-and-magnetism-electrostatics?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
