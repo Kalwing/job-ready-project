@@ -36,6 +36,7 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
     * [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-3-applications-mitx-6-002-3x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
 * **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic)
 * **P1XT** Study: The pytest testing tool read the docs thoroughly, experiment with the examples and become proficient with pytest (including unittest and nose).
+* [Mastering Microcontroller with Embedded Driver Development](https://www.udemy.com/mastering-microcontroller-with-peripheral-driver-development/)
 
 ## Tier 4 - Computer Science domains exploration
 * [Introduction to computer networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)

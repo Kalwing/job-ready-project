@@ -1,12 +1,14 @@
 # job-ready-project
 ## A Bachelor In A Hurry
 ### Goals :
+
 I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md)" cursus to improve my python skills. As I am doing an EECS bachelor (a "licence") in the University of Normandie, I also feel the need to add a more Electrical Engineering touch to it (In fact It should complete most requirements for the EECS bachelor at MIT). As I'm still unable to choose between a career as a data scientist, electrical engineer, industrial computer scientist, web developper and something transdisciplinary with medecine, this cursus should bring me a good enough basis in everything to choose my master accordingly.
 I have less than a year. And I'm doing a real bachelor at the same time. And I have a job. It's totally unrealisable. But hey. I find it fun.
 
 I reserve myself the right to skip a course if I have already mastered what's in it, as time is a limit.
 
 You can find the "cursus" here : [Kalwing's programming cursus](cursus.md).
+
 ---
 ## Reviews :
 <!---
@@ -167,8 +169,16 @@ Done, and had an internship based heavily on django
 [pset2](Tier3-More_Python/2-Introduction_Computational_Thinking/pset2): Done.
 * **Quizz**: Done. I got a 87%.
 * **Unit 3**: [exercises and pset3](Tier3-More_Python/2-Introduction_Computational_Thinking/unit3): Done.
+* **Unit 4**: Doing the pset. Currently on hold as the grader doesn't work.
 
+#### [Course: 6.01 - Introduction to EECS](Tier3-More_Python/3-Introduction_To_EECS)
 
+I can't get the library to work so I can't do the design exercises.
+* **Unit 1**:
+    * [OOP](Tier3-More_Python/3-Introduction_To_EEC/Unit_1/oop): Skipped somethings, but I think I'll be ok ! :stuck_out_tongue_winking_eye:
+    * [State Machine](Tier3-More_Python/3-Introduction_To_EEC/Unit_1/state_machine): Done.
+* **Unit 2**:
+    * [Signals and systems](Tier3-More_Python/3-Introduction_To_EEC/Unit_2/signals_and_systems): Done up to **Soft. Lab. 3.1.4**.
 
 ## Contact :
 

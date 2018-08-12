@@ -66,7 +66,7 @@ class Climate(object):
             if month not in self.rawdata[city][year]:
                 self.rawdata[city][year][month] = {}
             self.rawdata[city][year][month][day] = temperature
-            
+
         f.close()
 
     def get_yearly_temp(self, city, year):
@@ -118,7 +118,7 @@ End helper code
 """
 
 # Problem 1
-def generate_models(x, y, degs):
+def generate_models(x, y, degs, verbose=False):
     """
     Generate regression models by fitting a polynomial for each degree in degs
     to points (x, y).
@@ -130,9 +130,25 @@ def generate_models(x, y, degs):
         a list of numpy arrays, where each array is a 1-d array of coefficients
         that minimizes the squared error of the fitting polynomial
     """
-    # TODO
-    pass
+    # R² = 1 - (sum of the (yi - pi)²)/(sum of the (yi - mean)²)
+    # deg_fit = None
+    models = []
+    for deg in degs:
+        if verbose:
+            print("Degree: {} Len: {} {}".format(deg, len(x), len(y)))
+        coeff = np.polyfit(x, y, deg)
+        # fit = np.polyval(coeff, x)
+        models.append(coeff)
+        # mean = sum(fit)/len(fit)
+        # diff_pred = sum([(fit[i] - y[i])**2 for i in range(len(fit))])
+        # diff_mean = sum([(fit[i] - mean)**2 for i in range(len(fit))])
+        # r_squared = 1 - diff_pred / diff_mean
+        #
+        # if deg_fit is None or r_squared < deg_fit[1]:
+        #     deg_fit = (deg, r_squared, coeff)
+    return models
 
+print(generate_models([1961, 1962, 1963],[4.4,5.5,6.6],[1, 2]))
 # Problem 2
 def r_squared(y, estimated):
     """
@@ -189,5 +205,5 @@ x1 = INTERVAL_1
 x2 = INTERVAL_2
 y = []
 # MISSING LINES
-models = generate_models(x, y, [1])    
+models = generate_models(x, y, [1])
 evaluate_models_on_training(x, y, models)
