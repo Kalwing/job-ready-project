@@ -10,7 +10,7 @@ class Cascade(SM):
     def __init__(self, sm1, sm2):
         self.m1 = sm1
         self.m2 = sm2
-        self.start_state = (self.m1.start_state, self.m2.start_state)
+        self.startState = (self.m1.startState, self.m2.startState)
 
     def getNextValues(self, state, input):
         """

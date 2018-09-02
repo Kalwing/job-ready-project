@@ -11,7 +11,7 @@ from lib import SM
 
 class Delay2Machine(SM):
     def __init__(self, val0, val1):
-        self.start_state = [val0, val1]
+        self.startState = [val0, val1]
 
     def getNextValues(self, state, inp):
         cur_state = [val for val in state[-2:]]
@@ -53,7 +53,7 @@ def f(x):  # func
 
 
 class CommentsSM(SM):
-    start_state = False
+    startState = False
 
     def getNextValues(self, state, inp):
         if state or inp == '#':
@@ -115,7 +115,7 @@ class FirstWordSM(SM):
     REST_OF_LINE = 3 # has already passed the first word
 
     def __init__(self):
-        start_state = NEW_LINE
+        startState = NEW_LINE
 
     def getNextValues(self, state, inp):
         if state == self.NEW_LINE:

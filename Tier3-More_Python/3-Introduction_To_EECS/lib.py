@@ -8,7 +8,7 @@ class SM(ABC):
         """
         Initialize the state machine.
         """
-        self.state = self.start_state
+        self.state = self.startState
 
     def step(self, input):
         """
@@ -16,14 +16,17 @@ class SM(ABC):
         """
         next_values = self.getNextValues(self.state, input)
         self.updateState(next_values[0])
-        return(next_values[1])
+        return (next_values[1])
 
     def updateState(self, new_state):
         self.state = new_state
 
     def transduce(self, inputs):
         self.start()
-        return [self.step(input) for input in inputs]
+        try:
+            return [self.step(input) for input in inputs if not self.done(self.state)]
+        except AttributeError:
+            return [self.step(input) for input in inputs]
 
     @abstractmethod
     def getNextValues(self, state, input):
@@ -35,7 +38,7 @@ class SM(ABC):
 
 class Delay(SM):
     def __init__(self, v0):
-        self.start_state = v0
+        self.startState = v0
 
     def getNextValues(self, state, inp):
         return (inp, state)
@@ -45,7 +48,7 @@ class Cascade(SM):
     def __init__(self, sm1, sm2):
         self.m1 = sm1
         self.m2 = sm2
-        self.start_state = (self.m1.start_state, self.m2.start_state)
+        self.startState = (self.m1.startState, self.m2.startState)
 
     def getNextValues(self, state, input):
         """
@@ -61,7 +64,7 @@ class Cascade(SM):
 class PureFonction(SM):
     def __init__(self, f):
         self.function = f
-        self.start_state = None
+        self.startState = None
 
     def getNextValues(self, state, input):
         return (state, self.function(input))
@@ -71,7 +74,7 @@ class Parallel(SM):
     def __init__(self, sm1, sm2):
         self.m1 = sm1
         self.m2 = sm2
-        self.start_state = (sm1.start_state, sm2.start_state)
+        self.startState = (sm1.startState, sm2.startState)
 
     def getNextValues(self, state, inp):
         (s1, s2) = state
@@ -98,7 +101,7 @@ class Parallel2(Parallel):
 class Feedback(SM):
     def __init__(self, sm):
         self.m = sm
-        self.start_state = self.m.start_state
+        self.startState = self.m.startState
 
     def getNextValues(self, state, inp):
         (_, o) = self.m.getNextValues(state, 'undefined')
@@ -117,7 +120,7 @@ class Switch(SM):
         self.m1 = sm1
         self.m2 = sm2
         self.condition = condition
-        self.start_state = (self.m1.start_state, self.m2.start_state)
+        self.startState = (self.m1.startState, self.m2.startState)
 
     def getNextValues(self, state, inp):
         (s1, s2) = state
@@ -137,3 +140,81 @@ class Mux(Switch):
             return ((ns1, ns2), o1)
         else:
             return ((ns1, ns2), o2)
+
+class Repeat(SM):
+    def __init__(self, sm, n=None):
+        self.sm = sm
+        self.startState = (0, self.sm.startState)
+        self.n = n
+
+    def advanceIfDone(self, counter, smState):
+        while self.sm.done(smState) and not self.done((counter,smState)):
+            counter = counter + 1
+            smState = self.sm.startState
+        return (counter, smState)
+
+    def getNextValues(self, state, inp):
+        (counter, smState) = state
+        (smState, o) = self.sm.getNextValues(smState, inp)
+        (counter, smState) = self.advanceIfDone(counter, smState)
+        return ((counter, smState), o)
+
+    def done(self, state):
+        (counter, smState) = state
+        return counter == self.n
+
+
+class RepeatUntil(SM):
+    def __init__(self, condition, sm):
+        self.sm = sm
+        self.condition = condition
+        self.startState = (False, self.sm.startState)
+    def getNextValues(self, state, inp):
+        (condTrue, smState) = state
+        (smState, o) = self.sm.getNextValues(smState, inp)
+        condTrue = self.condition(inp)
+        if self.sm.done(smState) and not condTrue:
+            smState = self.sm.getStartState()
+        return ((condTrue, smState), o)
+    def done(self, state):
+        (condTrue, smState) = state
+        return self.sm.done(smState) and condTrue
+
+
+class Sequence(SM):
+    def __init__(self, smList):
+        self.smList = smList
+        self.startState = (0, self.smList[0].startState)
+        self.n = len(smList)
+
+    def advanceIfDone(self, counter, smState):
+        while self.smList[counter].done(smState) and counter + 1 < self.n:
+            counter = counter + 1
+            smState = self.smList[counter].startState
+        return (counter, smState)
+
+    def getNextValues(self, state, inp):
+        (counter, smState) = state
+        (smState, o) = self.smList[counter].getNextValues(smState, inp)
+        (counter, smState) = self.advanceIfDone(counter, smState)
+        return ((counter, smState), o)
+
+    def done(self, state):
+        (counter, smState) = state
+        return self.smList[counter].done(smState)
+
+
+class LTISM(SM):
+    def __init__(self, dCoeffs, cCoeffs):
+        j = len(dCoeffs) - 1
+        k = len(cCoeffs)
+        self.cCoeffs = cCoeffs
+        self.dCoeffs = dCoeffs
+        self.startState = ([0.0]*j, [0.0]*k)
+
+    def getNextValues(self, state, input):
+        (inputs, outputs) = state
+        inputs = [input] + inputs
+        currentOutput = util.dotProd(outputs, self.cCoeffs) + \
+                        util.dotProd(inputs, self.dCoeffs)
+        return ((inputs[:-1], ([currentOutput] + outputs)[:-1]), currentOutput)

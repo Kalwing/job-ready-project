@@ -6,7 +6,7 @@ sys.path.append('../../../')
 from lib import SM, PureFonction, Cascade, Parallel, Parallel2
 
 class BA1(SM):
-    start_state = 0
+    startState = 0
     def getNextValues(self, state, inp):
         if inp != 0:
             newState = state * 1.02 + inp - 100
@@ -16,7 +16,7 @@ class BA1(SM):
 
 
 class BA2(SM):
-    start_state = 0
+    startState = 0
     def getNextValues(self, state, inp):
         newState = state * 1.01 + inp
         return (newState, newState)

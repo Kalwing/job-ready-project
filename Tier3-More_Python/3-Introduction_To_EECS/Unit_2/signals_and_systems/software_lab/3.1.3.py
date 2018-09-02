@@ -9,7 +9,7 @@ from lib import SM
 class PureFonction(SM)
     def __init__(self, f):
         self.function = f
-        self.start_state = None
+        self.startState = None
 
     def getNextValues(self, state, input):
         return (state, self.function(input))

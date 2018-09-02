@@ -1,6 +1,7 @@
 import numpy as np
 import pylab
 import re
+import matplotlib.pyplot as plt
 
 # cities in our weather data
 CITIES = [
@@ -130,22 +131,12 @@ def generate_models(x, y, degs, verbose=False):
         a list of numpy arrays, where each array is a 1-d array of coefficients
         that minimizes the squared error of the fitting polynomial
     """
-    # R² = 1 - (sum of the (yi - pi)²)/(sum of the (yi - mean)²)
-    # deg_fit = None
     models = []
     for deg in degs:
         if verbose:
             print("Degree: {} Len: {} {}".format(deg, len(x), len(y)))
         coeff = np.polyfit(x, y, deg)
-        # fit = np.polyval(coeff, x)
         models.append(coeff)
-        # mean = sum(fit)/len(fit)
-        # diff_pred = sum([(fit[i] - y[i])**2 for i in range(len(fit))])
-        # diff_mean = sum([(fit[i] - mean)**2 for i in range(len(fit))])
-        # r_squared = 1 - diff_pred / diff_mean
-        #
-        # if deg_fit is None or r_squared < deg_fit[1]:
-        #     deg_fit = (deg, r_squared, coeff)
     return models
 
 print(generate_models([1961, 1962, 1963],[4.4,5.5,6.6],[1, 2]))
@@ -159,8 +150,11 @@ def r_squared(y, estimated):
     Returns:
         a float for the R-squared error term
     """
-    # TODO
-    pass
+    mean = sum(y)/len(y)
+    diff_pred = sum([(y[i] - estimated[i])**2 for i in range(len(y))])
+    diff_mean = sum([(y[i] - mean)**2 for i in range(len(y))])
+    r_squared = 1 - diff_pred / diff_mean
+    return r_squared
 
 # Problem 3
 def evaluate_models_on_training(x, y, models):
@@ -184,8 +178,15 @@ def evaluate_models_on_training(x, y, models):
     Returns:
         None
     """
-    # TODO
-    pass
+    for model in models:
+        print(model)
+        fit_curve = np.polyval(model, x)
+        plt.plot(x, y, "b.")
+        plt.plot(x, fit_curve, "r-")
+        plt.title("Model of degree {}\n r^2 = {}"
+                     .format(len(model) - 1, r_squared(y, fit_curve)))
+        plt.show()
+    return None
 
 
 ### Begining of program
@@ -204,6 +205,7 @@ evaluate_models_on_training(x, y, models)
 x1 = INTERVAL_1
 x2 = INTERVAL_2
 y = []
-# MISSING LINES
+for year in INTERVAL_1:
+    y.append(np.mean(raw_data.get_yearly_temp('BOSTON', year)))
 models = generate_models(x, y, [1])
 evaluate_models_on_training(x, y, models)
