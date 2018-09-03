@@ -169,7 +169,9 @@ Done, and had an internship based heavily on django
 [pset2](Tier3-More_Python/2-Introduction_Computational_Thinking/pset2): Done.
 * **Quizz**: Done. I got a 87%.
 * **Unit 3**: [exercises and pset3](Tier3-More_Python/2-Introduction_Computational_Thinking/unit3): Done.
-* **Unit 4**: Doing the pset. Currently on hold as the grader doesn't work.
+* **Unit 4**: Done.
+* **Final**: Done. I got 92%.
+Total : Got 94%. (So an A I think ?)
 
 #### [Course: 6.01 - Introduction to EECS](Tier3-More_Python/3-Introduction_To_EECS)
 
