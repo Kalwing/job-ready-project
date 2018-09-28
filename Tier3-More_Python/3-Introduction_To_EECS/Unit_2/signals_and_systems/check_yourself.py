@@ -41,7 +41,7 @@ class Vending(SM):
     INPUT_CANCEL = 'cancel'
     INPUT_DISPENSE = 'dispense'
 
-    start_state = 0 # No money inside the machine at first
+    startState = 0 # No money inside the machine at first
 
     def getNextValues(self, state, input):
         """

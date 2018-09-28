@@ -3,6 +3,7 @@ Homemade replacement to the library
 """
 from abc import ABC, abstractmethod
 
+
 class SM(ABC):
     def start(self):
         """
@@ -24,7 +25,8 @@ class SM(ABC):
     def transduce(self, inputs):
         self.start()
         try:
-            return [self.step(input) for input in inputs if not self.done(self.state)]
+            return [self.step(input) for input in inputs
+                    if not self.done(self.state)]
         except AttributeError:
             return [self.step(input) for input in inputs]
 
@@ -128,8 +130,9 @@ class Switch(SM):
             (ns1, o) = self.m1.getNextValues(s1, inp)
             return ((ns1, s2), o)
         else:
-            (ns2,o) = self.m2.getNextValues(s2, inp)
+            (ns2, o) = self.m2.getNextValues(s2, inp)
             return ((s1, ns2), o)
+
 
 class Mux(Switch):
     def getNextValues(self, state, inp):
@@ -141,6 +144,7 @@ class Mux(Switch):
         else:
             return ((ns1, ns2), o2)
 
+
 class Repeat(SM):
     def __init__(self, sm, n=None):
         self.sm = sm
@@ -148,7 +152,7 @@ class Repeat(SM):
         self.n = n
 
     def advanceIfDone(self, counter, smState):
-        while self.sm.done(smState) and not self.done((counter,smState)):
+        while self.sm.done(smState) and not self.done((counter, smState)):
             counter = counter + 1
             smState = self.sm.startState
         return (counter, smState)
@@ -169,6 +173,7 @@ class RepeatUntil(SM):
         self.sm = sm
         self.condition = condition
         self.startState = (False, self.sm.startState)
+
     def getNextValues(self, state, inp):
         (condTrue, smState) = state
         (smState, o) = self.sm.getNextValues(smState, inp)
@@ -176,6 +181,7 @@ class RepeatUntil(SM):
         if self.sm.done(smState) and not condTrue:
             smState = self.sm.getStartState()
         return ((condTrue, smState), o)
+
     def done(self, state):
         (condTrue, smState) = state
         return self.sm.done(smState) and condTrue
