@@ -182,6 +182,15 @@ I can't get the library to work so I can't do the design exercises.
 * **Unit 2**:
     * [Signals and systems](Tier3-More_Python/3-Introduction_To_EEC/Unit_2/signals_and_systems): Done up to **Soft. Lab. 4**.
 
+
+#### [Course: Introduction to Machine Learning](Tier3-More_Python/9-Intro_to_ML)
+
+Chose to focus on AI, Data Science and robotics for the time being. Hope to get
+a bit more practice before finding an internship in those area.
+
+Really enjoying the course so far, even if the programming and the math are fairly easy.
+
+
 ## Contact :
 
 So I made this to learn, while there's some issues that I have already spotted and will fix upon the completion of the course, I would love to hear your thoughts. Bad ones or good ones, anything that could help my learning.
