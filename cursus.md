@@ -19,7 +19,7 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 - **P1XT** Study: [the Django documentation](https://docs.djangoproject.com/)
 - **P1XT** Project: participate in one [Bot Programming](https://www.codingame.com/multiplayer/bot-programming) competition.
 
-## Tier 3 - More Python, Basic CS and Electronics
+## Tier 3 - More Python, Basic CS and C++, and Electronics
 * Book: Work through PythonTricks and Fluent Python by the end of the Tier
 * **P1XT** [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
 * [6.01 - Introduction to EECS ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/)
@@ -30,6 +30,7 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 * **P1XT** Bot programming competition
 * Study: [8.02.2 - Electricity and magnetism 2](https://www.edx.org/course/electricity-and-magnetism-magnetic-fields-and-forces?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
 * **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
+* Book: Accelerated C++
 * [6.14 - Introduction to robotics](https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/projects/)
 * [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-1-basic-circuit-mitx-6-002-1x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
     * [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-2-amplification-mitx-6-002-2x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
@@ -39,6 +40,7 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 * [Mastering Microcontroller with Embedded Driver Development](https://www.udemy.com/mastering-microcontroller-with-peripheral-driver-development/)
 
 ## Tier 4 - Computer Science domains exploration
+* [Effective Modern C++](https://www.amazon.fr/Effective-Modern-C-Scott-Meyers/dp/1491903996/)
 * [Introduction to computer networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 * [6.025 - Bioengineering](https://ocw.mit.edu/courses/biological-engineering/20-010j-introduction-to-bioengineering-be-010j-spring-2006/)
 * [**P1XTDS** Question everything](https://www.edx.org/course/question-everything-scientific-thinking-in-real-life)
