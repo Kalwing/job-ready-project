@@ -30,6 +30,7 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 * [Simple reinforcement learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 * [Reinforcement Learning I: Introduction (1998) by Richard S. Sutton , Andrew G. Barto](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.32.7692)
 * [6.02 - Introduction to EECS : Digital communication systems ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
+* [The Data Science Course 2018: Complete Data Science Bootcamp](https://www.udemy.com/the-data-science-course-complete-data-science-bootcamp/)
 * **P1XT** [6.006 - Introduction to Algorithm](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm)
 * **P1XT** Bot programming competition
 * [6.801 - Machine vision ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-801-machine-vision-fall-2004/)
