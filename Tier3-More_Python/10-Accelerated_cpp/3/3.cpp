@@ -14,7 +14,7 @@ int main() {
     while (cin >> last_word){
         sentence.push_back(last_word);
         bool in_dict = false;
-        // in_dict == last_word was in what we have read of the dictionnary
+        // in_dict == (last_word was in what we have read of the dictionnary)
         for (u_int i = 0; i < dictionnary.size(); ++i){
             in_dict = in_dict || (last_word == dictionnary[i]);
         }
