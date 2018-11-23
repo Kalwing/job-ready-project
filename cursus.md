@@ -33,6 +33,7 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
     * [A survey of application of Markov Decision Processes](http://www.cs.uml.edu/ecg/uploads/AIfall14/MDPApplications3.pdf)
     * [Markov Decision Processes: concept and alogrithms](https://pdfs.semanticscholar.org/968b/ab782e52faf0f7957ca0f38b9e9078454afe.pdf)
     * [Learning to predict by the methods of temporal differences](https://link.springer.com/article/10.1007/BF00115009)
+* [Deep Reinforcement Learning](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/#syllabus)
 * [6.02 - Introduction to EECS : Digital communication systems ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
 * [The Data Science Course 2018: Complete Data Science Bootcamp](https://www.udemy.com/the-data-science-course-complete-data-science-bootcamp/)
 * **P1XT** [6.006 - Introduction to Algorithm](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm)
