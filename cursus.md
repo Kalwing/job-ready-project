@@ -21,6 +21,7 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 
 ## Tier 3 - More Python, Machine Learning and data science
 * Book: Work through PythonTricks and Fluent Python by the end of the Tier
+* Finish all codingame challenge up to MEDIUM
 * **P1XT** [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
 * [6.01 - Introduction to EECS ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/)
 * **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
