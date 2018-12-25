@@ -25,16 +25,11 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 * [6.01 - Introduction to EECS ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/)
 * **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
 * **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic)
-* Book: Accelerated C++
-* [Intelligence artificielle de A à Z](https://www.udemy.com/intelligence-artificielle-az/)
-    * [Simple reinforcement learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
-    * [Reinforcement Learning I: Introduction (1998) by Richard S. Sutton , Andrew G. Barto](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.32.7692)
-    * [The theory of Dynamic programming by R. Bellman](https://www.rand.org/content/dam/rand/pubs/papers/2008/P550.pdf)
-    * [A survey of application of Markov Decision Processes](http://www.cs.uml.edu/ecg/uploads/AIfall14/MDPApplications3.pdf)
-    * [Markov Decision Processes: concept and alogrithms](https://pdfs.semanticscholar.org/968b/ab782e52faf0f7957ca0f38b9e9078454afe.pdf)
-    * [Learning to predict by the methods of temporal differences](https://link.springer.com/article/10.1007/BF00115009)
-* [Deep Reinforcement Learning](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/#syllabus)
+* Deep Learning with python - F Chollet
+* [Crash Course Electronics and PCB Design](https://www.udemy.com/share/100lLcAEMdeFtXTXo=/)
 * [6.02 - Introduction to EECS : Digital communication systems ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
+* Google's Machine Learning crash course [https://developers.google.com/machine-learning/crash-course/?hl=fr]
+* Book: Accelerated C++
 * [The Data Science Course 2018: Complete Data Science Bootcamp](https://www.udemy.com/the-data-science-course-complete-data-science-bootcamp/)
 * **P1XT** [6.006 - Introduction to Algorithm](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm)
 * **P1XT** Bot programming competition
@@ -45,24 +40,37 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
     * [6.004.3](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
 * [Machine Learning for coders](https://course.fast.ai/ml)
 * **P1XT** [Kaggle: House Price](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
-
+* [The Unreasonable
+Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)
+* [Ai for social good](https://ai.google/education/social-good-guide/)
 
 ## Tier 4 - Computer Science domains exploration
-* [Effective Modern C++](https://www.amazon.fr/Effective-Modern-C-Scott-Meyers/dp/1491903996/)
+
+### C bootcamp :
+* [Write a hash table](https://github.com/jamesroutley/write-a-hash-table)
+* [High Performance Matrix Multiplication](https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0)
+* Make most data structures
+* [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
+* Write a scientific calculator parser
+* [Writing a C compiler](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
+* [Coding a Rogue RPG in C](https://www.youtube.com/watch?v=ipQPEoGztAM&t=0s&list=PLkTXsX7igf8erbWGYT4iSAhpnJLJ0Nk5G&index=2)
+* [Let's build a Simple Database](https://cstack.github.io/db_tutorial/)
+* [Let's code a TCP/IP stack](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
+
+### Back to the program:
+* Ian goodfellow's Deep learning
+* [Google's rule for ML](https://developers.google.com/machine-learning/guides/rules-of-ml/?utm_source=google-ai&utm_medium=card-image&utm_campaign=training-hub&utm_content=ml-rules)
 * [Introduction to computer networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 * [6.025 - Bioengineering](https://ocw.mit.edu/courses/biological-engineering/20-010j-introduction-to-bioengineering-be-010j-spring-2006/)
 * [**P1XTDS** Question everything](https://www.edx.org/course/question-everything-scientific-thinking-in-real-life)
 * [Hack the kernel](https://www.ops-class.org/) ( Book (see OSSU):[Operating System](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/))
 * [6.003 - Signals and systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-003-signals-and-systems-fall-2011/)
-* **P1XT** Clone Facebook
 * [6.14 - Introduction to robotics](https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/projects/)
 * [Andrew Ng's machine Learning course](https://www.coursera.org/learn/machine-learning)
 * [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-1-basic-circuit-mitx-6-002-1x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
     * [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-2-amplification-mitx-6-002-2x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
     * [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-3-applications-mitx-6-002-3x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
 * [Practical Deep Learning For Coders](https://course.fast.ai/)
-* **P1XT** Study: The pytest testing tool read the docs thoroughly, experiment with the examples and become proficient with pytest (including unittest and nose).
-* [Mastering Microcontroller with Embedded Driver Development](https://www.udemy.com/mastering-microcontroller-with-peripheral-driver-development/)
 * [403.3 - Neuroatanatomy](https://courses.edx.org/courses/course-v1:MichiganX+ANATOMY403.3x+1T2017/course/)
 * [Software engineering : Intro](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x)
 * [Software engineering : Project](https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx)
