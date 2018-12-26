@@ -186,6 +186,12 @@ I can't get the library to work so I can't do the design exercises.
 #### [Course: Introduction to Machine Learning](Tier3-More_Python/9-Intro_to_ML)
 Done. Really good course albeit sometime long on the "easy" stuff and fast on the math etc... at least for me.
 
+#### [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic)
+Scored 0.71 on accuracy. Obviously I have to do a lot more to have a good score,
+but I still need to read to better understand how parameters affect the
+classification ! Quite happy already as I didn't spend too much time for this
+result.
+
 
 ## Contact :
 
