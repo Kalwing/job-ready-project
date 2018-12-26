@@ -78,6 +78,7 @@ Effectiveness of Data](https://static.googleusercontent.com/media/research.googl
 * [Cutting Edge Deep Learning For Coders](https://course.fast.ai/part2.html)
 * [Introduction to bioelectricity](https://courses.edx.org/courses/course-v1:PurdueX+nano525x+2015_T3/course/)
 * [6.008 - Algorithm for inference](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-438-algorithms-for-inference-fall-2014/)
+* Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp
 
 ## Tier 5 - Preparing for the job
 
@@ -96,6 +97,10 @@ Effectiveness of Data](https://static.googleusercontent.com/media/research.googl
 * **P1XT** Clone Twitter
 * [The Science of happiness](https://www.edx.org/course/the-science-of-happiness)/[The science of well being](https://www.coursera.org/learn/the-science-of-well-being/home/welcome)
 * [6.012 - Microelectronics devices and circuits](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-012-microelectronic-devices-and-circuits-fall-2009/)
+* Learn Go Basics
+* [Effective Go](https://golang.org/doc/effective_go.html)
+* Make a Chat in golang
+* Make a Shell in golang
 
 ## Tier 6 - Going Further
 
@@ -116,7 +121,7 @@ Effectiveness of Data](https://static.googleusercontent.com/media/research.googl
 * [Formal concept analysis](https://www.coursera.org/learn/formal-concept-analysis)
 * [Game theory](https://www.coursera.org/learn/game-theory-1)
 * [IoT specializations](https://www.coursera.org/specializations/internet-of-things)
-
+* Learn Prolog
 then.. P1XT Data science, OSSU ?
 
 

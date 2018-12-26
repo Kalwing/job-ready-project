@@ -184,11 +184,7 @@ I can't get the library to work so I can't do the design exercises.
 
 
 #### [Course: Introduction to Machine Learning](Tier3-More_Python/9-Intro_to_ML)
-
-Chose to focus on AI, Data Science and robotics for the time being. Hope to get
-a bit more practice before finding an internship in those area.
-
-Really enjoying the course so far, even if the programming and the math are fairly easy.
+Done. Really good course albeit sometime long on the "easy" stuff and fast on the math etc... at least for me.
 
 
 ## Contact :
