@@ -44,6 +44,9 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 * [The Unreasonable
 Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)
 * [Ai for social good](https://ai.google/education/social-good-guide/)
+* [UCL Course on Reinforcement Learning - D. Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+    * See this [companion code](https://github.com/dennybritz/reinforcement-learning)  
+* [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2018jan1.pdf)
 
 ## Tier 4 - Computer Science domains exploration
 
