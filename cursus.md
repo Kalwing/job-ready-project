@@ -23,34 +23,44 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 * [ ] Book: Work through PythonTricks and Fluent Python by the end of the Tier
 * [ ] Finish all original Codingame challenges in the easy and medium category by the end of the Tier
 * [x] **P1XT** [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
-* [ ] [6.01 - Introduction to EECS ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/)
+* ~~[ ] [6.01 - Introduction to EECS ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/)~~
 * [x] **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
 * [x] **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic) (just do better than random)
 * [ ] Deep Learning with python - F Chollet
-* [ ] Book: Algebra Unplugged
+* [ ] [Business Communication](https://www.edx.org/course/business-communication-ritx-skills101x-2)
 * [ ] [6.02 - Introduction to EECS : Digital communication systems ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
 * [ ] [Google's Machine Learning crash course](https://developers.google.com/machine-learning/crash-course/?hl=fr)
+* [ ] [Teamwork & Collaboration](https://www.edx.org/course/teamwork-collaboration-ritx-skills102x-2)
 * [ ] Book: Accelerated C++
-* [ ] [The Data Science Course 2018: Complete Data Science Bootcamp](https://www.udemy.com/the-data-science-course-complete-data-science-bootcamp/)
+* [ ] [Critical Thinking & Problem Solving](https://www.edx.org/course/critical-thinking-problem-solving-ritx-skills103x-2)
 * [ ] [Google c++ course](https://developers.google.com/edu/c++/)
+* [ ] [Storytelling in the Workplace](https://www.edx.org/course/storytelling-workplace-ritx-skills104x-1)
 * [ ] **P1XT** [6.006 - Introduction to Algorithm](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm)
+*  [ ] [Public Speaking](https://www.edx.org/course/public-speaking-ritx-skills105x-1)
 * [ ] **P1XT** Bot programming competition
 * [ ] [Introduction to linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
+* [ ] [Visual Presentation](https://www.edx.org/course/visual-presentation-ritx-skills106x-1)
 * [ ] [6.801 - Machine vision ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-801-machine-vision-fall-2004/)
+* [ ] [Business Foundations](https://www.edx.org/course/business-foundations-ubcx-bus1x)
 * [ ] [ColumbiaX - AI](https://courses.edx.org/courses/course-v1:ColumbiaX+CSMM.101x+2T2018/course/)
+* [ ] [Business Communications](https://www.edx.org/course/business-communications-ubcx-bus2x)
 * [ ] [6.004 - Computation structures ](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
     * [6.004.2](https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
     * [6.004.3](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
+* [ ] [Introduction to Marketing](https://www.edx.org/course/introduction-marketing-ubcx-busmktg1x)
 * [ ] [Machine Learning for coders](https://course.fast.ai/ml)
 * [ ] **P1XT** [Kaggle: House Price](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+* [ ] [Introduction to Accounting](https://www.edx.org/course/introduction-accounting-ubcx-busacct1x)
 * [ ] [The Unreasonable
 Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)
 * [ ] [Ai for social good](https://ai.google/education/social-good-guide/)
 * [ ] [UCL Course on Reinforcement Learning - D. Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
     * See this [companion code](https://github.com/dennybritz/reinforcement-learning)  
 * [ ] [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2018jan1.pdf)
+* [ ] [Organizational Behaviour](https://www.edx.org/course/organizational-behaviour-ubcx-busobhr1x)
 
 ## Tier 4 - Computer Science domains exploration
+* [ ] [Digital Product Management](https://www.edx.org/micromasters/bux-digital-product-management)
 * [ ] Finish all original codingame challenges in the hard category by the end of the Tier
 ### C bootcamp :
     * [ ] [Write a hash table](https://github.com/jamesroutley/write-a-hash-table)
@@ -72,6 +82,7 @@ Effectiveness of Data](https://static.googleusercontent.com/media/research.googl
 * [ ] [Hack the kernel](https://www.ops-class.org/) ( Book (see OSSU):[Operating System](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/))
 * [ ] [6.003 - Signals and systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-003-signals-and-systems-fall-2011/)
 * [ ] [6.14 - Introduction to robotics](https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/projects/)
+* [ ] [Agile Project Management](https://www.edx.org/professional-certificate/umd-usmx-agile-project-management)
 * [ ] [Andrew Ng's machine Learning course](https://www.coursera.org/learn/machine-learning)
 * [ ] [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-1-basic-circuit-mitx-6-002-1x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
     * [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-2-amplification-mitx-6-002-2x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)

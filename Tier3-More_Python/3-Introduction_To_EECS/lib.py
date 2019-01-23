@@ -1,6 +1,7 @@
 """
 Homemade replacement to the library
 """
+import numpy as np
 from abc import ABC, abstractmethod
 
 
@@ -221,6 +222,6 @@ class LTISM(SM):
     def getNextValues(self, state, input):
         (inputs, outputs) = state
         inputs = [input] + inputs
-        currentOutput = util.dotProd(outputs, self.cCoeffs) + \
-                        util.dotProd(inputs, self.dCoeffs)
+        currentOutput = (np.dot(outputs, self.cCoeffs) +
+                         np.dot(inputs, self.dCoeffs))
         return ((inputs[:-1], ([currentOutput] + outputs)[:-1]), currentOutput)
