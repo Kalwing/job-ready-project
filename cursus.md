@@ -13,6 +13,7 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 * [x] **P1XT** Project: Select an API from [Todd Motto's API List](https://github.com/toddmotto/public-apis) and build a frontend-only application powered by data fetched from the API you chose.
 * [x] **P1XT** Course: [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/)    
 * [x] **P1XT** Course: [Data Visualization and D3.js](https://www.udacity.com/course/data-visualization-and-d3js--ud507)
+* [ ] [Web Dev Interview Flashcard](https://www.flashcardsfordevelopers.com/collections/5b9ab473320599b44526f185)
 
 ## Tier 2 - Python Basics
 * [x] **P1XT** Challenge: Python Interview Prep on Hackerrank. Sign up now and work problems alongside the guide as you progress.
@@ -23,26 +24,26 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 * [ ] Book: Work through PythonTricks and Fluent Python by the end of the Tier
 * [ ] Finish all original Codingame challenges in the easy and medium category by the end of the Tier
 * [x] **P1XT** [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
-* ~~[ ] [6.01 - Introduction to EECS ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/)~~
+* [ ] [Machine Learning is fun](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)
 * [x] **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
 * [x] **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic) (just do better than random)
 * [ ] Deep Learning with python - F Chollet
-* [ ] [Business Communication](https://www.edx.org/course/business-communication-ritx-skills101x-2)
+* [ ] [Teamwork & Collaboration](https://www.edx.org/course/teamwork-collaboration-ritx-skills102x-2)
 * [ ] [6.02 - Introduction to EECS : Digital communication systems ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
 * [ ] [Google's Machine Learning crash course](https://developers.google.com/machine-learning/crash-course/?hl=fr)
-* [ ] [Teamwork & Collaboration](https://www.edx.org/course/teamwork-collaboration-ritx-skills102x-2)
 * [ ] Book: Accelerated C++
 * [ ] [Critical Thinking & Problem Solving](https://www.edx.org/course/critical-thinking-problem-solving-ritx-skills103x-2)
 * [ ] [Google c++ course](https://developers.google.com/edu/c++/)
 * [ ] [Storytelling in the Workplace](https://www.edx.org/course/storytelling-workplace-ritx-skills104x-1)
 * [ ] **P1XT** [6.006 - Introduction to Algorithm](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm)
-*  [ ] [Public Speaking](https://www.edx.org/course/public-speaking-ritx-skills105x-1)
+* [ ] [Public Speaking](https://www.edx.org/course/public-speaking-ritx-skills105x-1)
 * [ ] **P1XT** Bot programming competition
 * [ ] [Introduction to linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
 * [ ] [Visual Presentation](https://www.edx.org/course/visual-presentation-ritx-skills106x-1)
 * [ ] [6.801 - Machine vision ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-801-machine-vision-fall-2004/)
 * [ ] [Business Foundations](https://www.edx.org/course/business-foundations-ubcx-bus1x)
 * [ ] [ColumbiaX - AI](https://courses.edx.org/courses/course-v1:ColumbiaX+CSMM.101x+2T2018/course/)
+* [ ] [Introduction to Applied Linear Algebra – Vectors, Matrices, and Least Squares](http://vmls-book.stanford.edu/)
 * [ ] [Business Communications](https://www.edx.org/course/business-communications-ubcx-bus2x)
 * [ ] [6.004 - Computation structures ](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
     * [6.004.2](https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
@@ -58,10 +59,15 @@ Effectiveness of Data](https://static.googleusercontent.com/media/research.googl
     * See this [companion code](https://github.com/dennybritz/reinforcement-learning)  
 * [ ] [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2018jan1.pdf)
 * [ ] [Organizational Behaviour](https://www.edx.org/course/organizational-behaviour-ubcx-busobhr1x)
+* [ ] [Bayesian Methods for Hackers ](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
 
 ## Tier 4 - Computer Science domains exploration
 * [ ] [Digital Product Management](https://www.edx.org/micromasters/bux-digital-product-management)
 * [ ] Finish all original codingame challenges in the hard category by the end of the Tier
+* [ ] Finish those books by the end of the tier:
+    * [Mathematics for Machine Learning](https://mml-book.github.io/)
+    * [Pattern Recognition and machine learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf)
+    * [Elements of Statistical Learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 ### C bootcamp :
     * [ ] [Write a hash table](https://github.com/jamesroutley/write-a-hash-table)
     * [ ] [High Performance Matrix Multiplication](https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0)
@@ -72,9 +78,9 @@ Effectiveness of Data](https://static.googleusercontent.com/media/research.googl
     * [ ] [Coding a Rogue RPG in C](https://www.youtube.com/watch?v=ipQPEoGztAM&t=0s&list=PLkTXsX7igf8erbWGYT4iSAhpnJLJ0Nk5G&index=2)
     * [ ] [Let's build a Simple Database](https://cstack.github.io/db_tutorial/)
     * [ ] [Let's code a TCP/IP stack](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
-
+    * [ ] [learncpp](https://www.learncpp.com/)
 ### Back to the program:
-* [ ] Ian goodfellow's Deep learning
+* [ ] Ian goodfellow's Deep learning (https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-pdf/deeplearningbook.pdf)
 * [ ] [Google's rule for ML](https://developers.google.com/machine-learning/guides/rules-of-ml/?utm_source=google-ai&utm_medium=card-image&utm_campaign=training-hub&utm_content=ml-rules)
 * [ ] [Introduction to computer networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 * [ ] [6.025 - Bioengineering](https://ocw.mit.edu/courses/biological-engineering/20-010j-introduction-to-bioengineering-be-010j-spring-2006/)
@@ -95,7 +101,7 @@ Effectiveness of Data](https://static.googleusercontent.com/media/research.googl
 * [ ] [Introduction to bioelectricity](https://courses.edx.org/courses/course-v1:PurdueX+nano525x+2015_T3/course/)
 * [ ] [6.008 - Algorithm for inference](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-438-algorithms-for-inference-fall-2014/)
 * [ ] Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp
-
+* [ ] [MIT's Deep Learning](https://www.youtube.com/watch?v=1L0TKZQcUtA&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
 ## Tier 5 - Preparing for the job
 
 * [ ] **P1XT** Finish python on Hacker Rank
@@ -117,12 +123,13 @@ Effectiveness of Data](https://static.googleusercontent.com/media/research.googl
 * [ ] [Effective Go](https://golang.org/doc/effective_go.html)
 * [ ] Make a Chat in golang
 * [ ] Make a Shell in golang
-
+* [ ] [Nasa Manager handbook](http://homepages.inf.ed.ac.uk/dts/pm/Papers/nasa-manage.pdf)
 ## Tier 6 - Going Further
 
 * [ ] [403.1 - digestive and reproductive](https://courses.edx.org/courses/course-v1:MichiganX+ANATOMY403.4x+1T2017/course/)
 * [ ] [Upper limb anatomy](https://courses.edx.org/courses/course-v1:PennX+LIMBx+3T2015/course/)
 * [ ] [Nand to tetris](https://www.coursera.org/learn/build-a-computer/home/welcome)
+* [ ] [Science of Exercise](https://www.coursera.org/learn/science-exercise)
 * [ ] [Computer Graphics](https://www.edx.org/course/computer-graphics)
 * [ ] [Cryptography](https://www.coursera.org/learn/crypto)
 * [ ] [Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about)
