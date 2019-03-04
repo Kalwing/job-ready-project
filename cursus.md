@@ -29,18 +29,18 @@ oduction to Computational Thinking and Data Science](https://www.edx.org/course/
 * [x] **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
 * [x] **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic) (just do better than random)
 * [ ] Deep Learning with python - F Chollet
-* [ ] [Business Foundations](https://www.edx.org/course/business-foundations-ubcx-bus1x)
+* [ ] [Management in Engineering I](https://www.edx.org/course/management-in-engineering-i)
 * [ ] [6.02 - Introduction to EECS : Digital communication systems ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
 * [ ] [Google's Machine Learning crash course](https://developers.google.com/machine-learning/crash-course/?hl=fr)
 * [ ] Book: Accelerated C++
-* [ ] [Business Communications](https://www.edx.org/course/business-communications-ubcx-bus2x)
+* [ ] [Management in Engineering II](https://www.edx.org/course/practices-in-engineering-management)
 * [ ] [Google c++ course](https://developers.google.com/edu/c++/)
-* [ ] [Introduction to Marketing](https://www.edx.org/course/introduction-marketing-ubcx-busmktg1x)
+* [ ] [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/probability-the-science-of-uncertainty-and-data-0)
 * [ ] **P1XT** [6.006 - Introduction to Algorithm](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm)
 * [ ] [Introduction to Accounting](https://www.edx.org/course/introduction-accounting-ubcx-busacct1x)
 * [ ] **P1XT** Bot programming competition
 * [ ] [Introduction to linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
-* [ ] [Organizational Behaviour](https://www.edx.org/course/organizational-behaviour-ubcx-busobhr1x)
+* [ ] [Data Analysis in Social Science—Assessing Your Knowledge](https://www.edx.org/course/data-analysis-in-social-scienceassessing-your-knowledge)
 * [ ] [6.801 - Machine vision ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-801-machine-vision-fall-2004/)
 * [ ] [**P1XTDS** Question everything](https://www.edx.org/course/question-everything-scientific-thinking-in-real-life)
 * [ ] [ColumbiaX - AI](https://courses.edx.org/courses/course-v1:ColumbiaX+CSMM.101x+2T2018/course/)
@@ -53,8 +53,8 @@ oduction to Computational Thinking and Data Science](https://www.edx.org/course/
 * [ ] [Machine Learning for coders](https://course.fast.ai/ml)
 * [ ] **P1XT** [Kaggle: House Price](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 * [ ] [Agile Solutions for greater innovation](https://www.edx.org/course/agile-solutions-for-greater-innovation)
-* [ ] [The Unreasonable
-Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)
+* [ ] [Fundamentals of Statistics](https://www.edx.org/course/fundamentals-of-statistics)
+* [ ] [The Unreasonable Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)
 * [ ] [Ai for social good](https://ai.google/education/social-good-guide/)
 * [ ] [UCL Course on Reinforcement Learning - D. Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
     * See this [companion code](https://github.com/dennybritz/reinforcement-learning)  
