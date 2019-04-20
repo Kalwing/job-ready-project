@@ -14,7 +14,9 @@
     * Reduce the capacity of the Network (less layer/parameter)
     * Add weight regularization
     * Add dropout
-
+* You should often increase the capcity of the network until overfitting become the primary obstacle.
+* Always establish a common sense baseline before starting
+* Try simple model before complex ones
 
 # Experiments
 

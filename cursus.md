@@ -22,24 +22,31 @@ I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com
 
 ## Tier 3 - More Python, Machine Learning and data science
 * [ ] Book: Work through PythonTricks and Fluent Python by the end of the Tier
+* [ ] Video: Work through [Essence of linear algebra](https://www.youtube.com/watch?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&v=kjBOesZCoqc)
 * [ ] Finish all original Codingame challenges in the easy and medium category by the end of the Tier
-* [x] **P1XT** [Intr
-oduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
+* [x] **P1XT** [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
+### Machine Learning
 * [x] [Machine Learning is fun](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)
 * [x] **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
 * [x] **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic) (just do better than random)
-* [ ] Deep Learning with python - F Chollet
+* [ ] [Fast.ai - Practical Deep Learning For Coders](https://course.fast.ai/)
+* [ ] [Neural Network and Deep Learning - Nielsen](http://neuralnetworksanddeeplearning.com/)
+* [ ] [Fast.ai - Cutting Edge Deep Learning For Coders](https://course.fast.ai/part2.html)
+* [x] Deep Learning with python - F Chollet
+* [ ] [Google's Machine Learning crash course](https://developers.google.com/machine-learning/crash-course/?hl=fr)
+* [ ] [Andrew Ng's machine Learning course](https://www.coursera.org/learn/machine-learning)
+* [ ] Ian goodfellow's Deep learning (https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-pdf/deeplearningbook.pdf)
+### Engineering
 * [ ] [Management in Engineering I](https://www.edx.org/course/management-in-engineering-i)
 * [ ] [6.02 - Introduction to EECS : Digital communication systems ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/)
-* [ ] [Google's Machine Learning crash course](https://developers.google.com/machine-learning/crash-course/?hl=fr)
 * [ ] Book: Accelerated C++
 * [ ] [Management in Engineering II](https://www.edx.org/course/practices-in-engineering-management)
 * [ ] [Google c++ course](https://developers.google.com/edu/c++/)
 * [ ] [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/probability-the-science-of-uncertainty-and-data-0)
 * [ ] **P1XT** [6.006 - Introduction to Algorithm](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm)
-* [ ] [Introduction to Accounting](https://www.edx.org/course/introduction-accounting-ubcx-busacct1x)
 * [ ] **P1XT** Bot programming competition
 * [ ] [Introduction to linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
+* [ ] [Fast.ai - Computational linear algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
 * [ ] [Data Analysis in Social Science—Assessing Your Knowledge](https://www.edx.org/course/data-analysis-in-social-scienceassessing-your-knowledge)
 * [ ] [6.801 - Machine vision ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-801-machine-vision-fall-2004/)
 * [ ] [**P1XTDS** Question everything](https://www.edx.org/course/question-everything-scientific-thinking-in-real-life)
@@ -69,6 +76,8 @@ oduction to Computational Thinking and Data Science](https://www.edx.org/course/
     * [Mathematics for Machine Learning](https://mml-book.github.io/)
     * [Pattern Recognition and machine learning](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf)
     * [Elements of Statistical Learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
+    * [Deep learning paper roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
+* As you'll be reading papers, Read [this tutorial on how to read them](https://www.sciencemag.org/careers/2016/01/how-read-scientific-paper) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
 ### C bootcamp :
     * [ ] [Write a hash table](https://github.com/jamesroutley/write-a-hash-table)
     * [ ] [High Performance Matrix Multiplication](https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0)
@@ -81,7 +90,6 @@ oduction to Computational Thinking and Data Science](https://www.edx.org/course/
     * [ ] [Let's code a TCP/IP stack](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
     * [ ] [learncpp](https://www.learncpp.com/)
 ### Back to the program:
-* [ ] Ian goodfellow's Deep learning (https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-pdf/deeplearningbook.pdf)
 * [ ] [Google's rule for ML](https://developers.google.com/machine-learning/guides/rules-of-ml/?utm_source=google-ai&utm_medium=card-image&utm_campaign=training-hub&utm_content=ml-rules)
 * [ ] [Agile for project control](https://www.edx.org/course/agile-for-project-control)
 * [ ] [Introduction to computer networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
@@ -89,21 +97,22 @@ oduction to Computational Thinking and Data Science](https://www.edx.org/course/
 * [ ] [Hack the kernel](https://www.ops-class.org/) ( Book (see OSSU):[Operating System](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/))
 * [ ] [6.003 - Signals and systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-003-signals-and-systems-fall-2011/)
 * [ ] [6.14 - Introduction to robotics](https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/projects/)
-* [ ] [Andrew Ng's machine Learning course](https://www.coursera.org/learn/machine-learning)
+
 * [ ] [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-1-basic-circuit-mitx-6-002-1x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
     * [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-2-amplification-mitx-6-002-2x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
     * [6.002 - Circuits and Electronics](https://www.edx.org/course/circuits-electronics-3-applications-mitx-6-002-3x-0?utm_source=OCW&utm_medium=CHP&utm_campaign=OCW)
-* [ ] [Practical Deep Learning For Coders](https://course.fast.ai/)
+
 * [ ] [403.3 - Neuroatanatomy](https://courses.edx.org/courses/course-v1:MichiganX+ANATOMY403.3x+1T2017/course/)
 * [ ] [Software engineering : Intro](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x)
 * [ ] [Software engineering : Project](https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx)
-* [ ] [Cutting Edge Deep Learning For Coders](https://course.fast.ai/part2.html)
+
 * [ ] [Introduction to bioelectricity](https://courses.edx.org/courses/course-v1:PurdueX+nano525x+2015_T3/course/)
 * [ ] [6.008 - Algorithm for inference](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-438-algorithms-for-inference-fall-2014/)
 * [ ] Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp
 * [ ] [MIT's Deep Learning](https://www.youtube.com/watch?v=1L0TKZQcUtA&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
-## Tier 5 - Preparing for the job
 
+## Tier 5 - Preparing for the job
+* [ ] read This by the end of the tier [Awesome computer vision paper](https://github.com/jbhuang0604/awesome-computer-vision)
 * [ ] **P1XT** Finish python on Hacker Rank
 * [ ] **P1XT** Finish Codingame to Hard
 * [ ] [6.011 - Introduction to communication, control and signal processing](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-011-introduction-to-communication-control-and-signal-processing-spring-2010/)
