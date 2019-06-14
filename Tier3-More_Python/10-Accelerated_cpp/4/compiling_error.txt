@@ -1,5 +1,0 @@
-/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o : Dans la fonction « _start » :
-(.text+0x20) : référence indéfinie vers « main »
-/tmp/cczpMOjr.o : Dans la fonction « grade(double, double, std::vector<double, std::allocator<double> > const&) » :
-grade.cpp:(.text+0xde) : référence indéfinie vers « median(std::vector<double, std::allocator<double> >) »
-collect2: error: ld returned 1 exit status
