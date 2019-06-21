@@ -18,9 +18,9 @@ Here you'll learn programming, and how to present your work. You'll improve most
 
 ## Tier 2 - Python Basics and algorithms
 * [ ] Book: Work through PythonTricks by the end of the Tier
-* [ ] Finish all original Codingame challenges in the easy category by the end of the Tier
-* [ ] **P1XT** [6.006 - Introduction to Algorithm](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm)
+* [x] Finish all original Codingame challenges in the easy category by the end of the Tier
 * [x] **P1XT** Challenge: Python Interview Prep on Hackerrank. Sign up now and work problems alongside the guide as you progress.
+* [ ] **P1XT** [6.006 - Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm)
 * [x] **P1XT** Study: [the Django documentation](https://docs.djangoproject.com/)
 * [x] **P1XT** Project: participate in one [Bot Programming](https://www.codingame.com/multiplayer/bot-programming) competition.
 * [ ] **P1XT** Do [Must Do Coding Questions Company-wise](https://www.geeksforgeeks.org/must-coding-questions-company-wise/) for Google
