@@ -28,9 +28,10 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [ ] **P1XT** Do [Must Do Coding Questions Company-wise](https://www.geeksforgeeks.org/must-coding-questions-company-wise/) for Facebook
 
 ## Tier 3 - More Python, Machine Learning and data science
+
+* Makes flashcards of the formulas, the concepts... You might want to read [Augmenting long term memory](http://augmentingcognition.com/ltm.html) to help you. The concepts here might be very foreign and heavy, so don't skip this.  
 * [x] Video: Work through [Essence of linear algebra](https://www.youtube.com/watch?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&v=kjBOesZCoqc)
 * [ ] Finish all original Codingame challenges in the medium category by the end of the Tier
-* Makes flashcards of the formulas, the concepts... You might want to read [Augmenting long term memory](http://augmentingcognition.com/ltm.html) to help you. The concepts here might be very foreign and heavy, so don't skip this.  
 
 ### Machine Learning
 * [x] **P1XT** [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
@@ -43,16 +44,15 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] [Fast.ai - Practical Deep Learning For Coders](https://course.fast.ai/)
     * [x] Publish at least one project using the library on the forum.
 * [ ] **P1XT** Do 1 competitions on [Crowdanalytix](https://www.crowdanalytix.com/community)
-* [ ] **P1XT** Complete [Deep Learning With Tensorflow](https://www.codingame.com/ide/puzzle/deep-learning-tensorflow)
 * [x] [Neural Network and Deep Learning - Nielsen](http://neuralnetworksanddeeplearning.com/) *You might benefit from reading the annotations of the [Fermat Library](https://fermatslibrary.com/list/neural-networks-and-deep-learning)*
-    * [ ] Code a basic deep learning library : Stochastic gradient descent, differents type of units (Sigmoid, ReLU, tanh..), maybe convolutive layers. It would be great to implement some useful methods such as learning rate finder, one cycle policy, some regularizers, and discriminative learning rate. The API must be inspired by what you saw of Fast.ai, Tensorflow, and what M. Nielsen made.
+* [ ] [Fast.ai - Cutting Edge Deep Learning For Coders](https://course.fast.ai/part2.html)
+    * [ ] Code a basic deep learning library : Stochastic gradient descent, dense layers with differents type of units (Sigmoid, ReLU, tanh..), and convolutive layers. It would be great to implement some useful methods such as learning rate finder, one cycle policy, some regularizers, and discriminative learning rate. The API should be inspired by what you saw of Fast.ai and what M. Nielsen made.
 * [ ] **P1XT** [Thinks Stats](http://greenteapress.com/thinkstats2/thinkstats2.pdf)
 * [x] [Intro to pandas data structures 1, 2 & 3](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)
     * [x] Use Pandas to exploit a dataset of your choice and make a working model (classic ML or deep learning) using the datas.
 * [ ] **P1XT** Participate in one [Bot Programming](https://www.codingame.com/multiplayer/bot-programming) competition.
 * [ ] Ian goodfellow's Deep learning (https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-pdf/deeplearningbook.pdf)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
-* [ ] [Fast.ai - Cutting Edge Deep Learning For Coders](https://course.fast.ai/part2.html)
 * [x] Learn Latex mathematical notation and markdown by formatting some of your writing. Export those to pdf with pandoc and experiments with some themes.
 
 As the following items are long, and includes a lot of reading you can do them in any order you want, and work on multiple items at once. Make sure to do only one project/competition at once however to stay focused.
@@ -71,6 +71,10 @@ As the following items are long, and includes a lot of reading you can do them i
 
 
 ### Artificial Intelligence And Leadership
+* [ ] Grokking reinforcement learning
+* [ ] [UCL Course on Reinforcement Learning - D. Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+    * See this [companion code](https://github.com/dennybritz/reinforcement-learning)  
+* [ ] [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2018jan1.pdf)
 * [ ] [IFT 615 - Intelligence artificielle - H. Larochelle](http://info.usherbrooke.ca/hlarochelle/cours/ift615_E2013/description.html)
 * [ ] [IFT 607 - Traitement automatique des langues naturelles - H. Larochelle](http://info.usherbrooke.ca/hlarochelle/cours/ift607_A2014/description.html)
 * [ ] [Game developer Specialization](https://github.com/P1xt/p1xt-guides/blob/master/specializations/games.md)
@@ -96,9 +100,6 @@ As the following items are long, and includes a lot of reading you can do them i
 * [ ] [Agile Solutions for greater innovation](https://www.edx.org/course/agile-solutions-for-greater-innovation)
 * [ ] [The Unreasonable Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)
 * [ ] [Ai for social good](https://ai.google/education/social-good-guide/)
-* [ ] [UCL Course on Reinforcement Learning - D. Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
-    * See this [companion code](https://github.com/dennybritz/reinforcement-learning)  
-* [ ] [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2018jan1.pdf)
 * [ ] [On Value Functions and the Agent-Environment Boundary](https://arxiv.org/abs/1905.13341)
 * [ ] [Go-Explore: a New Approach for Hard-Exploration Problems](https://arxiv.org/abs/1901.10995)
 * [ ] [Agile Leadership Principles](https://www.edx.org/course/agile-leadership-principles)
