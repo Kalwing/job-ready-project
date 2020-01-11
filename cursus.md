@@ -51,7 +51,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 As the following items are long, and includes a lot of reading you can do them in any order you want, and work on multiple items at once. Make sure to do only one project/competition at once however to stay focused.
 
 * [ ] **P1XT** [Facebook Hacker Cup](https://www.facebook.com/hackercup/past_rounds/228440181128818/) year of your choice (that you haven't previously completed)
-* [ ] [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) You don't have to read *everything*, but you should read most of what is before the application section. Then you can focus on the domains interesting to you.
+* [ ] [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) You don't have to read *everything*, but you should read most of what is before the application section (Reinforcement Learning will be seen in more details later, so if those seems too hard skip them.). Then you can focus on the domains interesting to you.
     * As you'll be reading papers, Read [this tutorial on how to read them](https://www.sciencemag.org/careers/2016/01/how-read-scientific-paper) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
 * [ ] Write one scientific articles AND multiple blog post explaining a project you made.
 * [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [How To Learn Vim: A Four Week Plan](https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85)
@@ -60,8 +60,14 @@ As the following items are long, and includes a lot of reading you can do them i
 * [ ] [Full Stack Deep Learning](https://fullstackdeeplearning.com/march2019?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
 * [ ] **P1XT** Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20)    
 
-### LISP
+## Tier 4: Getting Professional
+Now you should be quite good in python, so we'll dig into more programming languages. You could work on a programming language in parallel to the sciences courses, or not. In any case, try to avoid doing more than two courses/project at the same time.
 
+* [ ] [Pytude](https://github.com/norvig/pytudes) (To be divided between the non-programming section, so you can improve your python skillzzz)
+
+
+### 1: Ai Agents
+#### LISP
 * [ ] [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)
 * [ ] [Python for the Lisp programmer](https://norvig.com/python-lisp.html)
 * [ ] [Practical Common Lisp](http://www.gigamonkeys.com/book/)
@@ -71,8 +77,8 @@ As the following items are long, and includes a lot of reading you can do them i
 * [ ] Paradigms of Artificial Intelligence Programming
 * [ ] [Retrospective on PAIP](https://norvig.com/Lisp-retro.html)
 
-### AI
-* [ ] [Pytude](https://github.com/norvig/pytudes) (To be divided between the 3 next non-programming section)
+#### AI
+
 * [ ] [Spelling corrector in Python](https://norvig.com/spell-correct.html)
 * [ ] [Artificial Intelligence at MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
 * [ ] Grokking reinforcement learning
@@ -84,7 +90,8 @@ As the following items are long, and includes a lot of reading you can do them i
 * [ ] **P1XT** [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/archive) year of your choice (that you haven't previously completed)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 
-### Go
+### 2: Learning about the brain while doing lots of projects
+#### Go
 * [ ] [A tour of go](https://tour.golang.org/welcome/1)
 * [ ] [How to write go code](https://golang.org/doc/code.html)
 * [ ] [Effective Go](https://golang.org/doc/effective_go.html)
@@ -95,7 +102,7 @@ As the following items are long, and includes a lot of reading you can do them i
 * [ ] Make a small Reinforcement learning library in go, put it on github
 * [ ] Make a doom like in go, put it on github
 
-### Neuroscience And AI
+#### Neuroscience And AI
 * [ ] [Medical Neuroscience](https://www.coursera.org/learn/medical-neuroscience/home/welcome)
 * [ ] [The Handbook of Brain Theory and Neural Networks](https://mitpress.mit.edu/books/handbook-brain-theory-and-neural-networks)
 While reading the above do:
@@ -103,7 +110,8 @@ While reading the above do:
 * [ ] [Theoretical Neuroscience – Computational and Mathematical Modeling of Neural Systems](https://www.amazon.fr/Theoretical-Neuroscience-Computational-Mathematical-Modeling/dp/0262541858#customerReviews)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 
-### C bootcamp :
+### 3: Getting a low level understanding
+#### C bootcamp :
 * [ ] [Write a hash table](https://github.com/jamesroutley/write-a-hash-table)
 * [ ] [High Performance Matrix Multiplication](https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0)
 * [ ] Make most data structures
@@ -116,7 +124,7 @@ While reading the above do:
 * [ ] Make a small Deep Learning library in C, put it on github
 * [ ] [Let's code a TCP/IP stack](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
 
-### CS
+#### CS
 * [ ] read This by the end of the tier [Awesome computer vision paper](https://github.com/jbhuang0604/awesome-computer-vision)
 * [ ] [Google's rule for ML](https://developers.google.com/machine-learning/guides/rules-of-ml/?utm_source=google-ai&utm_medium=card-image&utm_campaign=training-hub&utm_content=ml-rules)
 * [ ] [Introduction to computer networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
@@ -125,7 +133,8 @@ While reading the above do:
 * [ ] [403.1 - Integumentary system](https://courses.edx.org/courses/course-v1:MichiganX+ANATOMY403.1x+1T2017/course/)
 * [ ] [Hack the kernel](https://www.ops-class.org/) ( Book (see OSSU):[Operating System](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/))
 
-### Java:
+### 4: Opening to the "real world"
+#### Java:
 * [ ] Basic Common Lisp interpreter in Java [Read this](https://norvig.com/jscheme.html)
 * [ ] [Read the JavaFX Documentation](https://docs.oracle.com/javase/8/javase-clienttechnologies.htm)
 * [ ] Build a scientific calculator using MVC principles
@@ -139,22 +148,24 @@ While reading the above do:
 * [ ] App using [Tensorflow java API](https://www.tensorflow.org/install/lang_java) (For example a classifer that take input from the webcam), put it on github
 * [ ] Develop a mobile application (Speech recognition ? Small game ? Phone interface for something else ?)
 
-## CS II
+### CS II
 * [ ] [Introduction to bioelectricity](https://courses.edx.org/courses/course-v1:PurdueX+nano525x+2015_T3/course/)
 * [ ] Make a game using bioelectricity as basis for gameplay elements.
 * [ ] [6.008 - Algorithm for inference](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-438-algorithms-for-inference-fall-2014/)
 * [ ] [403.1 - Cardiovascular](https://courses.edx.org/courses/course-v1:MichiganX+ANATOMY403.2x+1T2017/course/)
-* [ ] **P1XT** Clone Twitter using Django or Go or C or Lisp, Try to redesign it (inspiration here https://nicelydone.club/patterns/activity-feeds/). Put it on github obviously.
+* [ ] **P1XT** Clone Twitter using Django or Go or C or Lisp as a backend (database and everything), Try to redesign it (inspiration here https://nicelydone.club/patterns/activity-feeds/). It doesn't have to be perfect. Put it on github obviously.
 * [ ] [The Science of happiness](https://www.edx.org/course/the-science-of-happiness)/[The science of well being](https://www.coursera.org/learn/the-science-of-well-being/home/welcome)
 * [ ] [Nasa Manager handbook](http://homepages.inf.ed.ac.uk/dts/pm/Papers/nasa-manage.pdf)
+
+
+## Tier 6 - Going Further
 
 ### C++
 * [ ] [learncpp](https://www.learncpp.com/)
 * [ ] Book: Accelerated C++
 * [ ] [Google c++ course](https://developers.google.com/edu/c++/)
 
-## Tier 6 - Going Further
-
+### Areas to explore
 * [ ] [403.1 - digestive and reproductive](https://courses.edx.org/courses/course-v1:MichiganX+ANATOMY403.4x+1T2017/course/)
 * [ ] [Upper limb anatomy](https://courses.edx.org/courses/course-v1:PennX+LIMBx+3T2015/course/)
 * [ ] [Nand to tetris](https://www.coursera.org/learn/build-a-computer/home/welcome)
