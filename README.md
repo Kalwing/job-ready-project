@@ -71,6 +71,7 @@ Pytudes: "Programming Examples"
 * [ ] [Practical Common Lisp](http://www.gigamonkeys.com/book/)
 * [ ] [Land of LISP](https://nostarch.com/lisp.htm)
 * [ ] Basic Common Lisp interpreter in Python [Read this](https://norvig.com/lispy.html)
+* [ ] [Lisp approach to ai](https://medium.com/ai-society/the-lisp-approach-to-ai-part-1-a48c7385a913) (sadly unfinished, but great intro)
 * [ ] Make a small machine learning library in LISP (basic stuff like knn, k-mean, perceptron, naive bayes, decision tree..), put it on github
 * [ ] Small game in Lisp (Towerfall-like, )
 * [ ] Paradigms of Artificial Intelligence Programming
