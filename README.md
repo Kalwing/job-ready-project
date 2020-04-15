@@ -107,6 +107,7 @@ Pytudes: "Logic and Number Puzzles"
 * [ ] Make a doom like in go, put it on github
 
 #### Neuroscience And AI
+* [ ] [AI For Medicine](https://www.deeplearning.ai/ai-for-medicine/)
 * [ ] [Medical Neuroscience](https://www.coursera.org/learn/medical-neuroscience/home/welcome)
 * [ ] [The Handbook of Brain Theory and Neural Networks](https://mitpress.mit.edu/books/handbook-brain-theory-and-neural-networks)
 While reading the above do:
