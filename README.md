@@ -32,6 +32,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] **P1XT** [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
 * [x] [Machine Learning is fun](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)
 * [x] **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
+* [ ] [ML for coders](http://course18.fast.ai/ml)
 * [x] **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic) (just do better than random)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 
