@@ -19,6 +19,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 ## Tier 2 - Python Basics and algorithms
 * [ ] Book: Work through PythonTricks by the end of the Tier
 * [x] Finish all original Codingame challenges in the easy category by the end of the Tier
+* [ ] [The missing semester](https://missing.csail.mit.edu/)
 * [x] **P1XT** Challenge: Python Interview Prep on Hackerrank. Sign up now and work problems alongside the guide as you progress.
 * [x] **P1XT** Study: [the Django documentation](https://docs.djangoproject.com/)
 
@@ -34,14 +35,17 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
 * [ ] [ML for coders](http://course18.fast.ai/ml)
 * [x] **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic) (just do better than random)
+* [ ] [Growing cellular Automata](https://distill.pub/2020/growing-ca/)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 
 ### Deep Learning
 * [x] [Fast.ai - Practical Deep Learning For Coders](https://course.fast.ai/)
     * [x] Publish at least one project using the library on the forum.
 * [x] [Neural Network and Deep Learning - Nielsen](http://neuralnetworksanddeeplearning.com/) *You might benefit from reading the annotations of the [Fermat Library](https://fermatslibrary.com/list/neural-networks-and-deep-learning)*
+* [ ] [Tensorflow Playground](http://playground.tensorflow.org/)
 * [x] [Fast.ai - Cutting Edge Deep Learning For Coders](https://course.fast.ai/part2.html)
     * [ ] Code a basic deep learning library : Stochastic gradient descent, dense layers with differents type of units (Sigmoid, ReLU, tanh..), and convolutive layers. It would be great to implement some useful methods such as learning rate finder, one cycle policy, some regularizers, and discriminative learning rate. The API should be inspired by what you saw of Fast.ai and what M. Nielsen made.
+* [ ] [How to choose your first AI project](https://hbr.org/2019/02/how-to-choose-your-first-ai-project)
 * [x] [Intro to pandas data structures 1, 2 & 3](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)
     * [x] Use Pandas to exploit a dataset of your choice and make a working model (classic ML or deep learning) using the datas.
 * [ ] Ian goodfellow's Deep learning (https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-pdf/deeplearningbook.pdf)
@@ -51,8 +55,11 @@ Here you'll learn programming, and how to present your work. You'll improve most
 
 As the following items are long, and includes a lot of reading you can do them in any order you want, and work on multiple items at once. Make sure to do only one project/competition at once however to stay focused.
 
+* [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
 * [ ] [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) You don't have to read *everything*, but you should read most of what is before the application section (Reinforcement Learning will be seen in more details later, so if those seems too hard skip them.). Then you can focus on the domains interesting to you.
     * As you'll be reading papers, Read [this tutorial on how to read them](https://www.sciencemag.org/careers/2016/01/how-read-scientific-paper) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
+    * [How to do research](http://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf)
+* [ ] [On the mesure of intelligence - F Chollet](https://arxiv.org/abs/1911.01547)
 * [ ] Write one scientific articles AND multiple blog post explaining a project you made.
 * [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [How To Learn Vim: A Four Week Plan](https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85)
 * [ ] Continue improving your typing speed: [Typing.io](https://typing.io/lesson/) and [keybr](https://www.keybr.com/), aim for a 40-50wpm score.
@@ -80,7 +87,7 @@ Pytudes: "Programming Examples"
 * [ ] [Participate in a Lisp Game-Jam](https://github.com/lispgames/lispgames.github.io/wiki/Lisp-Game-Jams)
 
 #### AI
-
+* [ ] Read interesting paper on [paper with code](https://paperswithcode.com/sota)
 * [ ] [Design of computer programs](https://www.udacity.com/course/design-of-computer-programs--cs212)
 * [ ] [Spelling corrector in Python](https://norvig.com/spell-correct.html)
 * [ ] [Artificial Intelligence at MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
@@ -203,7 +210,7 @@ then.. P1XT Data science, OSSU ?
 
 ## Sources :
 
-P1xt, MIT OCW, OSSU, [Teach yourself programming in 10 years](https://norvig.com/21-days.html)
+P1xt, MIT OCW, OSSU, [Teach yourself programming in 10 years](https://norvig.com/21-days.html), [Montreal AI: AI for all](http://montreal.ai/ai4all.pdf)
 
 
 ## Contact :
