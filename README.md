@@ -35,7 +35,6 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
 * [ ] [ML for coders](http://course18.fast.ai/ml)
 * [x] **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic) (just do better than random)
-* [ ] [Growing cellular Automata](https://distill.pub/2020/growing-ca/)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 
 ### Deep Learning
@@ -60,6 +59,7 @@ As the following items are long, and includes a lot of reading you can do them i
     * As you'll be reading papers, Read [this tutorial on how to read them](https://www.sciencemag.org/careers/2016/01/how-read-scientific-paper) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
     * [How to do research](http://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf)
 * [ ] [On the mesure of intelligence - F Chollet](https://arxiv.org/abs/1911.01547)
+* [ ] [Growing cellular Automata](https://distill.pub/2020/growing-ca/)
 * [ ] Write one scientific articles AND multiple blog post explaining a project you made.
 * [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [How To Learn Vim: A Four Week Plan](https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85)
 * [ ] Continue improving your typing speed: [Typing.io](https://typing.io/lesson/) and [keybr](https://www.keybr.com/), aim for a 40-50wpm score.
@@ -88,6 +88,7 @@ Pytudes: "Programming Examples"
 
 #### AI
 * [ ] Read interesting paper on [paper with code](https://paperswithcode.com/sota)
+* [ ] [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) (This technique of visualization can be used in sklearn for example)
 * [ ] [Design of computer programs](https://www.udacity.com/course/design-of-computer-programs--cs212)
 * [ ] [Spelling corrector in Python](https://norvig.com/spell-correct.html)
 * [ ] [Artificial Intelligence at MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
