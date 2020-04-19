@@ -19,7 +19,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 ## Tier 2 - Python Basics and algorithms
 * [x] Book: Work through PythonTricks by the end of the Tier
 * [x] Finish all original Codingame challenges in the easy category by the end of the Tier
-* [ ] [The missing semester](https://missing.csail.mit.edu/)
+* [x] [The missing semester](https://missing.csail.mit.edu/)
 * [x] **P1XT** Challenge: Python Interview Prep on Hackerrank. Sign up now and work problems alongside the guide as you progress.
 * [x] **P1XT** Study: [the Django documentation](https://docs.djangoproject.com/)
 
