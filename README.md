@@ -41,7 +41,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] [Fast.ai - Practical Deep Learning For Coders](https://course.fast.ai/)
     * [x] Publish at least one project using the library on the forum.
 * [x] [Neural Network and Deep Learning - Nielsen](http://neuralnetworksanddeeplearning.com/) *You might benefit from reading the annotations of the [Fermat Library](https://fermatslibrary.com/list/neural-networks-and-deep-learning)*
-* [ ] [Tensorflow Playground](http://playground.tensorflow.org/)
+* [x] [Tensorflow Playground](http://playground.tensorflow.org/)
 * [x] [Fast.ai - Cutting Edge Deep Learning For Coders](https://course.fast.ai/part2.html)
     * [ ] Code a basic deep learning library : Stochastic gradient descent, dense layers with differents type of units (Sigmoid, ReLU, tanh..), and convolutive layers. It would be great to implement some useful methods such as learning rate finder, one cycle policy, some regularizers, and discriminative learning rate. The API should be inspired by what you saw of Fast.ai and what M. Nielsen made.
 * [ ] [How to choose your first AI project](https://hbr.org/2019/02/how-to-choose-your-first-ai-project)
@@ -55,6 +55,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 As the following items are long, and includes a lot of reading you can do them in any order you want, and work on multiple items at once. Make sure to do only one project/competition at once however to stay focused.
 
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
+* [ ] [Stanford: Convex Optimization](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE-YCVX0001+1T2020/course/)
 * [ ] [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) You don't have to read *everything*, but you should read most of what is before the application section (Reinforcement Learning will be seen in more details later, so if those seems too hard skip them.). Then you can focus on the domains interesting to you.
     * As you'll be reading papers, Read [this tutorial on how to read them](https://www.sciencemag.org/careers/2016/01/how-read-scientific-paper) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
     * [How to do research](http://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf)
