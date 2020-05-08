@@ -61,7 +61,7 @@ As the following items are long, and includes a lot of reading you can do them i
     * [How to do research](http://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf)
 * [ ] [On the mesure of intelligence - F Chollet](https://arxiv.org/abs/1911.01547)
 * [ ] [Growing cellular Automata](https://distill.pub/2020/growing-ca/)
-* [ ] Write one scientific articles AND multiple blog post explaining a project you made.
+* [ ] Write one scientific articles or/and multiple blog post explaining a project you made.
 * [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [How To Learn Vim: A Four Week Plan](https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85)
 * [ ] Continue improving your typing speed: [Typing.io](https://typing.io/lesson/) and [keybr](https://www.keybr.com/), aim for a 40-50wpm score.
 * [ ] [Fast.ai - Computational linear algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
@@ -73,7 +73,8 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 
 
 ### 1: Ai Agents
-Pytudes: "Programming Examples"
+Pytudes: "Programming Examples"  
+Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
 #### LISP
 * [ ] [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)
 * [ ] [Python for the Lisp programmer](https://norvig.com/python-lisp.html)
@@ -88,6 +89,7 @@ Pytudes: "Programming Examples"
 * [ ] [Participate in a Lisp Game-Jam](https://github.com/lispgames/lispgames.github.io/wiki/Lisp-Game-Jams)
 
 #### AI
+* [ ] Writing for Computer Science - Justin Zobel
 * [ ] Read interesting paper on [paper with code](https://paperswithcode.com/sota)
 * [ ] [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) (This technique of visualization can be used in sklearn for example)
 * [ ] [Design of computer programs](https://www.udacity.com/course/design-of-computer-programs--cs212)
@@ -104,7 +106,8 @@ Pytudes: "Programming Examples"
 * [ ] [Full Stack Deep Learning](https://fullstackdeeplearning.com/march2019?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
 
 ### 2: Learning about the brain while doing lots of projects
-Pytudes: "Logic and Number Puzzles"
+Pytudes: "Logic and Number Puzzles"  
+Project Management: *Essential Scrum: A Practical Guide to the Most Popular Agile Process*
 #### Go
 * [ ] [A tour of go](https://tour.golang.org/welcome/1)
 * [ ] [How to write go code](https://golang.org/doc/code.html)
@@ -127,7 +130,8 @@ While reading the above do:
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 
 ### 3: Getting a low level understanding
-Pytudes: "Math Concepts" and "Computer Science Algorithms and Concepts"
+Pytudes: "Math Concepts" and "Computer Science Algorithms and Concepts"  
+Project Management: *Team Topologies: Organizing Business and Technology Teams for Fast Flow*
 #### C bootcamp :
 * [ ] [Write a hash table](https://github.com/jamesroutley/write-a-hash-table)
 * [ ] [High Performance Matrix Multiplication](https://gist.github.com/nadavrot/5b35d44e8ba3dd718e595e40184d03f0)
