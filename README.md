@@ -44,7 +44,6 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] [Tensorflow Playground](http://playground.tensorflow.org/)
 * [x] [Fast.ai - Cutting Edge Deep Learning For Coders](https://course.fast.ai/part2.html)
     * [ ] Code a basic deep learning library : Stochastic gradient descent, dense layers with differents type of units (Sigmoid, ReLU, tanh..), and convolutive layers. It would be great to implement some useful methods such as learning rate finder, one cycle policy, some regularizers, and discriminative learning rate. The API should be inspired by what you saw of Fast.ai and what M. Nielsen made.
-* [ ] [How to choose your first AI project](https://hbr.org/2019/02/how-to-choose-your-first-ai-project)
 * [x] [Intro to pandas data structures 1, 2 & 3](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)
     * [x] Use Pandas to exploit a dataset of your choice and make a working model (classic ML or deep learning) using the datas.
 * [ ] Ian goodfellow's Deep learning (https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-pdf/deeplearningbook.pdf)
@@ -57,7 +56,7 @@ As the following items are long, and includes a lot of reading you can do them i
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
 * [ ] [Stanford: Convex Optimization](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE-YCVX0001+1T2020/course/)
 * [ ] [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) You don't have to read *everything*, but you should read most of what is before the application section (Reinforcement Learning will be seen in more details later, so if those seems too hard skip them.). Then you can focus on the domains interesting to you.
-    * As you'll be reading papers, Read [this tutorial on how to read them](https://www.sciencemag.org/careers/2016/01/how-read-scientific-paper) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
+    * As you'll be reading papers, Read [this tutorial on how to read them](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
     * [How to do research](http://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf)
 * [ ] [On the mesure of intelligence - F Chollet](https://arxiv.org/abs/1911.01547)
 * [ ] [Growing cellular Automata](https://distill.pub/2020/growing-ca/)
@@ -75,15 +74,16 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 ### 1: Ai Agents
 Pytudes: "Programming Examples"  
 Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
-#### LISP
+#### LISP and Julia
 * [ ] [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)
 * [ ] [Python for the Lisp programmer](https://norvig.com/python-lisp.html)
 * [ ] [Practical Common Lisp](http://www.gigamonkeys.com/book/)
-* [ ] [Land of LISP](https://nostarch.com/lisp.htm)
+* [ ] [Lisp as the Maxwell’s equations of software](http://www.michaelnielsen.org/ddi/lisp-as-the-maxwells-equations-of-software/)
 * [ ] Basic Common Lisp interpreter in Python [Read this](https://norvig.com/lispy.html)
-* [ ] [Lisp approach to ai](https://medium.com/ai-society/the-lisp-approach-to-ai-part-1-a48c7385a913) (sadly unfinished, but great intro)
+* [ ] [Lisp approach to AI](https://medium.com/ai-society/the-lisp-approach-to-ai-part-1-a48c7385a913) (sadly unfinished, but great intro)
 * [ ] Make a small machine learning library in LISP (basic stuff like knn, k-mean, perceptron, naive bayes, decision tree..), put it on github
-* [ ] Small game in Lisp (Towerfall-like, )
+* [ ] Small game in Lisp (Towerfall-like ?)
+* [ ] [Machine Learning and Artificial Intelligence in Julia](https://juliacomputing.com/industries/ml-and-ai.html)
 * [ ] Paradigms of Artificial Intelligence Programming
 * [ ] [Retrospective on PAIP](https://norvig.com/Lisp-retro.html)
 * [ ] [Participate in a Lisp Game-Jam](https://github.com/lispgames/lispgames.github.io/wiki/Lisp-Game-Jams)
@@ -107,15 +107,18 @@ Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matte
 
 ### 2: Learning about the brain while doing lots of projects
 Pytudes: "Logic and Number Puzzles"  
-Project Management: *Essential Scrum: A Practical Guide to the Most Popular Agile Process*
-#### Go
+Project Management: *Essential Scrum: A Practical Guide to the Mohttps://docs.julialang.org/en/v1/st Popular Agile Process*
+#### Go and Julia
 * [ ] [A tour of go](https://tour.golang.org/welcome/1)
 * [ ] [How to write go code](https://golang.org/doc/code.html)
 * [ ] [Effective Go](https://golang.org/doc/effective_go.html)
 * [ ] Make a Chat in golang, design an interface (inspiration here: https://nicelydone.club/patterns/messaging/), put it on github
+* [ ] Read [Julia doc](https://docs.julialang.org/en/v1/)
 * [ ] Make a small machine learning library in go, put it on github
+* [ ] [Julia for Data Science](https://juliaacademy.com/p/julia-for-data-science)
 * [ ] Make a Shell in golang, put it on github
 * [ ] Make a small HoMaM like in go (see [ebiten](https://github.com/hajimehoshi/ebiten)), with networks connection. put it on github
+* [ ] [Machine Learning and Artificial Intelligence in Julia](https://juliacomputing.com/industries/ml-and-ai.html)
 * [ ] Make a small Reinforcement learning library in go, put it on github
 * [ ] Make a doom like in go, put it on github
 
