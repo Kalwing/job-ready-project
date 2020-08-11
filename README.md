@@ -74,7 +74,7 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 ### 1: Ai Agents
 Pytudes: "Programming Examples"  
 Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
-#### LISP and Julia
+#### LISP
 * [ ] [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)
 * [ ] [Python for the Lisp programmer](https://norvig.com/python-lisp.html)
 * [ ] [Practical Common Lisp](http://www.gigamonkeys.com/book/)
@@ -186,9 +186,11 @@ Pytudes: "Word Games"
 
 ## Tier 6 - Going Further
 
-### C++
+### C++ and Scala
 * [ ] [learncpp](https://www.learncpp.com/)
+* [ ] [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1)
 * [ ] Book: Accelerated C++
+* [ ] [Functional Program Design in Scala](https://www.coursera.org/learn/progfun2?specialization=scala)
 * [ ] [Google c++ course](https://developers.google.com/edu/c++/)
 
 ### Areas to explore
