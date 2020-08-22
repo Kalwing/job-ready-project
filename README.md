@@ -110,27 +110,24 @@ Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matte
 ### 2: Learning about the brain while doing lots of projects
 Pytudes: "Logic and Number Puzzles"  
 Project Management: *Essential Scrum: A Practical Guide to the Mohttps://docs.julialang.org/en/v1/st Popular Agile Process*
-#### Go and Julia
-* [ ] [A tour of go](https://tour.golang.org/welcome/1)
-* [ ] [How to write go code](https://golang.org/doc/code.html)
-* [ ] [Effective Go](https://golang.org/doc/effective_go.html)
-* [ ] Make a Chat in golang, design an interface (inspiration here: https://nicelydone.club/patterns/messaging/), put it on github
+#### Julia
 * [ ] Read [Julia doc](https://docs.julialang.org/en/v1/)
-* [ ] Make a small machine learning library in go, put it on github
-* [ ] [Julia for Data Science](https://juliaacademy.com/p/julia-for-data-science)
+* [ ] Make a small roguelike in Julia
 * [ ] Make a Shell in golang, put it on github
-* [ ] Make a small HoMaM like in go (see [ebiten](https://github.com/hajimehoshi/ebiten)), with networks connection. put it on github
+* [ ] [Julia for Data Science](https://juliaacademy.com/p/julia-for-data-science)
+* [ ] Make a small machine learning library in go, put it on github
+* [ ] Make a messaging app in Julia, design an interface (inspiration here: https://nicelydone.club/patterns/messaging/), put it on github
 * [ ] [Machine Learning and Artificial Intelligence in Julia](https://juliacomputing.com/industries/ml-and-ai.html)
-* [ ] Make a small Reinforcement learning library in go, put it on github
-* [ ] Make a doom like in go, put it on github
+* [ ] Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20) with Julia
 
 #### Neuroscience And AI
 * [ ] [AI For Medicine](https://www.deeplearning.ai/ai-for-medicine/)
 * [ ] [Medical Neuroscience](https://www.coursera.org/learn/medical-neuroscience/home/welcome)
 * [ ] [The Handbook of Brain Theory and Neural Networks](https://mitpress.mit.edu/books/handbook-brain-theory-and-neural-networks)
 While reading the above do:
+* [ ] [Practical Data Ethics](http://ethics.fast.ai/)
 * [ ] [Theory of Computation at MIT](https://ocw.mit.edu/courses/mathematics/18-404j-theory-of-computation-fall-2006/)
-* [ ] [The nature of Code, in go or lisp](https://natureofcode.com/)
+* [ ] [The nature of Code, in Julia or lisp](https://natureofcode.com/)
 * [ ] [Theoretical Neuroscience – Computational and Mathematical Modeling of Neural Systems](https://www.amazon.fr/Theoretical-Neuroscience-Computational-Mathematical-Modeling/dp/0262541858#customerReviews)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 
@@ -188,12 +185,22 @@ Pytudes: "Word Games"
 
 ## Tier 6 - Going Further
 
-### C++ and Scala
+### C++, Scala, Go, Rust ..
 * [ ] [learncpp](https://www.learncpp.com/)
 * [ ] [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1)
 * [ ] Book: Accelerated C++
 * [ ] [Functional Program Design in Scala](https://www.coursera.org/learn/progfun2?specialization=scala)
 * [ ] [Google c++ course](https://developers.google.com/edu/c++/)
+* [ ] [A tour of go](https://tour.golang.org/welcome/1)
+* [ ] [How to write go code](https://golang.org/doc/code.html)
+* [ ] [Effective Go](https://golang.org/doc/effective_go.html)
+* [ ] Make a Chat in golang, design an interface (inspiration here: https://nicelydone.club/patterns/messaging/), put it on github
+* [ ] Make a small machine learning library in go, put it on github
+* [ ] Make a Shell in golang, put it on github
+* [ ] Make a small HoMaM like in go (see [ebiten](https://github.com/hajimehoshi/ebiten)), with networks connection. put it on github
+* [ ] [Machine Learning and Artificial Intelligence in Julia](https://juliacomputing.com/industries/ml-and-ai.html)
+* [ ] Make a small Reinforcement learning library in go, put it on github
+* [ ] Make a doom like in go, put it on github
 
 ### Areas to explore
 * [ ] [403.1 - digestive and reproductive](https://courses.edx.org/courses/course-v1:MichiganX+ANATOMY403.4x+1T2017/course/)
