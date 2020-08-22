@@ -109,11 +109,13 @@ Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matte
 
 ### 2: Learning about the brain while doing lots of projects
 Pytudes: "Logic and Number Puzzles"  
-Project Management: *Essential Scrum: A Practical Guide to the Mohttps://docs.julialang.org/en/v1/st Popular Agile Process*
+Project Management: *Essential Scrum: A Practical Guide to the Most Popular Agile Process*
 #### Julia
-* [ ] Read [Julia doc](https://docs.julialang.org/en/v1/)
+* [ ] [Learn Julia in Y minutes](https://learnxinyminutes.com/docs/julia/)
+* [ ] [Noteworthy differences with Python and Lisp](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python-1)
+* [ ] [Intro to Julia](http://ucidatascienceinitiative.github.io/IntroToJulia/)
 * [ ] Make a small roguelike in Julia
-* [ ] Make a Shell in golang, put it on github
+* [ ] Make a Shell in Julia, put it on github
 * [ ] [Julia for Data Science](https://juliaacademy.com/p/julia-for-data-science)
 * [ ] Make a small machine learning library in go, put it on github
 * [ ] Make a messaging app in Julia, design an interface (inspiration here: https://nicelydone.club/patterns/messaging/), put it on github
@@ -127,6 +129,7 @@ Project Management: *Essential Scrum: A Practical Guide to the Mohttps://docs.ju
 While reading the above do:
 * [ ] [Practical Data Ethics](http://ethics.fast.ai/)
 * [ ] [Theory of Computation at MIT](https://ocw.mit.edu/courses/mathematics/18-404j-theory-of-computation-fall-2006/)
+* [ ] [The ancient secrets of Computer Vision](https://pjreddie.com/courses/computer-vision/)
 * [ ] [The nature of Code, in Julia or lisp](https://natureofcode.com/)
 * [ ] [Theoretical Neuroscience – Computational and Mathematical Modeling of Neural Systems](https://www.amazon.fr/Theoretical-Neuroscience-Computational-Mathematical-Modeling/dp/0262541858#customerReviews)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
@@ -148,6 +151,7 @@ Project Management: *Team Topologies: Organizing Business and Technology Teams f
 * [ ] [Let's code a TCP/IP stack](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
 
 #### CS
+* [ ] [Advanced Deep Learning for Computer vision (ADL4CV) ](https://www.youtube.com/playlist?list=PLog3nOPCjKBnjhuHMIXu4ISE4Z4f2jm39)
 * [ ] read This by the end of the tier [Awesome computer vision paper](https://github.com/jbhuang0604/awesome-computer-vision)
 * [ ] [Google's rule for ML](https://developers.google.com/machine-learning/guides/rules-of-ml/?utm_source=google-ai&utm_medium=card-image&utm_campaign=training-hub&utm_content=ml-rules)
 * [ ] [Introduction to computer networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
