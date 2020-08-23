@@ -63,7 +63,6 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 * [ ] Basic Common Lisp interpreter in Python [Read this](https://norvig.com/lispy.html)
 * [ ] Then we follow the road again with [Practical Common Lisp](http://www.gigamonkeys.com/book/)
 * [ ] Make a small project in Lisp
-* [ ] Lisp as a system
 * [ ] [Lisp approach to AI](https://medium.com/ai-society/the-lisp-approach-to-ai-part-1-a48c7385a913) (sadly unfinished, but great intro)
 
 ### Deep Learning II
@@ -90,11 +89,12 @@ Pytudes: "Programming Examples"
 Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
 #### LISP II
 
+* [ ] Lisp as a system
 * [ ] Paradigms of Artificial Intelligence Programming ("Do all of the S and M exercises, and try your hand at at least a few of the H ones. If a D sounds particularly interesting don't be afraid to spend some time on it")
 * [ ] [Retrospective on PAIP](https://norvig.com/Lisp-retro.html)
 * [ ] "Switch Things Up"
-* [ ] Common Lisp Recipe
-* [ ] Patterns of Software by Richard Gabriel
+* [ ] Common Lisp Recipe
+* [ ] Patterns of Software - Richard Gabriel
 * [ ] Finish reading "A road to common Lisp"
 * [ ] Make a small machine learning library in LISP (basic stuff like knn, k-mean, perceptron, naive bayes, decision tree..), put it on github
 * [ ] [Participate in a Lisp Game-Jam](https://github.com/lispgames/lispgames.github.io/wiki/Lisp-Game-Jams)
@@ -111,7 +111,7 @@ Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matte
 * [ ] [UCL Course on Reinforcement Learning - D. Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
    * See this [companion code](https://github.com/dennybritz/reinforcement-learning)  
 * [ ] [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2018jan1.pdf)
-* [ ] Make a game using AI principle you saw in this tier, put it on github
+* [ ] Make a game using AI principle you saw in this tier, put it on github (Could be in lisp, python, js, ...)
 * [ ] **P1XT** [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/archive) year of your choice (that you haven't previously completed)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 * [ ] [Full Stack Deep Learning](https://fullstackdeeplearning.com/march2019?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
