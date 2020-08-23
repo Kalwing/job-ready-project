@@ -102,6 +102,7 @@ Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matte
 #### AI
 * [ ] Writing for Computer Science - Justin Zobel
 * [ ] Read interesting paper on [paper with code](https://paperswithcode.com/sota)
+* [ ] [Variational Methods for Computer Vision](https://vision.in.tum.de/teaching/ws2013/vmcv2013)
 * [ ] [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) (This technique of visualization can be used in sklearn for example)
 * [ ] [Design of computer programs](https://www.udacity.com/course/design-of-computer-programs--cs212)
 * [ ] [Spelling corrector in Python](https://norvig.com/spell-correct.html)
