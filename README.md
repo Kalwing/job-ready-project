@@ -17,17 +17,12 @@ Here you'll learn programming, and how to present your work. You'll improve most
 
 
 ## Tier 2 - Python Basics and algorithms
+### Python
 * [x] Book: Work through PythonTricks by the end of the Tier
 * [x] Finish all original Codingame challenges in the easy category by the end of the Tier
 * [x] [The missing semester](https://missing.csail.mit.edu/)
 * [x] **P1XT** Challenge: Python Interview Prep on Hackerrank. Sign up now and work problems alongside the guide as you progress.
 * [x] **P1XT** Study: [the Django documentation](https://docs.djangoproject.com/)
-
-## Tier 3 - More Python, Machine Learning and data science
-
-* Makes flashcards of the formulas, the concepts... You might want to read [Augmenting long term memory](http://augmentingcognition.com/ltm.html) to help you. The concepts here might be very foreign and heavy, so don't skip this.  
-* [x] Video: Work through [Essence of linear algebra](https://www.youtube.com/watch?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&v=kjBOesZCoqc)
-* [ ] Finish all original Codingame challenges in the medium category by the end of the Tier
 
 ### Machine Learning
 * [x] **P1XT** [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
@@ -37,7 +32,13 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic) (just do better than random)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 
-### Deep Learning
+## Tier 3 - More Python, Machine Learning and data science
+
+* Makes flashcards of the formulas, the concepts... You might want to read [Augmenting long term memory](http://augmentingcognition.com/ltm.html) to help you. The concepts here might be very foreign and heavy, so don't skip this.  
+* [x] Video: Work through [Essence of linear algebra](https://www.youtube.com/watch?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&v=kjBOesZCoqc)
+* [ ] Finish all original Codingame challenges in the medium category by the end of the Tier
+
+### Deep Learning I
 * [x] [Fast.ai - Practical Deep Learning For Coders](https://course.fast.ai/)
     * [x] Publish at least one project using the library on the forum.
 * [x] [Neural Network and Deep Learning - Nielsen](http://neuralnetworksanddeeplearning.com/) *You might benefit from reading the annotations of the [Fermat Library](https://fermatslibrary.com/list/neural-networks-and-deep-learning)*
@@ -51,8 +52,20 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] Learn Latex mathematical notation and markdown by formatting some of your writing. Export those to pdf with pandoc and experiments with some themes.
 * [ ] [Typing club](https://www.typingclub.com/) and [keybr](https://www.keybr.com/) to learn touch typing. At first touch type only during those exercise, but switch to full time when you get to a good 20wpm on the full keyboard. This will avoid pain in your hands.
 
+## Tier 4 - Research
+Now you should be quite good in python, so we'll dig into more programming languages. You could work on a programming language in parallel to the sciences courses, or not. In any case, try to avoid doing more than two courses/project at the same time.
 As the following items are long, and includes a lot of reading you can do them in any order you want, and work on multiple items at once. Make sure to do only one project/competition at once however to stay focused.
+### LISP
+* [ ] [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)
+* [ ] [Python for the Lisp programmer](https://norvig.com/python-lisp.html)
+* [ ] [Lisp as the Maxwell’s equations of software](http://www.michaelnielsen.org/ddi/lisp-as-the-maxwells-equations-of-software/)
+* [ ] Basic Common Lisp interpreter in Python [Read this](https://norvig.com/lispy.html)
+* [ ] [Practical Common Lisp](http://www.gigamonkeys.com/book/)
+* [ ] [Lisp approach to AI](https://medium.com/ai-society/the-lisp-approach-to-ai-part-1-a48c7385a913) (sadly unfinished, but great intro)
+* [ ] Make a small machine learning library in LISP (basic stuff like knn, k-mean, perceptron, naive bayes, decision tree..), put it on github
 
+
+### Deep Learning II
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
 * [ ] [Stanford: Convex Optimization](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE-YCVX0001+1T2020/course/)
 * [ ] [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) You don't have to read *everything*, but you should read most of what is before the application section (Reinforcement Learning will be seen in more details later, so if those seems too hard skip them.). Then you can focus on the domains interesting to you.
@@ -68,24 +81,14 @@ As the following items are long, and includes a lot of reading you can do them i
 * [ ] [Fast.ai - Computational linear algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
 * [ ] **P1XT** Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20)    
 
-## Tier 4: Getting Professional
-Now you should be quite good in python, so we'll dig into more programming languages. You could work on a programming language in parallel to the sciences courses, or not. In any case, try to avoid doing more than two courses/project at the same time.
+## Tier 5 - Getting Professional
 You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you can improve your python skillzzz. The idea is to read the problem, and try to implement it. Then read how he did it, understand them, try to implement them, and maybe --- if you have some idea --- add to them.
-
 
 ### 1: Ai Agents
 Pytudes: "Programming Examples"  
 Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
-#### LISP
-* [ ] [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)
-* [ ] [Python for the Lisp programmer](https://norvig.com/python-lisp.html)
-* [ ] [Practical Common Lisp](http://www.gigamonkeys.com/book/)
-* [ ] [Lisp as the Maxwell’s equations of software](http://www.michaelnielsen.org/ddi/lisp-as-the-maxwells-equations-of-software/)
-* [ ] Basic Common Lisp interpreter in Python [Read this](https://norvig.com/lispy.html)
-* [ ] [Lisp approach to AI](https://medium.com/ai-society/the-lisp-approach-to-ai-part-1-a48c7385a913) (sadly unfinished, but great intro)
-* [ ] Make a small machine learning library in LISP (basic stuff like knn, k-mean, perceptron, naive bayes, decision tree..), put it on github
+#### LISP II
 * [ ] Small game in Lisp (Towerfall-like ?)
-* [ ] [Machine Learning and Artificial Intelligence in Julia](https://juliacomputing.com/industries/ml-and-ai.html)
 * [ ] Paradigms of Artificial Intelligence Programming
 * [ ] [Retrospective on PAIP](https://norvig.com/Lisp-retro.html)
 * [ ] [Participate in a Lisp Game-Jam](https://github.com/lispgames/lispgames.github.io/wiki/Lisp-Game-Jams)
