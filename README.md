@@ -56,14 +56,15 @@ Here you'll learn programming, and how to present your work. You'll improve most
 Now you should be quite good in python, so we'll dig into more programming languages. You could work on a programming language in parallel to the sciences courses, or not. In any case, try to avoid doing more than two courses/project at the same time.
 As the following items are long, and includes a lot of reading you can do them in any order you want, and work on multiple items at once. Make sure to do only one project/competition at once however to stay focused.
 ### LISP
-* [ ] [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)
+We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/) with some adaptation:
+* [x] Read through the intro until "A Gentle Introduction"
 * [ ] [Python for the Lisp programmer](https://norvig.com/python-lisp.html)
 * [ ] [Lisp as the Maxwell’s equations of software](http://www.michaelnielsen.org/ddi/lisp-as-the-maxwells-equations-of-software/)
 * [ ] Basic Common Lisp interpreter in Python [Read this](https://norvig.com/lispy.html)
-* [ ] [Practical Common Lisp](http://www.gigamonkeys.com/book/)
+* [ ] Then we follow the road again with [Practical Common Lisp](http://www.gigamonkeys.com/book/)
+* [ ] Make a small project in Lisp
+* [ ] Lisp as a system
 * [ ] [Lisp approach to AI](https://medium.com/ai-society/the-lisp-approach-to-ai-part-1-a48c7385a913) (sadly unfinished, but great intro)
-* [ ] Make a small machine learning library in LISP (basic stuff like knn, k-mean, perceptron, naive bayes, decision tree..), put it on github
-
 
 ### Deep Learning II
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
@@ -88,9 +89,14 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 Pytudes: "Programming Examples"  
 Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
 #### LISP II
-* [ ] Small game in Lisp (Towerfall-like ?)
-* [ ] Paradigms of Artificial Intelligence Programming
+
+* [ ] Paradigms of Artificial Intelligence Programming ("Do all of the S and M exercises, and try your hand at at least a few of the H ones. If a D sounds particularly interesting don't be afraid to spend some time on it")
 * [ ] [Retrospective on PAIP](https://norvig.com/Lisp-retro.html)
+* [ ] "Switch Things Up"
+* [ ] Common Lisp Recipe
+* [ ] Patterns of Software by Richard Gabriel
+* [ ] Finish reading "A road to common Lisp"
+* [ ] Make a small machine learning library in LISP (basic stuff like knn, k-mean, perceptron, naive bayes, decision tree..), put it on github
 * [ ] [Participate in a Lisp Game-Jam](https://github.com/lispgames/lispgames.github.io/wiki/Lisp-Game-Jams)
 
 #### AI
