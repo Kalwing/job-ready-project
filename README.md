@@ -37,6 +37,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * Makes flashcards of the formulas, the concepts... You might want to read [Augmenting long term memory](http://augmentingcognition.com/ltm.html) to help you. The concepts here might be very foreign and heavy, so don't skip this.  
 * [x] Video: Work through [Essence of linear algebra](https://www.youtube.com/watch?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&v=kjBOesZCoqc)
 * [ ] Finish all original Codingame challenges in the medium category by the end of the Tier
+* [ ] [CodingMath](https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ) Up to episode 16
 
 ### Deep Learning I
 * [x] [Fast.ai - Practical Deep Learning For Coders](https://course.fast.ai/)
@@ -55,6 +56,9 @@ Here you'll learn programming, and how to present your work. You'll improve most
 ## Tier 4 - Research
 Now you should be quite good in python, so we'll dig into more programming languages. You could work on a programming language in parallel to the sciences courses, or not. In any case, try to avoid doing more than two courses/project at the same time.
 As the following items are long, and includes a lot of reading you can do them in any order you want, and work on multiple items at once. Make sure to do only one project/competition at once however to stay focused.
+
+* [ ] [CodingMath](https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ) up to episode 35
+
 ### LISP
 We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/) with some adaptation:
 * [x] Read through the intro until "A Gentle Introduction"
@@ -85,8 +89,9 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you can improve your python skillzzz. The idea is to read the problem, and try to implement it. Then read how he did it, understand them, try to implement them, and maybe --- if you have some idea --- add to them.
 
 ### 1: Ai Agents
-Pytudes: "Programming Examples"  
-Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
+* [ ] [CodingMath](https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ) up to the end
+* [ ] Pytudes: "Programming Examples"  
+* [ ] Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
 #### LISP II
 
 * [ ] Lisp as a system
