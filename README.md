@@ -76,7 +76,7 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 * [ ] [On the mesure of intelligence - F Chollet](https://arxiv.org/abs/1911.01547)
 * [ ] [Growing cellular Automata](https://distill.pub/2020/growing-ca/)
 * [ ] Write one scientific articles or/and multiple blog post explaining a project you made.
-* [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [How To Learn Vim: A Four Week Plan](https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85)
+* [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 * [ ] Continue improving your typing speed: [Typing.io](https://typing.io/lesson/) and [keybr](https://www.keybr.com/), aim for a 40-50wpm score.
 * [ ] [Fast.ai - Computational linear algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
 * [ ] **P1XT** Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20)    
@@ -104,7 +104,7 @@ Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matte
 * [ ] Read interesting paper on [paper with code](https://paperswithcode.com/sota)
 * [ ] [Variational Methods for Computer Vision](https://vision.in.tum.de/teaching/ws2013/vmcv2013)
 * [ ] [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) (This technique of visualization can be used in sklearn for example)
-* [ ] [Design of computer programs](https://www.udacity.com/course/design-of-computer-programs--cs212)
+* [ ] [Advanced Optimization and Randomized Methods](http://www.cs.cmu.edu/%7Esuvrit/teach/index.html)
 * [ ] [Spelling corrector in Python](https://norvig.com/spell-correct.html)
 * [ ] [Artificial Intelligence at MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
 * [ ] Grokking reinforcement learning
@@ -142,7 +142,9 @@ While reading the above do:
 * [ ] [The ancient secrets of Computer Vision](https://pjreddie.com/courses/computer-vision/)
 * [ ] [The nature of Code, in Julia or lisp](https://natureofcode.com/)
 * [ ] [Theoretical Neuroscience – Computational and Mathematical Modeling of Neural Systems](https://www.amazon.fr/Theoretical-Neuroscience-Computational-Mathematical-Modeling/dp/0262541858#customerReviews)
+* [ ] [CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
+* [ ] [Learning Discrete Latent Structure](https://duvenaud.github.io/learn-discrete/)
 
 ### 3: Getting a low level understanding
 Pytudes: "Math Concepts" and "Computer Science Algorithms and Concepts"  
@@ -194,6 +196,7 @@ Pytudes: "Word Games"
 * [ ] [403.1 - Cardiovascular](https://courses.edx.org/courses/course-v1:MichiganX+ANATOMY403.2x+1T2017/course/)
 * [ ] **P1XT** Clone Twitter using Django or Go or C or Lisp as a backend (database and everything), Try to redesign it (inspiration here https://nicelydone.club/patterns/activity-feeds/). It doesn't have to be perfect. Put it on github obviously.
 * [ ] [The Science of happiness](https://www.edx.org/course/the-science-of-happiness)/[The science of well being](https://www.coursera.org/learn/the-science-of-well-being/home/welcome)
+* [ ] [Machine Learning for Machine Vision as Inverse Graphics](http://www.cs.utoronto.ca/~bonner/courses/2020s/csc2547/)
 * [ ] [Nasa Manager handbook](http://homepages.inf.ed.ac.uk/dts/pm/Papers/nasa-manage.pdf)
 
 
