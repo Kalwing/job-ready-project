@@ -72,6 +72,7 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 ### Deep Learning II
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
 * [ ] [Stanford: Convex Optimization](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE-YCVX0001+1T2020/course/)
+* [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 * [ ] [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) You don't have to read *everything*, but you should read most of what is before the application section (Reinforcement Learning will be seen in more details later, so if those seems too hard skip them.). Then you can focus on the domains interesting to you.
     * As you'll be reading papers, Read [this tutorial on how to read them](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
     * [x] [Lessons from My First Two Years of AI Research](http://web.mit.edu/tslvr/www/lessons_two_years.html)
@@ -80,7 +81,6 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 * [ ] [On the mesure of intelligence - F Chollet](https://arxiv.org/abs/1911.01547)
 * [ ] [Growing cellular Automata](https://distill.pub/2020/growing-ca/)
 * [ ] Write one scientific articles or/and multiple blog post explaining a project you made.
-* [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 * [ ] Continue improving your typing speed: [Typing.io](https://typing.io/lesson/) and [keybr](https://www.keybr.com/), aim for a 40-50wpm score.
 * [ ] [Fast.ai - Computational linear algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
 * [ ] **P1XT** Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20)    
@@ -90,8 +90,9 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 
 ### 1: Ai Agents
 * [ ] [CodingMath](https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ) up to the end
-* [ ] Pytudes: "Programming Examples"  
+* [ ] Pytudes: "Programming Examples"
 * [ ] Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
+
 #### LISP II
 
 * [ ] Lisp as a system
@@ -121,6 +122,7 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 * [ ] **P1XT** [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/archive) year of your choice (that you haven't previously completed)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 * [ ] [Full Stack Deep Learning](https://fullstackdeeplearning.com/march2019?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
+* [ ] **P1XT** Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20)    
 
 ### 2: Learning about the brain while doing lots of projects
 Pytudes: "Logic and Number Puzzles"  
@@ -130,7 +132,8 @@ Project Management: *Essential Scrum: A Practical Guide to the Most Popular Agil
 * [ ] [Noteworthy differences with Python and Lisp](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python-1)
 * [ ] [Intro to Julia](http://ucidatascienceinitiative.github.io/IntroToJulia/)
 * [ ] Make a small roguelike in Julia
-* [ ] Make a Shell in Julia, put it on github
+* [ ] [Introduction to Computational Thinking in Julia](https://mitmath.github.io/18S191/Fall20/)
+* [ ] Make a Shell in Julia
 * [ ] [Julia for Data Science](https://juliaacademy.com/p/julia-for-data-science)
 * [ ] Make a small machine learning library in go, put it on github
 * [ ] Make a messaging app in Julia, design an interface (inspiration here: https://nicelydone.club/patterns/messaging/), put it on github
@@ -150,6 +153,8 @@ While reading the above do:
 * [ ] [CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 * [ ] [Learning Discrete Latent Structure](https://duvenaud.github.io/learn-discrete/)
+* [ ] **P1XT** Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20)    
+
 
 ### 3: Getting a low level understanding
 Pytudes: "Math Concepts" and "Computer Science Algorithms and Concepts"  
