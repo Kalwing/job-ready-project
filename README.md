@@ -37,7 +37,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * Makes flashcards of the formulas, the concepts... You might want to read [Augmenting long term memory](http://augmentingcognition.com/ltm.html) to help you. The concepts here might be very foreign and heavy, so don't skip this.  
 * [x] Video: Work through [Essence of linear algebra](https://www.youtube.com/watch?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&v=kjBOesZCoqc)
 * [ ] Finish all original Codingame challenges in the medium category by the end of the Tier
-* [ ] [CodingMath](https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ) Up to episode 16
+* [x] [CodingMath](https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ) Up to episode 16
 
 ### Deep Learning I
 * [x] [Fast.ai - Practical Deep Learning For Coders](https://course.fast.ai/)
@@ -66,8 +66,8 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 * [ ] [Lisp as the Maxwell’s equations of software](http://www.michaelnielsen.org/ddi/lisp-as-the-maxwells-equations-of-software/)
 * [ ] Basic Common Lisp interpreter in Python [Read this](https://norvig.com/lispy.html)
 * [ ] Then we follow the road again with [Practical Common Lisp](http://www.gigamonkeys.com/book/)
-* [ ] Make a small project in Lisp
 * [ ] [Lisp approach to AI](https://medium.com/ai-society/the-lisp-approach-to-ai-part-1-a48c7385a913) (sadly unfinished, but great intro)
+* [ ] Make a small project in Lisp
 
 ### Deep Learning II
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
@@ -107,8 +107,6 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 
 #### AI
 * [ ] Writing for Computer Science - Justin Zobel
-* [ ] Read interesting paper on [paper with code](https://paperswithcode.com/sota)
-* [ ] [Variational Methods for Computer Vision](https://vision.in.tum.de/teaching/ws2013/vmcv2013)
 * [ ] [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) (This technique of visualization can be used in sklearn for example)
 * [ ] [Advanced Optimization and Randomized Methods](http://www.cs.cmu.edu/%7Esuvrit/teach/index.html)
 * [ ] [Spelling corrector in Python](https://norvig.com/spell-correct.html)
@@ -144,12 +142,15 @@ Project Management: *Essential Scrum: A Practical Guide to the Most Popular Agil
 * [ ] [AI For Medicine](https://www.deeplearning.ai/ai-for-medicine/)
 * [ ] [Medical Neuroscience](https://www.coursera.org/learn/medical-neuroscience/home/welcome)
 * [ ] [The Handbook of Brain Theory and Neural Networks](https://mitpress.mit.edu/books/handbook-brain-theory-and-neural-networks)
+* [ ] Read interesting paper on [paper with code](https://paperswithcode.com/sota)
+
 While reading the above do:
 * [ ] [Practical Data Ethics](http://ethics.fast.ai/)
 * [ ] [Theory of Computation at MIT](https://ocw.mit.edu/courses/mathematics/18-404j-theory-of-computation-fall-2006/)
 * [ ] [The ancient secrets of Computer Vision](https://pjreddie.com/courses/computer-vision/)
 * [ ] [The nature of Code, in Julia or lisp](https://natureofcode.com/)
 * [ ] [Theoretical Neuroscience – Computational and Mathematical Modeling of Neural Systems](https://www.amazon.fr/Theoretical-Neuroscience-Computational-Mathematical-Modeling/dp/0262541858#customerReviews)
+* [ ] [Variational Methods for Computer Vision](https://vision.in.tum.de/teaching/ws2013/vmcv2013)
 * [ ] [CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 * [ ] [Learning Discrete Latent Structure](https://duvenaud.github.io/learn-discrete/)
