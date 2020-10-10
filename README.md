@@ -30,6 +30,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
 * [ ] [ML for coders](http://course18.fast.ai/ml)
 * [x] **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic) (just do better than random)
+* [ ] Sipser’s broad [Introduction to the Theory of Computation](http://www.cs.virginia.edu/~robins/Sipser_2006_Second_Edition_Problems.pdf)
 * [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
 
 ## Tier 3 - More Python, Machine Learning and data science
@@ -45,7 +46,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] [Neural Network and Deep Learning - Nielsen](http://neuralnetworksanddeeplearning.com/) *You might benefit from reading the annotations of the [Fermat Library](https://fermatslibrary.com/list/neural-networks-and-deep-learning)*
 * [x] [Tensorflow Playground](http://playground.tensorflow.org/)
 * [x] [Fast.ai - Cutting Edge Deep Learning For Coders](https://course.fast.ai/part2.html)
-    * [ ] Code a basic deep learning library : Stochastic gradient descent, dense layers with differents type of units (Sigmoid, ReLU, tanh..), and convolutive layers. It would be great to implement some useful methods such as learning rate finder, one cycle policy, some regularizers, and discriminative learning rate. The API should be inspired by what you saw of Fast.ai and what M. Nielsen made.
+* [ ] Code a basic deep learning library from numpy: Stochastic gradient descent, dense layers with differents type of units (Sigmoid, ReLU, tanh..), and convolutive layers. It would be great to implement some useful methods such as learning rate finder, one cycle policy, some regularizers, and discriminative learning rate. The API should be inspired by what you saw of Fast.ai and what M. Nielsen made.
 * [x] [Intro to pandas data structures 1, 2 & 3](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)
     * [x] Use Pandas to exploit a dataset of your choice and make a working model (classic ML or deep learning) using the datas.
 * [ ] Ian goodfellow's Deep learning (https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-pdf/deeplearningbook.pdf)
@@ -73,11 +74,12 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
 * [ ] [Stanford: Convex Optimization](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE-YCVX0001+1T2020/course/)
 * [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
-* [ ] [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) You don't have to read *everything*, but you should read most of what is before the application section (Reinforcement Learning will be seen in more details later, so if those seems too hard skip them.). Then you can focus on the domains interesting to you.
-    * As you'll be reading papers, Read [this tutorial on how to read them](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
+* [ ] As you'll be reading papers, Read [this tutorial on how to read them](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
     * [x] [Lessons from My First Two Years of AI Research](http://web.mit.edu/tslvr/www/lessons_two_years.html)
     * [x] [Why Can't I Reproduce Their Results?](http://theorangeduck.com/page/reproduce-their-results)
     * [ ] [How to do research](http://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf)
+* [ ] A comprehensive [Survey of Deep Learning](http://people.idsia.ch/~juergen/deep-learning-overview.html)
+* [ ] Thesis of Graves [Supervised Sequence Labelling with Recurrent Neural Networks](https://www.springer.com/gp/book/9783642247965))
 * [ ] [On the mesure of intelligence - F Chollet](https://arxiv.org/abs/1911.01547)
 * [ ] [Growing cellular Automata](https://distill.pub/2020/growing-ca/)
 * [ ] Write one scientific articles or/and multiple blog post explaining a project you made.
@@ -258,7 +260,7 @@ then.. P1XT Data science, OSSU ?
 
 ## Sources :
 
-P1xt, MIT OCW, OSSU, [Teach yourself programming in 10 years](https://norvig.com/21-days.html), [Montreal AI: AI for all](http://montreal.ai/ai4all.pdf)
+P1xt, MIT OCW, OSSU, [Teach yourself programming in 10 years](https://norvig.com/21-days.html), [Montreal AI: AI for all](http://montreal.ai/ai4all.pdf), [Schimdhuber's AMA](https://www.reddit.com/r/MachineLearning/comments/2xcyrl/i_am_j%C3%BCrgen_schmidhuber_ama/cp5c0py/?context=3)
 
 
 ## Contact :
