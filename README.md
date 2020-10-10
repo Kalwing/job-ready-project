@@ -73,6 +73,7 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 ### Deep Learning II
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
 * [ ] [Stanford: Convex Optimization](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE-YCVX0001+1T2020/course/)
+* [ ] [How to pick more beautiful colors for your data visualizations](https://blog.datawrapper.de/beautifulcolors/)
 * [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 * [ ] As you'll be reading papers, Read [this tutorial on how to read them](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
     * [x] [Lessons from My First Two Years of AI Research](http://web.mit.edu/tslvr/www/lessons_two_years.html)
