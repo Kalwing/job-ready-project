@@ -83,6 +83,7 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 * [ ] Thesis of Graves [Supervised Sequence Labelling with Recurrent Neural Networks](https://www.springer.com/gp/book/9783642247965))
 * [ ] [On the mesure of intelligence - F Chollet](https://arxiv.org/abs/1911.01547)
 * [ ] [Growing cellular Automata](https://distill.pub/2020/growing-ca/)
+* [ ] Writing for Computer Science - Justin Zobel
 * [ ] Write one scientific articles or/and multiple blog post explaining a project you made.
 * [ ] Continue improving your typing speed: [Typing.io](https://typing.io/lesson/) and [keybr](https://www.keybr.com/), aim for a 40-50wpm score.
 * [ ] [Fast.ai - Computational linear algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
@@ -97,7 +98,6 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 * [ ] Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
 
 #### LISP II
-
 * [ ] Lisp as a system
 * [ ] Paradigms of Artificial Intelligence Programming ("Do all of the S and M exercises, and try your hand at at least a few of the H ones. If a D sounds particularly interesting don't be afraid to spend some time on it")
 * [ ] [Retrospective on PAIP](https://norvig.com/Lisp-retro.html)
@@ -109,7 +109,7 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 * [ ] [Participate in a Lisp Game-Jam](https://github.com/lispgames/lispgames.github.io/wiki/Lisp-Game-Jams)
 
 #### AI
-* [ ] Writing for Computer Science - Justin Zobel
+* [ ] [The Turing Way](https://the-turing-way.netlify.app/welcome.html) an open source community-driven guide to reproducible, ethical, inclusive and collaborative data science.
 * [ ] [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) (This technique of visualization can be used in sklearn for example)
 * [ ] [Advanced Optimization and Randomized Methods](http://www.cs.cmu.edu/%7Esuvrit/teach/index.html)
 * [ ] [Spelling corrector in Python](https://norvig.com/spell-correct.html)
