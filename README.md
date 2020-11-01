@@ -27,6 +27,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 ### Machine Learning
 * [x] **P1XT** [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6)
 * [x] [Machine Learning is fun](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)
+* [ ] [Doing well on your courses](https://cs.stanford.edu/people/karpathy/advice.html)
 * [x] **P1XT** [Intro to ML](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
 * [ ] [ML for coders](http://course18.fast.ai/ml)
 * [x] **P1XT** [Kaggle: ML from disaster](https://www.kaggle.com/c/titanic) (just do better than random)
@@ -52,7 +53,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [ ] Ian goodfellow's Deep learning (https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-pdf/deeplearningbook.pdf)
 * [x] [The Unreasonable Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)
 * [x] Learn Latex mathematical notation and markdown by formatting some of your writing. Export those to pdf with pandoc and experiments with some themes.
-* [ ] [Typing club](https://www.typingclub.com/) and [keybr](https://www.keybr.com/) to learn touch typing. At first touch type only during those exercise, but switch to full time when you get to a good 20wpm on the full keyboard. This will avoid pain in your hands.
+* [ ] [keybr](https://www.keybr.com/) to learn touch typing. At first touch type only during those exercise, but switch to full time when you get to a good 20wpm on the full keyboard. This will avoid pain in your hands.
 
 ## Tier 4 - Research
 Now you should be quite good in python, so we'll dig into more programming languages. You could work on a programming language in parallel to the sciences courses, or not. In any case, try to avoid doing more than two courses/project at the same time.
@@ -109,6 +110,7 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 * [ ] [Participate in a Lisp Game-Jam](https://github.com/lispgames/lispgames.github.io/wiki/Lisp-Game-Jams)
 
 #### AI
+* [ ] This interview of A. Karpathy [on deeplearning.ai](https://www.youtube.com/watch?v=xxu4IqwKw0w/)
 * [ ] [The Turing Way](https://the-turing-way.netlify.app/welcome.html) an open source community-driven guide to reproducible, ethical, inclusive and collaborative data science.
 * [ ] [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) (This technique of visualization can be used in sklearn for example)
 * [ ] [Advanced Optimization and Randomized Methods](http://www.cs.cmu.edu/%7Esuvrit/teach/index.html)
