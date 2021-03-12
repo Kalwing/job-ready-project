@@ -60,15 +60,17 @@ As the following items are long, and includes a lot of reading you can do them i
 
 * [ ] [CodingMath](https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ) up to episode 35
 
-### LISP
-We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/) with some adaptation:
-* [x] Read through the intro until "A Gentle Introduction"
-* [ ] [Python for the Lisp programmer](https://norvig.com/python-lisp.html)
-* [ ] [Lisp as the Maxwell’s equations of software](http://www.michaelnielsen.org/ddi/lisp-as-the-maxwells-equations-of-software/)
-* [ ] Basic Common Lisp interpreter in Python [Read this](https://norvig.com/lispy.html)
-* [ ] Then we follow the road again with [Practical Common Lisp](http://www.gigamonkeys.com/book/)
-* [ ] [Lisp approach to AI](https://medium.com/ai-society/the-lisp-approach-to-ai-part-1-a48c7385a913) (sadly unfinished, but great intro)
-* [ ] Make a small project in Lisp
+#### Julia
+* [ ] [Learn Julia in Y minutes](https://learnxinyminutes.com/docs/julia/)
+* [ ] [Noteworthy differences with Python and Lisp](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python-1)
+* [ ] [Intro to Julia](http://ucidatascienceinitiative.github.io/IntroToJulia/)
+* [ ] Make a small roguelike in Julia
+* [ ] [Introduction to Computational Thinking in Julia](https://mitmath.github.io/18S191/Fall20/)
+* [ ] Make a Shell in Julia
+* [ ] [Julia for Data Science](https://juliaacademy.com/p/julia-for-data-science)
+* [ ] Make a small machine learning library in Julia, put it on github
+* [ ] [Machine Learning and Artificial Intelligence in Julia](https://juliacomputing.com/industries/ml-and-ai.html)
+* [ ] Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20) with Julia
 
 ### Deep Learning II
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
@@ -99,6 +101,36 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 * [ ] Pytudes: "Programming Examples"
 * [ ] Project management: *[Shape Up: Stop Running in Circles and Ship Work that Matters](https://basecamp.com/shapeup)*
 
+### LISP
+We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/) with some adaptation:
+* [x] Read through the intro until "A Gentle Introduction"
+* [ ] [Python for the Lisp programmer](https://norvig.com/python-lisp.html)
+* [ ] [Lisp as the Maxwell’s equations of software](http://www.michaelnielsen.org/ddi/lisp-as-the-maxwells-equations-of-software/)
+* [ ] Basic Common Lisp interpreter in Python [Read this](https://norvig.com/lispy.html)
+* [ ] Then we follow the road again with [Practical Common Lisp](http://www.gigamonkeys.com/book/)
+* [ ] [Lisp approach to AI](https://medium.com/ai-society/the-lisp-approach-to-ai-part-1-a48c7385a913) (sadly unfinished, but great intro)
+* [ ] Make a small project in Lisp
+
+#### AI
+* [ ] This interview of A. Karpathy [on deeplearning.ai](https://www.youtube.com/watch?v=xxu4IqwKw0w/)
+* [ ] [The Turing Way](https://the-turing-way.netlify.app/welcome.html) an open source community-driven guide to reproducible, ethical, inclusive and collaborative data science.
+* [ ] [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) (This technique of visualization can be used in sklearn for example)
+* [ ] [Advanced Optimization and Randomized Methods](http://www.cs.cmu.edu/%7Esuvrit/teach/index.html)
+* [ ] [Spelling corrector in Python](https://norvig.com/spell-correct.html)
+* [ ] Variational and Level Set Methods in Image Segmentation - Ismail Ben Ayed
+* [ ] [Artificial Intelligence at MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
+* [x] Grokking reinforcement learning
+* [ ] [Ai for social good](https://ai.google/education/social-good-guide/)
+* [ ] Make a game using AI principle you saw in this tier, put it on github (Could be in lisp, python, js, ...)
+* [ ] **P1XT** [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/archive) year of your choice (that you haven't previously completed)
+* [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
+* [ ] [Full Stack Deep Learning](https://fullstackdeeplearning.com/march2019)
+* [ ] **P1XT** Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20)    
+
+### 2: Learning about the brain while doing lots of projects
+Pytudes: "Logic and Number Puzzles"  
+Project Management: *Essential Scrum: A Practical Guide to the Most Popular Agile Process*
+
 #### LISP II
 * [ ] Lisp as a system
 * [ ] Paradigms of Artificial Intelligence Programming ("Do all of the S and M exercises, and try your hand at at least a few of the H ones. If a D sounds particularly interesting don't be afraid to spend some time on it")
@@ -109,40 +141,6 @@ You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you c
 * [ ] Finish reading "A road to common Lisp"
 * [ ] Make a small machine learning library in LISP (basic stuff like knn, k-mean, perceptron, naive bayes, decision tree..), put it on github
 * [ ] [Participate in a Lisp Game-Jam](https://github.com/lispgames/lispgames.github.io/wiki/Lisp-Game-Jams)
-
-#### AI
-* [ ] This interview of A. Karpathy [on deeplearning.ai](https://www.youtube.com/watch?v=xxu4IqwKw0w/)
-* [ ] [The Turing Way](https://the-turing-way.netlify.app/welcome.html) an open source community-driven guide to reproducible, ethical, inclusive and collaborative data science.
-* [ ] [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) (This technique of visualization can be used in sklearn for example)
-* [ ] [Advanced Optimization and Randomized Methods](http://www.cs.cmu.edu/%7Esuvrit/teach/index.html)
-* [ ] [Spelling corrector in Python](https://norvig.com/spell-correct.html)
-* [ ] [Artificial Intelligence at MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
-* [ ] Grokking reinforcement learning
-* [ ] [Ai for social good](https://ai.google/education/social-good-guide/)
-* [ ] [UCL Course on Reinforcement Learning - D. Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
-   * See this [companion code](https://github.com/dennybritz/reinforcement-learning)  
-* [ ] [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2018jan1.pdf)
-* [ ] Make a game using AI principle you saw in this tier, put it on github (Could be in lisp, python, js, ...)
-* [ ] **P1XT** [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/archive) year of your choice (that you haven't previously completed)
-* [ ] **P1XT** Do 10 problems on [Rosalind](http://rosalind.info/problems/locations/)
-* [ ] [Full Stack Deep Learning](https://fullstackdeeplearning.com/march2019?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
-* [ ] **P1XT** Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20)    
-
-### 2: Learning about the brain while doing lots of projects
-Pytudes: "Logic and Number Puzzles"  
-Project Management: *Essential Scrum: A Practical Guide to the Most Popular Agile Process*
-#### Julia
-* [ ] [Learn Julia in Y minutes](https://learnxinyminutes.com/docs/julia/)
-* [ ] [Noteworthy differences with Python and Lisp](https://docs.julialang.org/en/v1/manual/noteworthy-differences/#Noteworthy-differences-from-Python-1)
-* [ ] [Intro to Julia](http://ucidatascienceinitiative.github.io/IntroToJulia/)
-* [ ] Make a small roguelike in Julia
-* [ ] [Introduction to Computational Thinking in Julia](https://mitmath.github.io/18S191/Fall20/)
-* [ ] Make a Shell in Julia
-* [ ] [Julia for Data Science](https://juliaacademy.com/p/julia-for-data-science)
-* [ ] Make a small machine learning library in go, put it on github
-* [ ] Make a messaging app in Julia, design an interface (inspiration here: https://nicelydone.club/patterns/messaging/), put it on github
-* [ ] [Machine Learning and Artificial Intelligence in Julia](https://juliacomputing.com/industries/ml-and-ai.html)
-* [ ] Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20) with Julia
 
 #### Neuroscience And AI
 * [ ] [AI For Medicine](https://www.deeplearning.ai/ai-for-medicine/)
