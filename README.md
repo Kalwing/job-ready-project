@@ -1,5 +1,4 @@
-# Bachelor in a hurry
-
+# Learning Path
 ## Goals :
 I started by doing The P1xt "[Get Job Ready - Python Edition](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md)" cursus to improve my python skills. As time went by, this has sort of become my "Ultimate course list" : What I would have wanted to follow, and what I mostly did, to become a data scientist.
 
@@ -47,7 +46,7 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] [Neural Network and Deep Learning - Nielsen](http://neuralnetworksanddeeplearning.com/) *You might benefit from reading the annotations of the [Fermat Library](https://fermatslibrary.com/list/neural-networks-and-deep-learning)*
 * [x] [Tensorflow Playground](http://playground.tensorflow.org/)
 * [x] [Fast.ai - Cutting Edge Deep Learning For Coders](https://course.fast.ai/part2.html)
-* [ ] Code a basic deep learning library from numpy: Stochastic gradient descent, dense layers with differents type of units (Sigmoid, ReLU, tanh..), and convolutive layers. It would be great to implement some useful methods such as learning rate finder, one cycle policy, some regularizers, and discriminative learning rate. The API should be inspired by what you saw of Fast.ai and what M. Nielsen made.
+* [ ] Code a basic deep learning library: Stochastic gradient descent, dense layers with differents type of units (Sigmoid, ReLU, tanh..), and convolutive layers. It would be great to implement some useful methods such as learning rate finder, one cycle policy, some regularizers, and discriminative learning rate. The API should be inspired by what you saw of Fast.ai and what M. Nielsen made.
 * [x] [Intro to pandas data structures 1, 2 & 3](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)
     * [x] Use Pandas to exploit a dataset of your choice and make a working model (classic ML or deep learning) using the datas.
 * [ ] Ian goodfellow's Deep learning (https://github.com/janishar/mit-deep-learning-book-pdf/blob/master/complete-book-pdf/deeplearningbook.pdf)
@@ -73,7 +72,9 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 
 ### Deep Learning II
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
+* [ ] [Fast.ai - Computational linear algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
 * [ ] [Stanford: Convex Optimization](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE-YCVX0001+1T2020/course/)
+* [ ] [Discrete Differential Geometry: An applied introduction](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/) (I worked on 3D data)
 * [ ] [How to pick more beautiful colors for your data visualizations](https://blog.datawrapper.de/beautifulcolors/)
 * [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)  
 * [ ] As you'll be reading papers, Read [this tutorial on how to read them](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
@@ -88,11 +89,10 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 * [ ] Writing for Computer Science - Justin Zobel
 * [ ] Write one scientific articles or/and multiple blog post explaining a project you made.
 * [ ] Continue improving your typing speed: [Typing.io](https://typing.io/lesson/) and [keybr](https://www.keybr.com/), aim for a 40-50wpm score.
-* [ ] [Fast.ai - Computational linear algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
 * [ ] **P1XT** Complete one competition of your choice on [Kaggle](https://www.kaggle.com/competitions?sortBy=prize&group=active&page=1&pageSize=20)    
 
 ## Tier 5 - Getting Professional
-You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you can improve your python skillzzz. The idea is to read the problem, and try to implement it. Then read how he did it, understand them, try to implement them, and maybe --- if you have some idea --- add to them.
+You'll be studying norvig's [Pytude](https://github.com/norvig/pytudes) so you can improve your python skillz. The idea is to read the problem, and try to implement it. Then read how he did it, understand them, try to implement them, and maybe --- if you have some idea --- add to them.
 
 ### 1: Ai Agents
 * [ ] [CodingMath](https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ) up to the end
