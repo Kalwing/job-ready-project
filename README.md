@@ -76,10 +76,11 @@ As the following items are long, and includes a lot of reading you can do them i
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
 * [ ] [Fast.ai - Computational linear algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
 * [ ] [Stanford: Convex Optimization](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE-YCVX0001+1T2020/course/)
-* [ ] [Discrete Differential Geometry: An applied introduction](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/) (I worked on 3D data)
+* [ ] [Discrete Differential Geometry: An applied introduction](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/)
 * [ ] [A Survey of Algorithms for Geodesic Paths and Distances](https://arxiv.org/abs/2007.10430)
 * [ ] [How to pick more beautiful colors for your data visualizations](https://blog.datawrapper.de/beautifulcolors/)
 * [ ] [Geodesic Methods in Computer Vision and Graphics](https://hal.archives-ouvertes.fr/hal-00528999)
+* [ ] [Continuum Mechanics](https://www.continuummechanics.org/index.html), maybe skip part VI and VII
 * [ ] [ME 565 - Mechanical Engineering Analysis](http://faculty.washington.edu/sbrunton/me565/) and the course book [is here](https://soaneemrana.org/onewebmedia/ADVANCED%20ENGINEERING%20MATHEMATICS%20BY%20ERWIN%20ERESZIG1.pdf)
 * [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)  
 * [ ] As you'll be reading papers, Read [this tutorial on how to read them](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
