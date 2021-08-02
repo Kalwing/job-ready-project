@@ -54,6 +54,13 @@ Here you'll learn programming, and how to present your work. You'll improve most
 * [x] Learn Latex mathematical notation and markdown by formatting some of your writing. Export those to pdf with pandoc and experiments with some themes.
 * [ ] [keybr](https://www.keybr.com/) to learn touch typing. At first touch type only during those exercise, but switch to full time when you get to a good 20wpm on the full keyboard. This will avoid pain in your hands.
 
+Geometry:
+* [ ] [Discrete Differential Geometry: An applied introduction](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/)
+* [ ] [A Survey of Algorithms for Geodesic Paths and Distances](https://arxiv.org/abs/2007.10430)
+* [ ] [Geodesic Methods in Computer Vision and Graphics](https://hal.archives-ouvertes.fr/hal-00528999)
+* [ ] [Continuum Mechanics](https://www.continuummechanics.org/index.html), maybe skip part VI and VII
+* [ ] [ME 565 - Mechanical Engineering Analysis](http://faculty.washington.edu/sbrunton/me565/) and the course book [is here](https://soaneemrana.org/onewebmedia/ADVANCED%20ENGINEERING%20MATHEMATICS%20BY%20ERWIN%20ERESZIG1.pdf)
+
 ## Tier 4 - Research
 Now you should be quite good in python, so we'll dig into more programming languages. You could work on a programming language in parallel to the sciences courses, or not. In any case, try to avoid doing more than two courses/project at the same time.
 As the following items are long, and includes a lot of reading you can do them in any order you want, and work on multiple items at once. Make sure to do only one project/competition at once however to stay focused.
@@ -76,20 +83,18 @@ As the following items are long, and includes a lot of reading you can do them i
 * [ ] This interview of G. Hinton [on deeplearning.ai](https://www.deeplearning.ai/blog/hodl-geoffrey-hinton/)
 * [ ] [Fast.ai - Computational linear algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
 * [ ] [Stanford: Convex Optimization](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE-YCVX0001+1T2020/course/)
-* [ ] [Discrete Differential Geometry: An applied introduction](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/)
-* [ ] [A Survey of Algorithms for Geodesic Paths and Distances](https://arxiv.org/abs/2007.10430)
 * [ ] [How to pick more beautiful colors for your data visualizations](https://blog.datawrapper.de/beautifulcolors/)
-* [ ] [Geodesic Methods in Computer Vision and Graphics](https://hal.archives-ouvertes.fr/hal-00528999)
-* [ ] [Continuum Mechanics](https://www.continuummechanics.org/index.html), maybe skip part VI and VII
-* [ ] [ME 565 - Mechanical Engineering Analysis](http://faculty.washington.edu/sbrunton/me565/) and the course book [is here](https://soaneemrana.org/onewebmedia/ADVANCED%20ENGINEERING%20MATHEMATICS%20BY%20ERWIN%20ERESZIG1.pdf)
+* [ ] A comprehensive [Survey of Deep Learning](http://people.idsia.ch/~juergen/deep-learning-overview.html)  
+* [ ] Variational and Level Set Methods in Image Segmentation - Ismail Ben Ayed
+* [ ] [Advanced Optimization and Randomized Methods](http://www.cs.cmu.edu/%7Esuvrit/teach/index.html)
+* [ ] Sparse and Redundant Representation, From Theory to Applications in Signal and Image Processing - Michael Elad 
+* [ ] Thesis of Graves [Supervised Sequence Labelling with Recurrent Neural Networks](https://www.springer.com/gp/book/9783642247965))
+* [ ] [The Turing Way](https://the-turing-way.netlify.app/welcome.html) an open source community-driven guide to reproducible, ethical, inclusive and collaborative data science.
 * [ ] Learn Vim (be sure to have *at least* 20wpm when touch typing, before starting this): [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)  
 * [ ] As you'll be reading papers, Read [this tutorial on how to read them](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf) and after each write a short review following [How to Write Technical Paper Reviews](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) and/or do flashcards [Augmenting Long term memory](http://augmentingcognition.com/ltm.html)
 * [x] [Lessons from My First Two Years of AI Research](http://web.mit.edu/tslvr/www/lessons_two_years.html)
 * [x] [Why Can't I Reproduce Their Results?](http://theorangeduck.com/page/reproduce-their-results)
 * [ ] [How to do research](http://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf)  
-* [ ] A comprehensive [Survey of Deep Learning](http://people.idsia.ch/~juergen/deep-learning-overview.html)  
-* [ ] Sparse and Redundant Representation, From Theory to Applications in Signal and Image Processing - Michael Elad 
-* [ ] Thesis of Graves [Supervised Sequence Labelling with Recurrent Neural Networks](https://www.springer.com/gp/book/9783642247965))
 * [ ] [On the mesure of intelligence - F Chollet](https://arxiv.org/abs/1911.01547)
 * [ ] [Growing cellular Automata](https://distill.pub/2020/growing-ca/)
 * [x] Writing for Computer Science - Justin Zobel
@@ -117,11 +122,11 @@ We will follow [A road to common Lisp](https://stevelosh.com/blog/2018/08/a-road
 
 #### AI
 * [ ] This interview of A. Karpathy [on deeplearning.ai](https://www.youtube.com/watch?v=xxu4IqwKw0w/)
-* [ ] [The Turing Way](https://the-turing-way.netlify.app/welcome.html) an open source community-driven guide to reproducible, ethical, inclusive and collaborative data science.
+
 * [ ] [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/) (This technique of visualization can be used in sklearn for example)
-* [ ] [Advanced Optimization and Randomized Methods](http://www.cs.cmu.edu/%7Esuvrit/teach/index.html)
+
 * [ ] [Spelling corrector in Python](https://norvig.com/spell-correct.html)
-* [ ] Variational and Level Set Methods in Image Segmentation - Ismail Ben Ayed
+
 * [ ] [Artificial Intelligence at MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
 * [x] Grokking reinforcement learning
 * [ ] [Ai for social good](https://ai.google/education/social-good-guide/)
