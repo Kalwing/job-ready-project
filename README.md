@@ -180,11 +180,12 @@ Project Management: *Team Topologies: Organizing Business and Technology Teams f
 * [ ] Make most data structures
 * [ ] [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
 * [ ] Write a scientific calculator parser
+* [ ] [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/)
 * [ ] [Writing a C compiler](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
 * [ ] [Coding a Rogue RPG in C](https://www.youtube.com/watch?v=ipQPEoGztAM&t=0s&list=PLkTXsX7igf8erbWGYT4iSAhpnJLJ0Nk5G&index=2), try to make most of the things and personnalize the game. And... put it on github
 * [ ] Make a small linear Algebra library in C, put it on github
 * [ ] [Let's build a Simple Database](https://cstack.github.io/db_tutorial/)
-* [ ] Make a small Deep Learning library in C, put it on github
+* [ ] Make a small Data Science library in C, put it on github
 * [ ] [Let's code a TCP/IP stack](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
 
 #### CS
@@ -210,9 +211,9 @@ Pytudes: "Word Games"
     * Choose the method
     * Show the results and save them
 * [ ] Make a game using [FXGL](https://github.com/AlmasB/FXGL)
-* [ ] [3D Game development with LWJGL 3](https://lwjglgamedev.gitbooks.io/3d-game-development-with-lwjgl/content/)
 * [ ] App using [Tensorflow java API](https://www.tensorflow.org/install/lang_java) (For example a classifer that take input from the webcam), put it on github
 * [ ] Develop a mobile application (Speech recognition ? Small game ? Phone interface for something else ?)
+* [ ] [3D Game development with LWJGL 3](https://lwjglgamedev.gitbooks.io/3d-game-development-with-lwjgl/content/)
 
 ### CS II
 * [ ] [Introduction to bioelectricity](https://courses.edx.org/courses/course-v1:PurdueX+nano525x+2015_T3/course/)
